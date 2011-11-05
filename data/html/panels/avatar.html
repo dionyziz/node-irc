@@ -1,0 +1,83 @@
+<!--
+Node Avatars Panel
+by dionyziz on 18 Feb 2004, 9:24 AM, GMT.
+-->
+<html>
+<head>
+<title>Avatars</title>
+<meta http-equiv="MSThemeCompatible" content="Yes">
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+<!-- <link href="panel.css" rel="stylesheet" type="text/css"> -->
+<script language="javascript">
+function refreshcontents() {
+	if ( xnode_xpanel_nickname.innerText == '' ) {
+		avatar_result.innerText = xnode_lang_select_private.innerText;
+	}
+	else {
+		avatar_result.innerText = xnode_lang_users_avatar.innerText.replace('%1', xnode_xpanel_nickname.innerText);
+	}
+	setTimeout( "refreshcontents()", 500 );
+}
+</script>
+</head>
+<body onContextMenu="return false;" onSelectStart="return false;" onLoad="refreshcontents();"><center>
+<div id="xnode_xpanel_nickname" style="display:none">
+Nickname
+</div>
+<div id="xnode_lang_users_avatar" style="display:none">
+Avatar
+</div>
+<div id="xnode_lang_select_private" style="display:none">
+Select a Private Window
+</div>
+<table>
+<tr><td class="panel_header">
+<div id="avatar_result">
+Nickname's Avatar
+</div>
+</td></tr>
+<tr><td> 
+<div id="xnode_xpanel_remote_avatar">
+Updating...
+</div>
+</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td class="panel_header">
+<div id="xnode_lang_my_avatar">
+My Avatar
+</div>
+</td></tr>
+<tr><td align="center"> 
+<div id="xnode_xpanel_local_avatar">
+Updating...
+</div>
+</td></tr>
+<tr><td class="notation" valign="middle">
+<div id="xnode_xpanel_change_avatar" style="display:none">
+<a href="JavaScript:changeavatar(1);" id="xnode_lang_change_avatar">Change my Avatar</a>
+</div>
+<div id="xnode_xpanel_remove_avatar" style="display:none">
+<a href="JavaScript:changeavatar(2);" id="xnode_lang_remove_avatar">Remove my Avatar</a>
+</div>
+<div id="xnode_xpanel_add_avatar" style="display:none">
+<a href="JavaScript:changeavatar(3);" id="xnode_lang_add_avatar">Create an Avatar</a>
+</div>
+</td></tr>
+</table>
+<script language="javascript">
+function changeavatar(commandid) {
+	switch (commandid) {
+		case 1:
+			window.location.href = 'NodeScript:/my-avatar-change';
+			break;
+		case 2:
+			window.location.href = 'NodeScript:/my-avatar-remove';
+			break;
+		case 3:
+			window.location.href = 'NodeScript:/my-avatar-change';
+			break;
+	}
+}
+</script>
+</center></body>
+</html>

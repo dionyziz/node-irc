@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Node IRC Client
+ 	 Insert Hyperlink Dialog
+-->
+
+<Window
+	Caption="Insert Hyperlink -- Node Dialog"
+	BackColor="0"
+	Height="3000"
+	Width="4500"
+	Special="1"
+>
+
+<web 
+	Left="-10"
+	Top="-10"
+	Width="4700"
+	Height="3500"
+	Navigate="$app\data\html\dialogdata\hyperlink.html"
+/>
+
+</Window>

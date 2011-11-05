@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- Node IRC Client
+     Splash Screen Dialog for Aqua skin -->
+<Window 
+	BorderStyle="0" 
+	Caption="Loading Node -- Node Dialog" 
+	BackColor="0" 
+	Width="8115" 
+	Height="3720" 
+	Special="0">
+
+	<Static 
+		Left="0" 
+		Top="3400" 
+		Width="8085" 
+		Height="3690" 
+		ForeColor="8280152" 
+		BackStyle="0" 
+		Alignment="2" 
+		FontName="Verdana" 
+		FontSize="10" 
+		FontBold="0" 
+		Caption="Loading..." />
+
+	<Image 
+		Top="10"
+		Left="10"
+		Source="$app\data\Skins\aqua\splash.jpg"
+	/>
+
+</Window>

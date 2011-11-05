@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- Node IRC Client
+	 Insert Smiley Dialog
+     Written by Dionyziz,
+     Last Updated
+     23 Mar 2004, 6:41 PM, GMT.
+-->
+
+<Window
+	BorderStyle="0"
+	Caption=""
+	BackColor="0"
+	Height="4800"
+	Width="4800"
+	Special="0"
+	Visible="1"
+	Left="1"
+	Top="1"
+>
+
+<web
+	Left="-10"
+	Top="-10"
+	Width="8700"
+	Height="5000"
+	Navigate="$app\data\html\dialogdata\smileys.html"
+/>
+
+</Window>

@@ -1,0 +1,52 @@
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">-->
+<!-- Sessions Dialog, Internal HTML
+     writen by dionyziz -->
+<html>
+<head>
+<title>Sessions Dialog Internal HTML</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- The dialog supports XP Themes -->
+<META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes">
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+<script Language="JavaScript">
+function after_loaded() {
+	btn_yes.value = xnode_lang_yes.innerText;
+	btn_no.value = xnode_lang_no.innerText;
+}
+function close_dialog() {
+	window.location.href='NodeScript:!CloseDialog';
+}
+function saveyes() {
+	//these settings will be read by the program to read the user's choice.
+	window.location.href='NodeScript:/savesetting temp yes';
+	close_dialog();
+}
+function saveno() {
+	window.location.href='NodeScript:/savesetting temp no';
+	close_dialog();
+}
+</script>
+</head>
+<body onerror="return true;" onLoad="after_loaded()">
+<br>
+<table width="100%">
+<tr><td colspan="2" align="center">
+<div id="xnode_temp">
+Resume?
+</div>
+</td></tr>
+<tr><td height="30px">&nbsp;</td></tr>
+<tr width="100%">
+<td width="50%" align="center">
+<input type="button" name="btn_yes" value="(Yeah)" onClick="saveyes()">
+</td>
+<td align="center">
+<input type="button" name="btn_no" value="(Nope)" onClick="saveno()">
+</td>
+</table>
+</tr></td></table>
+<div id="xnode_lang_yes" style="display:none"></div>
+<div id="xnode_lang_no" style="display:none"></div>
+</body>
+</html>

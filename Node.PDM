@@ -1,0 +1,418 @@
+[Root]
+Most Recent Package=Node 0.31 Setup
+
+
+[Package|Node 0.28 Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=W:\Misc\Node\Source\NodeIRC0.28\Package
+
+[Package|Node 0.28 Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Node 0.28 Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Node 0.28 Setup|Files Found]
+
+[Package|Node 0.28 Setup|Files Released]
+
+[Package|Node 0.28 Setup|Missing Dependency Information]
+W:\Misc\Node\Source\NodeIRC0.28\misc\nodemenu\prjNodeMenu.ocx=
+D:\WINDOWS\system32\Macromed\Flash\Flash.ocx=
+D:\WINDOWS\system32\msscript.ocx=
+D:\WINDOWS\system32\msdxm.ocx=
+
+[Package|Node 0.28 Setup|Out-of-Date Dependency Information]
+D:\WINDOWS\system32\scrrun.dll=
+
+[Package|Node 0.28 Setup|Files Added]
+
+[Package|Node 0.28 Setup|Files Removed]
+
+[Package|Node 0.28 Setup|Files In Project]
+W:\Misc\Node\Source\NodeIRC0.28\node.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+D:\WINDOWS\system32\oleaut32.dll=Yes
+D:\WINDOWS\system32\olepro32.dll=Yes
+D:\WINDOWS\system32\asycfilt.dll=Yes
+D:\WINDOWS\system32\stdole2.tlb=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\scrrun.dll=Yes
+D:\WINDOWS\system32\msvcrt.dll=Yes
+D:\WINDOWS\system32\msdxm.ocx=Yes
+D:\WINDOWS\system32\msscript.ocx=Yes
+D:\WINDOWS\system32\MSWINSCK.OCX=Yes
+D:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+D:\WINDOWS\system32\RICHTX32.OCX=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+D:\WINDOWS\system32\Macromed\Flash\Flash.ocx=Yes
+D:\WINDOWS\system32\TABCTL32.OCX=Yes
+W:\Misc\Node\Source\NodeIRC0.28\misc\nodemenu\prjNodeMenu.ocx=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Node 0.28 Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Node 0.28 Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Node 0.28 Setup|Install Locations]
+W:\Misc\Node\Source\NodeIRC0.28\node.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+D:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+D:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+D:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\Macromed\Flash\Flash.ocx=$(WinSysPath)
+D:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+W:\Misc\Node\Source\NodeIRC0.28\misc\nodemenu\prjNodeMenu.ocx=$(WinSysPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Node 0.28 Setup|Configure Shared Files]
+Applicable=Yes
+W:\Misc\Node\Source\NodeIRC0.28\node.exe=No
+
+[Package|Node 0.28 Setup|Distribution]
+Type=single
+Size=
+Title=NodeIRC 0.28
+
+[Package|Node 0.28 Setup|IconGroups]
+Group0=NodeIRC
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Node 0.28 Setup|NodeIRC]
+Icon1=node.exe
+Title1=NodeIRC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Node 0.28 Setup|Package]
+PackageFolder=W:\Misc\Node\Source\NodeIRC0.28\Package
+ProjectFolder=W:\Misc\Node\Source\NodeIRC0.28
+ServerSideCab=
+File1=W:\Misc\Node\Source\NodeIRC0.28\Package\setup.exe
+File2=W:\Misc\Node\Source\NodeIRC0.28\Package\Setup.Lst
+File3=W:\Misc\Node\Source\NodeIRC0.28\Package\node.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Node 0.29 Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\nodeirc\nodeirc0.29full
+
+[Package|Node 0.29 Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Node 0.29 Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Node 0.29 Setup|Files Found]
+
+[Package|Node 0.29 Setup|Files Released]
+
+[Package|Node 0.29 Setup|Missing Dependency Information]
+W:\Misc\Node\Source\NodeIRC0.28\misc\nodemenu\prjNodeMenu.ocx=
+D:\WINDOWS\system32\Macromed\Flash\Flash.ocx=
+D:\WINDOWS\system32\msscript.ocx=
+D:\WINDOWS\system32\msdxm.ocx=
+C:\nodeirc\NodeIRC0.28\prjNodeMenu.ocx=
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\Flash.ocx=
+C:\WINDOWS\SYSTEM\MSSCRIPT.OCX=
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+
+[Package|Node 0.29 Setup|Out-of-Date Dependency Information]
+D:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=
+
+[Package|Node 0.29 Setup|Files Added]
+
+[Package|Node 0.29 Setup|Files Removed]
+
+[Package|Node 0.29 Setup|Files In Project]
+C:\nodeirc\NodeIRC0.29\node.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\WINDOWS\SYSTEM\MSSCRIPT.OCX=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\Flash.ocx=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\nodeirc\NodeIRC0.28\prjNodeMenu.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Node 0.29 Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Node 0.29 Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Node 0.29 Setup|Install Locations]
+W:\Misc\Node\Source\NodeIRC0.28\node.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+D:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+D:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+D:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\Macromed\Flash\Flash.ocx=$(WinSysPath)
+D:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+W:\Misc\Node\Source\NodeIRC0.28\misc\nodemenu\prjNodeMenu.ocx=$(WinSysPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\nodeirc\NodeIRC0.29\node.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSCRIPT.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\Flash.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\nodeirc\NodeIRC0.28\prjNodeMenu.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Node 0.29 Setup|Configure Shared Files]
+Applicable=Yes
+W:\Misc\Node\Source\NodeIRC0.28\node.exe=No
+C:\nodeirc\NodeIRC0.29\node.exe=No
+
+[Package|Node 0.29 Setup|Distribution]
+Type=single
+Size=
+Title=NodeIRC 0.29
+
+[Package|Node 0.29 Setup|IconGroups]
+Group0=NodeIRC
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Node 0.29 Setup|NodeIRC]
+Icon1=node.exe
+Title1=NodeIRC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Node 0.29 Setup|Package]
+PackageFolder=C:\nodeirc\nodeirc0.29full
+ProjectFolder=C:\nodeirc\NodeIRC0.29
+ServerSideCab=
+File1=C:\nodeirc\nodeirc0.29full\setup.exe
+File2=C:\nodeirc\nodeirc0.29full\Setup.Lst
+File3=C:\nodeirc\nodeirc0.29full\node.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Node 0.31 Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=w:\Misc\Node\Misc\Source\Packages\0.31b
+
+[Package|Node 0.31 Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Node 0.31 Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Node 0.31 Setup|Files Found]
+
+[Package|Node 0.31 Setup|Files Released]
+
+[Package|Node 0.31 Setup|Missing Dependency Information]
+W:\Misc\Node\Source\NodeIRC0.28\misc\nodemenu\prjNodeMenu.ocx=
+D:\WINDOWS\system32\Macromed\Flash\Flash.ocx=
+D:\WINDOWS\system32\msscript.ocx=
+D:\WINDOWS\system32\msdxm.ocx=
+C:\nodeirc\NodeIRC0.28\prjNodeMenu.ocx=
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\Flash.ocx=
+C:\WINDOWS\SYSTEM\MSSCRIPT.OCX=
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+D:\WINDOWS\system32\prjNodeMenu.ocx=
+D:\WINDOWS\system32\msxml2.dll=
+D:\WINDOWS\system32\Flash.ocx=
+
+[Package|Node 0.31 Setup|Out-of-Date Dependency Information]
+D:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=
+
+[Package|Node 0.31 Setup|Files Added]
+
+[Package|Node 0.31 Setup|Files Removed]
+
+[Package|Node 0.31 Setup|Files In Project]
+W:\Misc\Node\NodeIRC\node.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\scrrun.dll=Yes
+D:\WINDOWS\system32\msvcrt.dll=Yes
+D:\WINDOWS\system32\msdxm.ocx=Yes
+D:\WINDOWS\system32\msscript.ocx=Yes
+D:\WINDOWS\system32\Flash.ocx=Yes
+D:\WINDOWS\system32\msxml2.dll=Yes
+D:\WINDOWS\system32\MSWINSCK.OCX=Yes
+D:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+D:\WINDOWS\system32\RICHTX32.OCX=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+D:\WINDOWS\system32\TABCTL32.OCX=Yes
+D:\WINDOWS\system32\COMDLG32.OCX=Yes
+D:\WINDOWS\system32\COMCTL32.OCX=Yes
+D:\WINDOWS\system32\prjNodeMenu.ocx=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Node 0.31 Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Node 0.31 Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Node 0.31 Setup|Install Locations]
+W:\Misc\Node\Source\NodeIRC0.28\node.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+D:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+D:\WINDOWS\system32\msdxm.ocx=$(WinSysPath)
+D:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+D:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+D:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+D:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\Macromed\Flash\Flash.ocx=$(WinSysPath)
+D:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+W:\Misc\Node\Source\NodeIRC0.28\misc\nodemenu\prjNodeMenu.ocx=$(WinSysPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\nodeirc\NodeIRC0.29\node.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\SCRRUN.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSCRIPT.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\Flash.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\nodeirc\NodeIRC0.28\prjNodeMenu.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+W:\Misc\Node\NodeIRC\node.exe=$(AppPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\WINDOWS\system32\Flash.ocx=$(WinSysPath)
+D:\WINDOWS\system32\msxml2.dll=$(WinSysPath)
+D:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+D:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+D:\WINDOWS\system32\prjNodeMenu.ocx=$(WinSysPath)
+
+[Package|Node 0.31 Setup|Configure Shared Files]
+Applicable=Yes
+W:\Misc\Node\Source\NodeIRC0.28\node.exe=No
+C:\nodeirc\NodeIRC0.29\node.exe=No
+W:\Misc\Node\NodeIRC\node.exe=No
+
+[Package|Node 0.31 Setup|Distribution]
+Type=single
+Size=
+Title=NodeIRC 0.31b
+
+[Package|Node 0.31 Setup|IconGroups]
+Group0=NodeIRC
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Node 0.31 Setup|NodeIRC]
+Icon1=node.exe
+Title1=NodeIRC 0.31b
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Node 0.31 Setup|Package]
+PackageFolder=w:\Misc\Node\Misc\Source\Packages\0.31b
+ProjectFolder=W:\Misc\Node\NodeIRC
+ServerSideCab=
+File1=w:\Misc\Node\Misc\Source\Packages\0.31b\setup.exe
+File2=w:\Misc\Node\Misc\Source\Packages\0.31b\Setup.Lst
+File3=w:\Misc\Node\Misc\Source\Packages\0.31b\node.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

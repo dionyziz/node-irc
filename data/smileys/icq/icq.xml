@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!-- ICQ is a trademark of ICQ Corp. 
+	 The smileys included in this file are
+	 copyrighted work of their respective owners.
+	 Smiley packs are unrelated with the project
+	 as they are external resources loaded by
+	 the program. -->
+<smileypack version="0.34">
+	<smiley for=":)" file="smile.gif" />
+	<smiley for=":-)" file="smile.gif" />
+	<smiley for=":&gt;" file="smile.gif" />
+	<smiley for=":-&gt;" file="smile.gif" />
+	<smiley for=":}" file="smile.gif" />
+	<smiley for=":-}" file="smile.gif" />
+	<smiley for=":]" file="smile.gif" />
+	<smiley for=":-]" file="smile.gif" />
+	<smiley for=":(" file="sad.gif" />
+	<smiley for=":-(" file="sad.gif" />
+	<smiley for=":-{" file="sad.gif" />
+	<smiley for=":-&lt;" file="sad.gif" />
+	<smiley for=":&lt;" file="sad.gif" />
+	<smiley for=":-[" file="sad.gif" />
+	<smiley for=":-S" file="sad.gif" />
+	<smiley for=":-s" file="sad.gif" />
+	<smiley for=":S" file="sad.gif" />
+	<smiley for=":s" file="sad.gif" />
+	<smiley for="???" file="question.gif" />
+	<smiley for=":D" file="happy.gif" />
+	<smiley for=":-D" file="happy.gif" />
+	<smiley for=";)" file="wink.gif" />
+	<smiley for=";-)" file="wink.gif" />
+	<smiley for=";]" file="wink.gif" />
+	<smiley for=";P" file="wink.gif" />
+	<smiley for=";-P" file="wink.gif" />
+	<smiley for=":P" file="tonge.gif" />
+	<smiley for=":-P" file="tonge.gif" />
+	<smiley for=":p" file="tonge.gif" />
+	<smiley for=":-p" file="tonge.gif" />
+	<smiley for=":'(" file="cry.gif" />
+	<smiley for="(y)" file="yep.gif" />
+	<smiley for="(Y)" file="yep.gif" />
+	<smiley for="(n)" file="stop.gif" />
+	<smiley for="(N)" file="stop.gif" />
+	<smiley for=":-o" file="omg.gif" />
+	<smiley for=":-O" file="omg.gif" />
+	<smiley for=":-0" file="omg.gif" />
+	<smiley for=":O" file="omg.gif" />
+	<smiley for="(x)" file="girl.gif" />
+	<smiley for="(X)" file="girl.gif" />
+	<smiley for="(f)" file="rose.gif" />
+	<smiley for="(F)" file="rose.gif" />
+	<smiley for="(8)" file="music.gif" />
+	<smiley for="(s)" file="zzz.gif" />
+	<smiley for="(S)" file="zzz.gif" />
+	<smiley for="(k)" file="kiss.gif" />
+	<smiley for="(K)" file="kiss.gif" />
+	<smiley for="(6)" file="devil.gif" />
+	<smiley for="(h)" file="cool.gif" />
+	<smiley for="(H)" file="cool.gif" />
+	<smiley specialsmiley="arrow" file="arrow.gif" />
+</smileypack>

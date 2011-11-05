@@ -1,0 +1,169 @@
+<!--
+Insert Colored Text
+Inner HTML
+by dionyziz
+Last Mod: 29 Jun 2004
+-->
+
+<html>
+<head>
+<title>Insert Colored Text</title>
+<!-- display the buttons, etc. in XP style -->
+<META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes">
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+var foreclr = '(not set)';
+var backclr = '(not set)';
+function insertcolor() {
+	var command;
+	var i;
+	
+	if ( foreclr == '(not set)' ) {
+		alert(xnode_lang_specify_foreground.innerText);
+		return;
+	}
+	
+	if ( backclr == '(not set)' ) {
+		colortext = '\3' + getcolor(foreclr);
+	}
+	else {
+		colortext = '\3' + getcolor(foreclr) + ',' + getcolor(backclr);
+	}
+	
+	command = 'NodeScript://tempSmileysData = Node.txtSend.selStart:' +
+						    'Node.txtSend.Text = Left(Node.txtSend.Text, Node.txtSend.SelStart) & "' + colortext + '" & Right(Node.txtSend.Text, Len(Node.txtSend.Text) - Node.txtSend.SelStart) :' + 
+							'Node.txtSend.selStart = tempSmileysData + Len("' + colortext + '") \'';
+
+	window.location.href = command;
+	window.location.href = "NodeScript:!closedialog";
+}
+function setcolor(colorstr) {
+	foreclr = colorstr;
+	xnode_lang_sample.style.color = colorstr;
+}
+function setcolor2(colorstr) {
+	backclr = colorstr;
+	xnode_lang_sample.style.backgroundColor = colorstr;
+}
+function getcolor(htmlcolor) {
+	switch (htmlcolor) {
+		case "#FFFFFF":
+			return 0;
+		case "#000000":
+			return 1;
+		case "#000099":
+			return 2;
+		case "#009900":
+			return 3;
+		case "#CC0000":
+			return 4;
+		case "#660000":
+			return 5;
+		case "#9900FF":
+			return 6;
+		case "#FF6600":
+			return 7;
+			
+		case "#FFFF00":
+			return 8;
+		case "#00FF33":
+			return 9;
+		case "#0099CC":
+			return 10;
+		case "#00FFFF":
+			return 11;
+		case "#0033FF":
+			return 12;
+		case "#CC0099":
+			return 13;
+		case "#666666":
+			return 14;
+		case "#CCCCCC":
+			return 15;
+		case "#FFFF00":
+			return 16;
+	}
+}
+function closedialog() {
+	window.location.href = "NodeScript:!closedialog";
+}
+</script>
+<style>
+td.colorbox {
+	cursor: hand;
+	border: 1px solid black;
+}
+</style>
+</head>
+<body topmargin="0">
+<div id="xnode_lang_specify_foreground" style="display:none">You have to specify foreground!!</div>
+<div id="xnode_lang_insert_color">Insert Colored Text</div><br>
+<div id="xnode_lang_foreground">Foreground</div>
+<table>
+<tr>
+<td bgcolor="#FFFFFF" width="10px" height="10px" onClick="setcolor('#FFFFFF')" class="colorbox"></td>
+<td bgcolor="#000000" width="10px" height="10px" onClick="setcolor('#000000')" class="colorbox"></td>
+<td bgcolor="#000099" width="10px" height="10px" onClick="setcolor('#000099')" class="colorbox"></td>
+<td bgcolor="#009900" width="10px" height="10px" onClick="setcolor('#009900')" class="colorbox"></td>
+<td bgcolor="#CC0000" width="10px" height="10px" onClick="setcolor('#CC0000')" class="colorbox"></td>
+<td bgcolor="#660000" width="10px" height="10px" onClick="setcolor('#660000')" class="colorbox"></td>
+<td bgcolor="#9900FF" width="10px" height="10px" onClick="setcolor('#9900FF')" class="colorbox"></td>
+<td bgcolor="#FF6600" width="10px" height="10px" onClick="setcolor('#FF6600')" class="colorbox"></td>
+</tr><tr>
+<td bgcolor="#FFFF00" width="10px" height="10px" onClick="setcolor('#FFFF00')" class="colorbox"></td>
+<td bgcolor="#00FF33" width="10px" height="10px" onClick="setcolor('#00FF33')" class="colorbox"></td>
+<td bgcolor="#0099CC" width="10px" height="10px" onClick="setcolor('#0099CC')" class="colorbox"></td>
+<td bgcolor="#00FFFF" width="10px" height="10px" onClick="setcolor('#00FFFF')" class="colorbox"></td>
+<td bgcolor="#0033FF" width="10px" height="10px" onClick="setcolor('#0033FF')" class="colorbox"></td>
+<td bgcolor="#CC0099" width="10px" height="10px" onClick="setcolor('#CC0099')" class="colorbox"></td>
+<td bgcolor="#666666" width="10px" height="10px" onClick="setcolor('#666666')" class="colorbox"></td>
+<td bgcolor="#CCCCCC" width="10px" height="10px" onClick="setcolor('#CCCCCC')" class="colorbox"></td>
+</tr>
+</table>
+<br><br>
+<div id="xnode_lang_foreground">Background</div>
+<table>
+<tr>
+<td bgcolor="#FFFFFF" width="10px" height="10px" onClick="setcolor2('#FFFFFF')" class="colorbox"></td>
+<td bgcolor="#000000" width="10px" height="10px" onClick="setcolor2('#000000')" class="colorbox"></td>
+<td bgcolor="#000099" width="10px" height="10px" onClick="setcolor2('#000099')" class="colorbox"></td>
+<td bgcolor="#009900" width="10px" height="10px" onClick="setcolor2('#009900')" class="colorbox"></td>
+<td bgcolor="#CC0000" width="10px" height="10px" onClick="setcolor2('#CC0000')" class="colorbox"></td>
+<td bgcolor="#660000" width="10px" height="10px" onClick="setcolor2('#660000')" class="colorbox"></td>
+<td bgcolor="#9900FF" width="10px" height="10px" onClick="setcolor2('#9900FF')" class="colorbox"></td>
+<td bgcolor="#FF6600" width="10px" height="10px" onClick="setcolor2('#FF6600')" class="colorbox"></td>
+</tr><tr>
+<td bgcolor="#FFFF00" width="10px" height="10px" onClick="setcolor2('#FFFF00')" class="colorbox"></td>
+<td bgcolor="#00FF33" width="10px" height="10px" onClick="setcolor2('#00FF33')" class="colorbox"></td>
+<td bgcolor="#0099CC" width="10px" height="10px" onClick="setcolor2('#0099CC')" class="colorbox"></td>
+<td bgcolor="#00FFFF" width="10px" height="10px" onClick="setcolor2('#00FFFF')" class="colorbox"></td>
+<td bgcolor="#0033FF" width="10px" height="10px" onClick="setcolor2('#0033FF')" class="colorbox"></td>
+<td bgcolor="#CC0099" width="10px" height="10px" onClick="setcolor2('#CC0099')" class="colorbox"></td>
+<td bgcolor="#666666" width="10px" height="10px" onClick="setcolor2('#666666')" class="colorbox"></td>
+<td bgcolor="#CCCCCC" width="10px" height="10px" onClick="setcolor2('#CCCCCC')" class="colorbox"></td>
+</tr>
+</table>
+</div><br><br>
+
+<table>
+<tr><td>
+<div id="xnode_lang_sample">Sample</div>
+</td></tr>
+</table>
+
+<table>
+<tr>
+<td>
+<a href="JavaScript:insertcolor();">
+<div id="xnode_lang_ok">OK</div>
+</a>
+</td><td width="15px"></td>
+<td>
+<a href="JavaScript:closedialog();">
+<div id="xnode_lang_cancel">Cancel</div>
+</a>
+</td>
+</tr>
+</table>
+</body>
+</html>

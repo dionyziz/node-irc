@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<!-- Node IRC Client
+     About Dialog -->
+
+<Window 
+	Caption="About Node IRC Client -- Node Dialog"
+	BackColor="0"
+	Width="12000"
+	Height="6200"
+	Special="1"
+>
+
+<web 
+	Left="-10"
+	Top="-10"
+	Width="12200"
+	Height="6250"
+	Navigate="$app\data\html\dialogdata\infoscroll.html"
+/>
+
+</Window>

@@ -1,0 +1,8 @@
+function.5 show.toolbar
+ctrl.b toolbar.bold
+ctrl.i toolbar.italic
+ctrl.u toolbar.underline
+function.12 go.nexttab
+function.11 go.nextfocus
+ctrl.r panel.connect
+ctrl.j panel.join

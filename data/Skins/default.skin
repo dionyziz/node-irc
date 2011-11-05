@@ -1,0 +1,45 @@
+Default Skin
+# Deafult Skin for Node 0.35
+# written by dionyziz, 
+# 26 December 2003, 9:06 PM, GMT.
+# Last Update
+# 13 Nov 2004
+
+CheckBox3D 0
+TextBox3D 0
+BackGround 13406856
+ForeGround 8664102
+HotColor 16768985
+
+TemplateFile "default\node2.css"
+SplashDialog "default\splash.xml"
+OptionsBackground "default\bgblack.jpg"
+Resize_BottomOffset 1300
+Resize_TextBottomOffset -450
+Resize_RightOffset 340
+Resize_TabFocusOffset 60
+Resize_TabNonFocusOffset 82
+Resize_TopOffset 1200
+Resize_TextRightOffset 300
+
+BackgroundColor #8892CC
+SkinPic "default\logo.jpg"
+
+Icon_Help "default\button.jpg"
+Icon_Options "default\button.jpg"
+Icon_Join "default\button.jpg"
+Icon_Add "default\plus.gif"
+Icon_Close "default\x.jpg"
+Icon_Server "default\serv.gif"
+Icon_Delete "default\delete.gif"
+Icon_Web "default\web.gif"
+Icon_Channel "default\sharp.gif"
+
+Panel_TitleBackground_Start "default\panel.jpg"
+Panel_TitleBackground_Mid "default\panel.jpg"
+Panel_TitleBackground_End "default\panel.jpg"
+Panel_TitleColor 16768985
+
+BuddyInImage "default\buddysignon.jpg"
+BuddyOutImage "default\buddysignoff.jpg"
+MorePic "default/more.jpg"

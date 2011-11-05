@@ -1,0 +1,167 @@
+/* Global CSS Items */
+body {
+	margin: 0;
+	font-family: "Courier New", Courier, mono;
+	color: #009900;
+	background-color: #000000;
+	font-size: 12px;
+}
+a:link,a:visited,a:active {
+	font-size:12px;
+	color:#00CC99;
+	text-decoration:underline;
+}
+a:hover {
+	font-size:12px;
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+a.nick:link,a.nick:visited,a.nick:active {
+	font-size:12px;
+	color:#00CC99;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	font-size:12px;
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+a.buddyon:link,a.buddyon:visited,a.buddyon:active {
+	font-size:12px;
+	color:#00FF00;
+	text-decoration:underline;
+}
+a.buddyon:hover {
+	font-size:12px;
+	color:#FFFFFF;
+}
+a.buddyoff:link,a.buddyoff:visited,a.buddyoff:active {
+	font-size:12px;
+	color:#999999;
+	text-decoration:underline;
+	font-style: italic;
+}
+a.buddyoff:hover {
+	font-size:12px;
+	color:#FFFFFF;
+}
+font.buddyon {
+	color:#00FF00;
+	font-weight: bold;
+}
+font.buddyoff {
+	color:#999999;
+	font-style: italic;
+}
+td {
+	font-size: 12px;
+}
+
+td.panel_header {
+	color: #00FF00;
+	font-weight: normal;
+}
+/* Menu CSS Items */
+span.thatsnode {
+	text-align:center;
+	font-size: 12px;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #333333;
+	text-decoration:none;
+}
+span.spanmenuitem {
+	font-size: 12px;
+	color: #009900;
+	text-decoration: none;
+	font-weight: bold;
+}
+span.node_reason {
+	color: #FF00FF;
+}
+span.node_event {
+	font-weight: normal;
+	color: #00FFFF;
+}
+span.node_important {
+	font-weight: normal;
+	color: #FF0000;
+	text-decoration: blink;
+}
+span.node_special {
+	font-weight: normal;
+	color: #FFFF00;
+}
+td.menunode {
+	background-color: #000000;
+	width: 100%;
+	border-right-color: #000000;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-top-color: #000000;
+	border-top-width: 1px;
+	border-top-style: hidden;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+}
+td.menuext {
+	background-color: #000000;
+	width: 100%;
+	height: 100%;
+	border-right-color: #009900;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-top-color: #009900;
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+td.menuitem {
+	text-align:right;
+}
+td.nicks {
+	vertical-align:top;
+	border-left: 2px solid #009900;
+	padding-left:5px;
+}
+td.chanbody {
+	font-size: 12px;
+	vertical-align:top;
+}
+td.blist {
+	font-size: 13px;
+	border-top: 1px solid #009900;
+	border-right: 1px solid #009900;
+}
+td.bhead {
+    color:#0000FF;
+	font-size: 14px;
+	font-weight:bold;
+	border-right: 1px solid #009900;
+}
+/* Pages CSS Items */
+span.pagetitle {
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+}
+td.progress {
+	background-color: #00FF00;
+	border-right: 1px solid #CC3300;
+}
+td.progressbg {
+	background-color: #333333;
+}
+span.sometext {
+	color: #CCCCCC;
+	font-size: 12px;
+}
+span.subtitle {
+	color: #FFFFFF;
+	font-size: 12px;
+	text-decoration: underline;
+	font-style: normal;
+}

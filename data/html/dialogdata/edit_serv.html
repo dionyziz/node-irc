@@ -1,0 +1,103 @@
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">-->
+<!-- Edit a Server Dialog, Internal HTML
+     writen by dionyziz -->
+<html>
+<head>
+<title>Edit Server</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- The dialog supports XP Themes -->
+<META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes">
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+	function closedialog() {
+		window.location.href = "NodeScript:!closedialog";
+	}
+	function validatedata() {
+		if ( serv_hostname.value == '' ) {
+			//no hostname
+			alert( xnode_lang_no_hostname.innerText );
+		}
+		else if ( serv_port.value == '' ) {
+			//no port
+			alert( xnode_lang_no_port.innerText );
+		}
+		else if ( serv_hostname.value.indexOf( " " ) != -1 ) {
+			//hostname has spaces
+			alert( xnode_lang_hostname_spaces.innerText );
+		}
+		else if ( serv_name.value.indexOf( '"' ) != -1 ) {
+			//hostname has spaces
+			alert( xnode_lang_display_quotes.innerText );
+		}
+		else if ( serv_port.value - 0 <= 0 || serv_port.value - 0 > 65535 ) {
+			//invalid port
+			alert( xnode_lang_invalid_port.innerText );
+		}
+		else {
+			return true;
+		}
+		return false;
+	}
+	function saveclose() {
+		var savecommand = '';
+		if ( validatedata() ) {
+			savecommand = "NodeScript:/alter-servers-save-edit " + xnode_server_id.innerText;
+			savecommand += " " + serv_hostname.value + " " + serv_port.value;
+			if ( serv_name.value.indexOf( " " ) != -1 ) {
+				serv_name.value = '"' + serv_name.value + '"';
+			}
+			savecommand += " " + serv_name.value;
+			window.location.href =  savecommand;
+			closedialog();
+		}
+	}
+</script>
+</head>
+<body>
+<div id="alert_messages" style="display:none;">
+	<div id="xnode_lang_hostname_spaces"></div>
+	<div id="xnode_lang_display_quotes"></div>
+	<div id="xnode_lang_invalid_port"></div>
+	<div id="xnode_lang_no_hostname"></div>
+	<div id="xnode_lang_no_port"></div>
+</div>
+<div id="xnode_server_id" style="display:none;">
+</div>
+<table width="100%">
+<tr>
+<td valign="top" rowspan="2" align="center">
+	<table>
+		<tr>
+			<td id="xnode_lang_displayname">Display Name</td>
+			<td><input type="text" id="serv_name"></td>			
+		</tr>
+		<tr>
+			<td id="xnode_lang_hostname">Hostname</td>
+			<td><input type="text" id="serv_hostname"></td>			
+		</tr>
+		<tr>
+			<td id="xnode_lang_port">Port</td>
+			<td><input type="text" id="serv_port"></td>			
+		</tr>
+	</table>
+</td>
+</tr>
+</table>
+<br>
+<hr size="1px" noshade>
+<center>
+<table width="100%">
+<tr><td align="center">
+<a href="JavaScript:saveclose();" id="xnode_lang_ok">
+OK
+</a>
+</td><td align="center">
+<a href="JavaScript:closedialog();" id="xnode_lang_cancel">
+Cancel
+</a>
+</td></tr>
+</table>
+</center>
+</body>
+</html>

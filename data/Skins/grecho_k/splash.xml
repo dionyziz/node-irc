@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<Window 
+	BorderStyle="0"
+	Caption="Splash Screen -- Node Dialog"
+	BackColor="0"
+	Width="9015"
+	Height="3900"
+	Special="0"
+>
+
+<Static 
+	Left="0"
+	Top="3400"
+	Width="9015"
+	Height="375"
+	ForeColor="9474192"
+	BackStyle="0"
+	Alignment="2"
+	FontName="Verdana"
+	FontSize="11"
+	FontBold="1"
+	Caption="Loading..."
+	ZOrder="0"
+/>
+
+<Image 
+	Top="10"
+	Left="15"
+	Source="$app\data\skins\grecho_k\splash.jpg"
+/>
+
+</Window>

@@ -1,0 +1,43 @@
+# This file contains all possible HTML events
+# They are filtered out for security reasons
+# In IRC-Windows...
+#
+# Last Updated 28 January, 9:00 AM, GMT
+# by dionyziz.
+#
+onAfterUpdate
+onBeforeActivate
+onBeforeDeactivate
+onBeforeEditFocus
+onBeforeUpdate
+onCellChange
+onClick
+onControlSelect
+onDataAvailable
+onDataSetChanged
+onDataSetComplete
+onDblClick
+onDeActivate
+onDragSelect
+onErrorUpdate
+onFocusIn
+onFocusOut
+onHelp
+onKeyDown
+onKeyPress
+onKeyUp
+onMouseMove
+onMouseOut
+onMouseDown
+onMouseUp
+onMouseWheel
+onMouseOver
+onPropertyChange
+onReadyStateChange
+onRowEnter
+onRowExit
+onRowsDelete
+onRowsInserted
+onSelectionChange
+onSelectStart
+onStop

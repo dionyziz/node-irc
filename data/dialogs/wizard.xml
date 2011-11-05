@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Node IRC Client
+	 Wizard Dialog
+     Written by Dionyziz,
+     Last Updated
+     22 Jun 2004.
+-->
+
+<Window
+	Caption="Wizard -- Node Dialog"
+	BackColor="0"
+	Width="7545"
+	Height="5775"
+	Special="0"
+	Visible="1"
+	Left="1"
+	Top="1"
+>
+
+<web
+	Left="-20"
+	Top="-30"
+	Width="7525"
+	Height="5685"
+/>
+
+</Window>

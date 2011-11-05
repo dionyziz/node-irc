@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>Insert Hot Key</title>
+<!-- display the buttons, etc. in XP style -->
+<META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes">
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+function closedialog() {
+	window.location.href = "NodeScript:!closedialog";
+}
+function saveclose() {
+	window.location.href = "NodeScript:/hot-keys-add " + hotkey.value + " " + action.value;
+	closedialog();
+}
+</script>
+</head>
+<body topmargin="0">
+<div id="xnode_lang_insert_hotkey">Insert Hot Key</div><br>
+<table><tr>
+<td class="subtitle" id="xnode_lang_key">
+Key:
+</td>
+<td>
+<select id="hotkey">
+	<option value="function.1">F1</option>
+	<option value="function.2">F2</option>
+	<option value="function.3">F3</option>
+	<option value="function.4">F4</option>
+	<option value="function.5">F5</option>
+	<option value="function.6">F6</option>
+	<option value="function.7">F7</option>
+	<option value="function.8">F8</option>
+	<option value="function.9">F9</option>
+	<option value="function.10">F10</option>
+	<option value="function.11">F11</option>
+	<option value="function.12">F12</option>
+
+	<option value="ctrl.a">Ctrl + A</option>
+	<option value="ctrl.b">Ctrl + B</option>
+	<option value="ctrl.c">Ctrl + C</option>
+	<option value="ctrl.d">Ctrl + D</option>
+	<option value="ctrl.e">Ctrl + E</option>
+	<option value="ctrl.f">Ctrl + F</option>
+	<option value="ctrl.g">Ctrl + G</option>
+	<option value="ctrl.h">Ctrl + H</option>
+	<option value="ctrl.i">Ctrl + I</option>
+	<option value="ctrl.j">Ctrl + J</option>
+	<option value="ctrl.k">Ctrl + K</option>
+	<option value="ctrl.l">Ctrl + L</option>
+	<option value="ctrl.m">Ctrl + M</option>
+	<option value="ctrl.n">Ctrl + N</option>
+	<option value="ctrl.o">Ctrl + O</option>
+	<option value="ctrl.p">Ctrl + P</option>
+	<option value="ctrl.q">Ctrl + Q</option>
+	<option value="ctrl.r">Ctrl + R</option>
+	<option value="ctrl.s">Ctrl + S</option>
+	<option value="ctrl.t">Ctrl + T</option>
+	<option value="ctrl.u">Ctrl + U</option>
+	<option value="ctrl.v">Ctrl + V</option>
+	<option value="ctrl.w">Ctrl + W</option>
+	<option value="ctrl.x">Ctrl + X</option>
+	<option value="ctrl.y">Ctrl + Y</option>
+	<option value="ctrl.z">Ctrl + Z</option>
+</select></td>
+</tr><tr>
+<td class="subtitle" id="xnode_lang_action">
+Action:
+</td>
+<td>
+<select id="action">
+	<option value="show.toolbar" id="xnode_lang_showtoolbar">Display Toolbar</option>
+	<option value="toolbar.bold" id="xnode_lang_textbold">Make Text Bold</option>
+	<option value="toolbar.italic" id="xnode_lang_textitalic">Make Text Italic</option>
+	<option value="toolbar.underline" id="xnode_lang_textunderlined">Make Text Underlined</option>
+	<option value="toolbar.color" id="xnode_lang_insertcolor">Insert Colored Text</option>
+	<option value="toolbar.smiley" id="xnode_lang_insertsmiley">Insert Smiley</option>
+	<option value="toolbar.image" id="xnode_lang_insertimage">Insert Image</option>
+	<option value="go.nexttab" id="xnode_lang_nexttab">Move to the Next Tab</option>
+	<option value="go.nextfocus" id="xnode_lang_nexthighlighted">Move to the Next Highlighted Tab</option>
+	<option value="go.help" id="xnode_lang_help">Help</option>
+	<option value="panel.join" id="xnode_lang_join">Join a Channel</option>
+	<option value="panel.connect" id="xnode_lang_connect">Connect</option>
+</select>
+</td>
+</tr>
+
+</table>
+
+<br><br>
+
+<table width="100%">
+<tr>
+<td align="center">
+<a href="JavaScript:saveclose();">
+<div id="xnode_lang_ok">OK</div>
+</a>
+</td>
+<td align="center">
+<a href="JavaScript:closedialog();">
+<div id="xnode_lang_cancel">Cancel</div>
+</a>
+</td>
+</tr>
+</table>
+
+</body>
+</html>

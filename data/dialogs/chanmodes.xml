@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Node IRC Client
+	 Channel Modes Dialog 
+	 by dionyziz
+	 Created on: 29 Jun 2004
+	 Last Modified: 29 Jun 2004
+-->
+
+<window
+	Caption="Channel Modes -- Node Dialog"
+	BackColor="0"
+	Height="5000"
+	Width="7550"
+	Special="0"
+>
+
+<Web 
+	Left="-10"
+	Top="-10"
+	Height="5850"
+	Width="7800"
+	Navigate="$app\data\html\dialogdata\chanmodes.html"
+/>
+
+</window>

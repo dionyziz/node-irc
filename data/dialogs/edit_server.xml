@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<window
+	BackColor="0"
+	Height="3000"
+	Width="7740"
+	Special="0"
+	Caption="Edit Server -- Node Dialog"
+>
+
+<Web 
+	Left="0"
+	Top="0"
+	height="3100"
+	Width="7650"
+	Navigate="$app\data\html\dialogdata\edit_serv.html"
+/>
+
+</window>

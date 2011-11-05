@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!-- Yahoo! is a trademark of Yahoo Corp. 
+	 The smileys included in this file are
+	 copyrighted work of their respective owners.
+	 Smiley packs are unrelated with the project
+	 as they are external resources loaded by
+	 the program. -->
+<smileypack version="0.34">
+	<smiley for=":)" file="01.gif" />
+	<smiley for=":-)" file="01.gif" />
+	<smiley for=":&gt;" file="01.gif" />
+	<smiley for=":-&gt;" file="01.gif" />
+	<smiley for=":}" file="01.gif" />
+	<smiley for=":-}" file="01.gif" />
+	<smiley for=":]" file="01.gif" />
+	<smiley for=":-]" file="01.gif" />
+	<smiley for=":(" file="02.gif" />
+	<smiley for=":-(" file="02.gif" />
+	<smiley for=":-{" file="02.gif" />
+	<smiley for=":-&lt;" file="02.gif" />
+	<smiley for=":&lt;" file="02.gif" />
+	<smiley for=":-[" file="02.gif" />
+	<smiley for=":|" file="34.gif" />
+	<smiley for=":-|" file="34.gif" />
+	<smiley for="???" file="06.gif" />
+	<smiley for=":D" file="04.gif" />
+	<smiley for=":-D" file="04.gif" />
+	<smiley for=";)" file="03.gif" />
+	<smiley for=";-)" file="03.gif" />
+	<smiley for=";]" file="03.gif" />
+	<smiley for=";P" file="09.gif" />
+	<smiley for=";-P" file="09.gif" />
+	<smiley for=":P" file="09.gif" />
+	<smiley for=":-P" file="09.gif" />
+	<smiley for=":p" file="09.gif" />
+	<smiley for=":-p" file="09.gif" />
+	<smiley for=":'(" file="17.gif" />
+	<smiley for=":-S" file="15.gif" />
+	<smiley for=":-s" file="15.gif" />
+	<smiley for=":S" file="15.gif" />
+	<smiley for=":s" file="15.gif" />
+	<smiley for="(y)" file="57.gif" />
+	<smiley for="(Y)" file="57.gif" />
+	<smiley for="(n)" file="58.gif" />
+	<smiley for="(N)" file="58.gif" />
+	<smiley for=":-o" file="11.gif" />
+	<smiley for=":-O" file="11.gif" />
+	<smiley for=":-0" file="11.gif" />
+	<smiley for=":O" file="11.gif" />
+	<smiley specialsmiley="arrow" file="arrow.gif" />
+</smileypack>

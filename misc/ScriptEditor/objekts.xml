@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<ScriptEditor version="0.33">
+	<item Name="Node" Icon="1" Description="Test1">
+		<item Name="CAS" Icon="1" Description="Test2">
+			<item Name="preExecute" Icon="2" Description="Test2.1" />
+		</item>
+		<item Name="ndScript" Icon="1" Description="Test1.1" />
+		<item Name="Session_Perform" Icon="3" Description="Test1.2" />
+		<item Name="CurrentNick" Icon="3" Description="Beschreibung" />
+		<item Name="ipsender" Icon="3" Description="Beschreibung" />
+		<item Name="DCCTotal" Icon="3" Description="Beschreibung" />
+		<item Name="ScriptingTimerNextCall" Icon="3" Description="Beschreibung" />
+		<item Name="ChanProps" Icon="1" Description="Beschreibung" />
+		<item Name="webdocChannels" Icon="1" Description="Beschreibung" />
+		<item Name="webdocPrivates" Icon="1" Description="Beschreibung" />
+		<item Name="webdocDCCs" Icon="1" Description="Beschreibung" />
+		<item Name="boolRestoring" Icon="3" Description="Beschreibung" />
+		<item Name="altnickval" Icon="3" Description="Beschreibung" />
+		<item Name="xpBalloon" Icon="1" Description="Beschreibung" />
+		<item Name="addLog" Icon="2" Description="Beschreibung" />
+		<item Name="addStatus" Icon="2" Description="Beschreibung" />
+		<item Name="BuildPrimary" Icon="2" Description="Beschreibung" />
+		<item Name="BuildSecondary" Icon="2" Description="Beschreibung" />
+		<item Name="buildStatus" Icon="2" Description="Beschreibung" />
+		<item Name="dataArrival" Icon="2" Description="Beschreibung" />
+		<item Name="executeCommand" Icon="2" Description="Beschreibung" />
+		<item Name="GetChanID" Icon="2" Description="Beschreibung" />
+		<item Name="IRCaction" Icon="2" Description="Beschreibung" />
+		<item Name="LoadPanel" Icon="2" Description="Beschreibung" />
+		<item Name="LoadSession" Icon="2" Description="Beschreibung" />
+		<item Name="preExecute" Icon="2" Description="Beschreibung" />
+		<item Name="SaveSession" Icon="2" Description="Beschreibung" />
+		<item Name="Scripting_CombineRgn" Icon="2" Description="Beschreibung" />
+		<item Name="Scripting_SetWindowRgn" Icon="2" Description="Beschreibung" />
+		<item Name="Scripting_CreatePolygonRgn" Icon="2" Description="Beschreibung" />
+		<item Name="Scripting_DeleteObject" Icon="2" Description="Beschreibung" />
+		<item Name="Scripting_LoadPicture" Icon="2" Description="Beschreibung" />
+		<item Name="Scripting_Language" Icon="3" Description="Beschreibung" />
+		<item Name="sEVENT_PREFIX" Icon="3" Description="Beschreibung" />
+		<item Name="sEVENT_SUFFIX" Icon="3" Description="Beschreibung" />
+		<item Name="sREASON_PREFIX" Icon="3" Description="Beschreibung" />
+		<item Name="sREASON_SUFFIX" Icon="3" Description="Beschreibung" />
+		<item Name="sSPECIAL_PREFIX" Icon="3" Description="Beschreibung" />
+		<item Name="sSPECIAL_SUFFIX" Icon="3" Description="Beschreibung" />
+		<item Name="sShellExecute" Icon="2" Description="Beschreibung" />
+		<item Name="ShowInfoTip" Icon="2" Description="Beschreibung" />
+		<item Name="Caption" Icon="3" Description="Beschreibung" />
+		<item Name="wbPanel" Icon="1" Description="Beschreibung" />
+		<item Name="wbStatus" Icon="1" Description="Beschreibung" />
+		<item Name="wbBack" Icon="1" Description="Beschreibung" />
+		<item Name="txtSend" Icon="1" Description="Beschreibung" />
+		<item Name="txtStatus" Icon="1" Description="Beschreibung" />
+		<item Name="tsTabs" Icon="1" Description="Beschreibung" />
+		<item Name="sBar" Icon="1" Description="Beschreibung" />
+		<item Name="shpSendTooltip" Icon="1" Description="Beschreibung" />
+		<item Name="picTooltip" Icon="1" Description="Beschreibung" />
+		<item Name="lblSendInfo" Icon="1" Description="Beschreibung" />
+		<item Name="lblPanelTitle" Icon="1" Description="Beschreibung" />
+		<item Name="shpPanelTitle" Icon="1" Description="Beschreibung" />
+		<item Name="lblClosePanel" Icon="1" Description="Beschreibung" />
+		<item Name="fraPanel" Icon="1" Description="Beschreibung" />
+		<item Name="nmnuMain" Icon="1" Description="Beschreibung" />
+		<item Name="nmnuFile" Icon="1" Description="Beschreibung" />
+		<item Name="nmnuScript" Icon="1" Description="Beschreibung" />
+		<item Name="nmnuBrowse" Icon="1" Description="Beschreibung" />
+		<item Name="nmnuHelp" Icon="1" Description="Beschreibung" />
+		<item Name="nmnuIRC" Icon="1" Description="Beschreibung" />
+		<item Name="tmrRegularOperations" Icon="1" Description="Beschreibung" />
+		<item Name="tmrMakeItQuicker" Icon="1" Description="Beschreibung" />
+		<item Name="tmrRefreshSoon" Icon="1" Description="Beschreibung" />
+		<item Name="tmrShowSendTooltip" Icon="1" Description="Beschreibung" />
+		<item Name="tmrAnimateTooltip" Icon="1" Description="Beschreibung" />
+		<item Name="tmrNDCAudioRecord" Icon="1" Description="Beschreibung" />
+		<item Name="tmrPanelRefreshSoon" Icon="1" Description="Beschreibung" />
+		<item Name="tmrScriptingTimer" Icon="1" Description="Beschreibung" />
+		<item Name="ilTabs" Icon="1" Description="Beschreibung" />
+		<item Name="MP" Icon="1" Description="Beschreibung" />
+		<item Name="picTray" Icon="1" Description="Beschreibung" />
+		<item Name="wsIRC" Icon="1" Description="Beschreibung" />
+		<item Name="wsDCC" Icon="1" Description="Beschreibung" />
+		<item Name="wsDCCSend" Icon="1" Description="Beschreibung" />
+		<item Name="wsDCCChat" Icon="1" Description="Beschreibung" />
+		<item Name="wsIdentD" Icon="1" Description="Beschreibung" />
+		<item Name="wsNDC" Icon="1" Description="Beschreibung" />
+		<item Name="cdFile" Icon="1" Description="Beschreibung" />
+		<item Name="cdPickAvatar" Icon="1" Description="Beschreibung" />
+		<item Name="LoadDialog" Icon="2" Description="Beschreibung" />
+	</item>
+	<item Name="frmOptions" Icon="1" Description="Form Options">
+		<item Name="lvList_Click" Icon="2" Description="ListBox" />
+		<item Name="LoadOptionsList" Icon="2" Description="Beschreibung" />
+		<item Name="SaveAll" Icon="2" Description="Beschreibung" />
+		<item Name="LoadAll" Icon="2" Description="Beschreibung" />
+		<item Name="Scripting_LoadImage" Icon="2" Description="Beschreibung" />
+		<item Name="Caption" Icon="3" Description="Überschrift" />
+	</item>
+</ScriptEditor>

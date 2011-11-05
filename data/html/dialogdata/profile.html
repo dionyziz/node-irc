@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+<title>User's Profile</title>
+<!-- display the buttons, etc. in XP style -->
+<META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes">
+<script language="javascript">
+var buddyname;
+function closedialog() {
+	window.location.href = "NodeScript:!closedialog";
+};
+function editinfoJ(buddyname){
+	window.location.href = "Nodescript:/editinfo " + buddyname;
+	window.location.href = "NodeScript:!closedialog";
+};
+function getversion(buddyname){
+	window.location.href = "NodeScript:/buddygetversion " + buddyname;
+	window.location.href = "NodeScript:!closedialog";
+};
+</script>
+</head>
+<body topmargin="0">
+<!-- replace these elements using DOM and xNode tags -->
+<br>
+<div id="xnode_xpanel_img_avatar"></div>
+<div id="xnode_lang_realname" style="width: 244; height: 19">&nbsp;&nbsp;&nbsp;Real Name: User Name</div>
+<div id="xnode_lang_timezone" style="width: 288; height: 19">&nbsp;&nbsp;&nbsp;Timezone: GMT +8:00</div>
+<div id="xnode_lang_version" style="width: 288; height: 19">&nbsp;&nbsp;&nbsp;Version: Node 0.32</div>
+<div id="xnode_lang_lastseen" style="width: 244; height: 19">&nbsp;&nbsp;&nbsp;Last Seen: Sometime</div>
+<div id="xnode_lang_additionalinfo" style="width: 244; height: 19">&nbsp;&nbsp;&nbsp;Additional Info:</div>
+<div id="xnode_lang_atext" style="width: 259; height: 122;">
+<form method="POST">
+<p>&nbsp;&nbsp;&nbsp;<textarea id="xnode_infotext" readonly rows="5" name="S1" cols="28"></textarea></p>
+<div id="xnode_lang_edittext"></div>
+<a href="JavaScript:closedialog();">
+<div id="xnode_lang_cancel">Cancel</div>
+</a>
+</form>
+</div>
+</body>
+</html>

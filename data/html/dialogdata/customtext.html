@@ -1,0 +1,73 @@
+<!-- Custom Dialog, Internal HTML
+     writen by dionyziz -->
+<html>
+<head>
+<title>Custom Dialog Internal HTML</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes">
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+<script Language="JavaScript">
+var HTML_CLOSE = '\35';
+var HTML_OPEN = '\33';
+var MIRC_BOLD = '\2';
+var MIRC_UNDERLINE = '\37';
+
+function dosend() {
+	var outText = new Array();
+	var i = 0;
+	outText = texttosend.innerText.split('\n');
+	for (i = 0; i < outText.length; i++) {
+		if ( outText[i] != '' ) {
+			window.location.href = 'NodeScript:' +
+						escape(outText[i]);
+		}
+	}
+	docancel();
+}
+function insertFormat(type) {
+	var stringToFormat='';
+	var texttoadd='';
+	switch(type) {
+		case 1:
+			stringToFormat = prompt("Enter the text to be formatted in Bold", "bold text");
+			texttoadd = MIRC_BOLD + stringToFormat + MIRC_BOLD + " "
+			break;
+		case 2:
+			stringToFormat = prompt("Enter the text to be Underlined", "underlined text");
+			texttoadd = MIRC_UNDERLINE + stringToFormat + MIRC_UNDERLINE + " "
+			break;
+		case 3:
+			stringToFormat = prompt("Enter the URL of the image you want to add", "http://sourceforge.net/images/myimage.jpg");
+			texttoadd = HTML_OPEN + "img src=\"" + stringToFormat + "\"" + HTML_CLOSE + " "
+			break;
+	}
+	texttosend.innerText += texttoadd;
+}
+function docancel() {
+	window.location.href='NodeScript:!CloseDialog';
+}
+</script>
+</head>
+<body onerror="return true;">
+<table width="100%" cellpadding="0" cellspacing="0"><tr><td align="center"><table><tr><td>
+<table name="ToolBox">
+<tr>
+<td><a href="#" onClick="insertFormat(1)"><img alt="Insert Bold Text" src="toolbox/bold.jpg" border="0"></a></td>
+<td><a href="#" onClick="insertFormat(2)"><img alt="Insert Underlined Text" src="toolbox/underline.jpg" border="0"></a></td>
+<td><a href="#" onClick="insertFormat(3)"><img alt="Insert Image" src="toolbox/image.jpg" border="0"></a></td>
+</tr>
+</table>
+<textarea name="texttosend" cols="50" rows="10"></textarea>
+</td></tr></table>
+<table>
+<tr width="100%">
+<td width="50%" align="center">
+<input type="button" value="Send" onClick="dosend()">
+</td>
+<td align="center">
+<input type="button" value="Cancel" onClick="docancel()">
+</td>
+</table>
+</tr></td></table>
+</body>
+</html>

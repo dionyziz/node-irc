@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Node IRC Client
+ 	 Session Resume Dialog
+-->
+
+<Window
+	Caption="Resume Session -- Node Dialog"
+	BackColor="0"
+	Height="3000"
+	Width="4500"
+	Special="0"
+>
+
+<web
+	left="0"
+	top="0"
+	navigate="$app/data/html/dialogdata/sessions.html"
+	width="4700"
+	height="3200"
+/>
+
+</Window>

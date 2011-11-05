@@ -1,0 +1,109 @@
+<!--
+Node Connect Panel
+by dionyziz on 22 Feb 2004, 10:07 AM, GMT.
+Last Updated on 28 May 2004
+-->
+<html>
+<head>
+<title>Connect</title>
+<meta http-equiv="MSThemeCompatible" content="Yes">
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+</head>
+<script language="javascript">
+function connect_to_typed() {
+	if ( check_validate() ) {
+		window.location.href = 'NodeScript:/connect ' + serv_hostname.value + ' ' + serv_port.value + ' "' + serv_name.value + '"';
+		//return true;
+	}
+}
+function check_validate() {
+	if ( serv_hostname.value.indexOf(' ') > 0 ) {
+		alert( xnode_lang_hostname_spaces.innerText );
+	}
+	else if ( serv_hostname.value.indexOf('"') > 0 ) {
+		alert( xnode_lang_hostname_spaces.innerText );
+	}
+	else if ( serv_port.value - 0 <= 0 || serv_port.value - 0 > 65535 ) {
+		alert( xnode_lang_invalid_port.innerText );
+	}
+	else if ( serv_port.value == '' ) {
+		alert( xnode_lang_no_port.innerText );
+	}
+	else if ( serv_hostname.value == '' ) {
+		alert( xnode_lang_no_hostname.innerText );
+	}
+	else {
+		return true;
+	}
+	return false;
+}
+</script>
+<body onContextMenu="return false;"><center>
+<div id="alert_messages" style="display:none;">
+	<div id="xnode_lang_hostname_spaces"></div>
+	<div id="xnode_lang_display_quotes"></div>
+	<div id="xnode_lang_invalid_port"></div>
+	<div id="xnode_lang_no_hostname"></div>
+	<div id="xnode_lang_no_port"></div>
+</div>
+<table width="100%" height="100%">
+<tr><td class="panel_header" onSelectStart="return false;"><div id="xnode_lang_past_servs">
+My Servers
+</div>
+</td></tr>
+<tr><td onSelectStart="return false;"> 
+<div id="xnode_xpanel_past_serv">
+Updating...
+</div>
+<br>
+<a href="NodeScript:/servers-organize" id="xnode_lang_organize">
+Organize My Servers
+</a>
+</td></tr>
+
+<tr><td>&nbsp;</td></tr>
+<tr><td class="panel_header" onSelectStart="return false;">
+<div id="xnode_lang_serv_list">
+Server List
+</div>
+</td></tr>
+<tr><td class="notation" onSelectStart="return false;"> 
+<a href="NodeScript:/browse http://node.sourceforge.net/?view=servers&head=users" id="xnode_lang_list_servs">View Server List</a>
+</td></tr>
+
+<tr><td>&nbsp;</td></tr>
+
+<tr><td valign="bottom" height="100%">
+	<hr noshade size="1">
+	<table>
+		<td class="panel_header" onSelectStart="return false;">
+			<div id="xnode_lang_new_serv">
+				New Server
+			</div>
+		</td></tr>
+		<tr><td>
+			<table>
+				<tr>
+					<td id="xnode_lang_displayname">Display Name:</td>
+					<td><input type="text" value="" id="serv_name"></td>
+				</tr>
+				<tr>
+					<td id="xnode_lang_hostname">HostName:</td>
+					<td><input type="text" value="" id="serv_hostname"></td>
+				</tr>
+				<tr>
+					<td id="xnode_lang_port">Port:</td>
+					<td><input type="text" value="6667" id="serv_port"></td>
+				</tr>
+			</table>
+		</td></tr>
+		<tr><td class="notation" onSelectStart="return false;" valign="middle" align="right">
+			<a href="JavaScript:connect_to_typed();" id="xnode_lang_connect">Connect</a>
+		</td></tr>
+	</table>
+	<br><br><br>
+</td></tr>
+
+</table>
+</center></body>
+</html>

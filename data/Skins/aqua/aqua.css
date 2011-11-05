@@ -1,0 +1,146 @@
+/* Aqua Skin CSS */
+/* Global CSS Items */
+body {
+	margin: 0;
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	color:#003F9F;
+	background-color:#FFFFFF;
+	font-size: 12px;
+	background-image: url("htmbg.jpg");
+	background-attachment:scroll;
+	background-repeat:repeat-x repeat-y;
+}
+td {
+	font-size: 12px;
+}
+a:link,a:visited,a:active {
+	font-size:12px;
+	color:#215DC6;
+	text-decoration:none;
+}
+a:hover {
+	font-size:12px;
+	color:#428EFF;
+	text-decoration:underline;
+}
+a.nick:link,a.nick:visited,a.nick:active {
+	font-size:12px;
+	color:#215DC6;
+	text-decoration:none;
+}
+a.nick:hover {
+	font-size:12px;
+	color:#428EFF;
+	text-decoration:underline;
+}
+a.buddyon:link,a.buddyon:visited,a.buddyon:active {
+	font-size:14px;
+	color:limegreen;
+	text-decoration:none;
+}
+a.buddyon:hover {
+	font-size:14px;
+	color:gainsboro;
+	text-decoration:underline;
+}
+a.buddyoff:link,a.buddyoff:visited,a.buddyoff:active {
+	font-size:14px;
+	color:gainsboro;
+	text-decoration:none;
+}
+a.buddyoff:hover {
+	font-size:14px;
+	color:limegreen;
+	text-decoration:underline;
+}
+font.buddyon {
+	font-size:12px;
+	color:limegreen;
+}
+font.buddyoff {
+	font-size:14px;
+	color:gainsboro;
+}
+
+/* Notation Styles */
+span.node_reason {
+	color: #003399;
+	page-break-after:always;
+}
+span.node_event {
+	color: #666699;
+}
+span.node_important {
+	font-weight: bold;
+	color: #404040;
+}
+span.node_special {
+	color: #003366;
+	font-variant:small-caps;
+	font-style:italic;
+}
+
+/* Pages CSS Items */
+span.pagetitle {
+	color: #486B9A ;
+	font-size: 12px;
+	page-break-after:always;
+	display:block;
+}
+span.sometext {
+	color: #101010;
+	font-size: 12px;
+}
+span.errorblock {
+	color: #003F9F;
+	font-size: 12px;
+}
+span.subtitle {
+	color: #404040;
+	font-size: 12px;
+	border-bottom: 1px solid #404080;
+}
+span.wizardtitle {
+	color: #404040;
+	font-weight:bold;
+	font-size: 14px;
+}
+td.nicks {
+	font-size: 12px;
+	vertical-align:bottom;
+	/* background-image:url('nickback.jpg');
+	background-repeat:repeat-y;
+	background-position:left;
+	background-attachment:scroll; */
+	color:#FFFFFF;
+}
+input {
+	background-image: url('txbg.jpg');
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	border: 1px solid #404080;
+}
+td.single_nick_1 {
+}
+td.single_nick {
+}
+td.chanbody {
+	vertical-align:top;
+}
+td.progress {
+	height: 13px;
+    background-image: url('progress.jpg');
+    background-repeat: repeat-x;
+    background-attachement: fixed;
+	background-color: white;
+}
+td.progressbg {
+	background-image: url('progress_end.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: left;
+}
+table.pbdcc {
+	background-color: #FFFFFF;
+	border: 1px solid #686868;
+}

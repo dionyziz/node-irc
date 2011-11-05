@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- Node IRC Client
+	 Hot Key Dialog
+     Written by Dionyziz,
+     Last Updated
+     28 Mar 2004, 11:17 AM, GMT.
+-->
+
+<Window
+	BorderStyle="2"
+	Caption="Insert Hot Key"
+	BackColor="0"
+	Width="4800"
+	Height="2800"
+	Special="0"
+	Visible="1"
+	Left="1"
+	Top="1"
+>
+
+<web
+	Left="-10"
+	Top="-10"
+	Width="4700"
+	Height="2400"
+	Navigate="$app\data\html\dialogdata\hotkey.html"
+/>
+
+</Window>

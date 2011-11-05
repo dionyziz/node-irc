@@ -1,0 +1,42 @@
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">-->
+<!-- Hyperlink Dialog, Internal HTML
+     writen by dionyziz -->
+<html>
+<head>
+<title>Hyperlink Dialog Internal HTML</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- The dialog supports XP Themes -->
+<META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes">
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+<script Language="JavaScript">
+function inserthyperlink() {
+	var hyplink = '';
+	hyplink = 'a href=""' + xnode_data_link.value.replace('"', "'") + '""' + xnode_data_text.value.replace('"', '""') + '/a';
+	window.location.href='NodeScript://Node.txtSend.Text = Left(Node.txtSend.Text, Node.txtSend.SelStart) & "' + hyplink + '" & Right(Node.txtSend.Text, Len(Node.txtSend.Text) - Node.txtSend.SelStart - Node.txtSend.SelLength)';
+	docancel();
+}
+function docancel() {
+	window.location.href='NodeScript:!CloseDialog';
+}
+</script>
+</head>
+<body onerror="return true;"><center><br>
+<div id="xnode_lang_text">Text:</div>
+<input type="text" name="xnode_data_text" value=""><br>
+<br>
+<div id="xnode_lang_linkto">Link To:</div>
+<input type="text" name="xnode_data_link" value=""><br>
+<br>
+<table>
+<tr width="100%">
+<td width="50%" align="center">
+<input type="button" name="xnode_lang_ok" value="OK" onClick="inserthyperlink()">
+</td>
+<td align="center">
+<input type="button" name="xnode_lang_cancel" value="Cancel" onClick="docancel()">
+</td>
+</table>
+</tr></td></table>
+</center></body>
+</html>

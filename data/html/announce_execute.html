@@ -1,0 +1,43 @@
+<html>
+<!-- 
+Announcement Dialog
+Execution Code HTML
+-->
+<link href="node2.css" rel="stylesheet" type="text/css">
+<head>
+<title>Announce Execution Code</title>
+<script Language="JavaScript">
+var currentwidth = 1500;
+var currentleft = 5000;
+var currenttop = 5000;
+var currentheight = 1500;
+function resizedialog() {
+   currentwidth += 100;
+   currentleft -= 50;
+   currenttop -= 12;
+   currentheight += 25; 
+   if (currentleft <= 3500) {
+       return;
+   }
+
+   window.location.href = 
+	'NodeScript:!. Dialog Left ' + currentleft;
+   window.location.href = 
+	'NodeScript:!. Dialog Width ' + currentwidth;
+
+   window.location.href = 
+	'NodeScript:!. Dialog Top ' + currenttop;
+   window.location.href = 
+	'NodeScript:!. Dialog Height ' + currentheight;
+
+   setTimeout("resizedialog()",10);
+}
+</script>
+</head>
+<body background="bgblack.jpg" onLoad="resizedialog()">
+<center>
+<span class="sometext"><br><br><br><br>
+Here goes the announcement
+</span>
+</body>
+</html>

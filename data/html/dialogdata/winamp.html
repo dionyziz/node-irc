@@ -1,0 +1,39 @@
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">-->
+<!-- Kick Dialog, Internal HTML
+     writen by dionyziz -->
+<html>
+<head>
+<title>Kick Dialog Internal HTML</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- The dialog supports XP Themes -->
+<META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes">
+<link href="../../../temp/style.css" rel="stylesheet" type="text/css">
+<script Language="JavaScript">
+function docancel() {
+	window.location.href='NodeScript:!CloseDialog';
+}
+function ex(command) {
+	window.location.href='NodeScript://' + command + "'";
+}
+function checknclose() {
+	if (event.keyCode == 27 || event.keyCode == 117) {
+		//pressed esc
+		docancel();
+	}
+}
+</script>
+</head>
+<body onerror="return true;" style="margin: 0 0 0 0" onkeydown="checknclose()">
+<table width="100%"><tr>
+<td align="center" class="bhead">
+<input type="button" value=">" onClick="ex('winampplay')">
+</td><td align="center" class="bhead">
+<input type="button" value="&emsp;" onClick="ex('winampstop')">
+</td><td align="center" class="bhead">
+<input type="button" value="&laquo;" onClick="ex('winampprev')">
+</td><td align="center" class="bhead">
+<input type="button" value="&raquo;" onClick="ex('winampnext')">
+</td></tr></table>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>About Node</title>
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+</head>
+<script language="javascript">
+function nodeopen(pageurl) {
+	window.location.href = 'NodeScript:/browse ' + pageurl;
+	window.location.href = 'NodeScript:!closedialog';
+}
+function showlicense() {
+	xnode_license_2.style.display = 'none';
+	xnode_license_3.style.display = '';
+}
+function poplicense() {
+	window.location.href = 'NodeScript:/run $$app$$/doc/gpl.txt';
+}
+</script>
+<body topmargin="0">
+<table align="center">
+<tr>
+<td valign="top" colspan="2"><span class="pagetitle"><big id="xnode_global_version">Node Major.Minor</big>
+</span>
+<br>
+<a href="JavaScript:showlicense();">
+<div id="xnode_license_2"></div>
+</a>
+<div id="xnode_license_3" style="display:none"></div>
+<br><div id="xnode_license">
+This program is licensed under GNU GPL and is Open Source.<br>
+Please review the <a href="JavaScript:nodeopen('http://opensource.org/docs/definition.php');">
+Open Source Definition
+</a> and 
+<a href="JavaScript:poplicense()">
+GNU General Public License
+</a>
+for further information.
+</div><br>
+</td>
+</tr><tr>
+<td align="center" valign="top">
+<span class="subtitle" id="xnode_lang_internet">
+Internet
+</span>
+<br>
+	<table>
+	<tr><td align="center" style="font-size:12px;">
+		<a href="JavaScript:nodeopen('http://node.sourceforge.net');" id="xnode_lang_nodehomepage">Node Home Page</a>
+	</td></tr><tr><td align="center" style="font-size:12px;">
+		<a href="JavaScript:nodeopen('http://sourceforge.net/projects/node');" id="xnode_lang_getsupport">Get Support</a>
+	</td></tr><tr><td align="center" style="font-size:12px;">
+		<a href="JavaScript:nodeopen('http://sourceforge.net/tracker/?func=add&group_id=94591&atid=608388');" id="xnode_lang_reportbug">Report a Bug</a>
+	</td></tr><tr><td align="center" style="font-size:12px;">
+		<a href="JavaScript:nodeopen('http://sourceforge.net/donate/index.php?group_id=94591');" id="xnode_lang_makedonation">Make a Donation</a>
+	</td></tr>
+	</table>
+</td>
+<td align="center">
+<span class="subtitle" id="xnode_lang_team">
+The Team
+</span>
+<br>
+	<table>
+	<tr><td align="center" style="font-size:12px;">
+	<a href="mailto:ch-world@users.sourceforge.net">Christian Hermann</a>
+	</td></tr><tr><td align="center" style="font-size:12px;">
+	<a href="mailto:dionyziz@users.sourceforge.net">Dionysis Zindros</a>
+	</td></tr><tr><td align="center" style="font-size:12px;">
+	<a href="mailto:mozillagodzilla@users.sourceforge.net">Steven Noonan</a>
+	</td></tr><tr><td align="center" style="font-size:12px;">
+	<a href="mailto:jnfoot@users.sourceforge.net">Josh Nelson</a>
+	</td></tr><tr><td align="center" style="font-size:12px;">
+	<a href="mailto:stumpftopf@users.sourceforge.net">"Stumpftopf"</a>
+	</td></tr>
+	</table>
+
+<br>
+<span class="subtitle" id="xnode_lang_thanks">
+Thanks to...
+</span>
+<br>
+	<table>
+	<tr><td align="center" style="font-size:12px;">
+		<a href="JavaScript:nodeopen('http://node.sourceforge.net/?view=contributors&head=dev');" id="xnode_lang_contributors">All the people that helped us</a>
+	</td></tr>
+	</table>
+</td>
+</tr>
+</table>
+</div>
+</font>
+</marquee>
+</body>
+</html>
+

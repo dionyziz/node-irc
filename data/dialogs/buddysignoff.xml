@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<window
+	BackColor="0"
+	Height="5000"
+	Width="5000"
+	Special="0"
+	Caption="Buddy Signed Off -- Node Dialog"
+>
+
+<web
+	Left="0"
+	Top="0"
+	Height="5000"
+	Width="5000"
+	Navigate="$app\data\html\dialogdata\buddysignoff.html"
+/>
+
+</window>

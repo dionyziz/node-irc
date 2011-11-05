@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- Node IRC Client
+ 	 Winamp Control Dialog
+-->
+
+<Window
+	Caption="Reload Scripts -- Node Dialog"
+	BackColor="0"
+	Height="2000"
+	Width="5000"
+	Special="1"
+	Left="1"
+	Top="1"
+>
+
+<static 
+	left="0"
+	top="250"
+	width="5000"
+	Alignment="2"
+	BackColor="0"
+	ForeColor="16777215"
+	Caption="Please save your changes and click `OK' to reload scripts."
+/>
+
+<button 
+	left="2000"
+	top="1000"
+	width="1000"
+	caption="OK"
+	event="Unload"
+/>
+
+</Window>

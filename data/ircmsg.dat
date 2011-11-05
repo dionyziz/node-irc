@@ -1,0 +1,50 @@
+# IRC Msg File
+#
+# 9 Feb 2004, 12:49 PM, GMT.
+#
+# This file is used to display some special messages
+# for certain servers' numeric replies. The first number
+# indicated the server's message ID and the second the
+# key ID for the language file which should be displayed
+# to the user.
+401 356
+402 357
+403 358
+404 359
+405 360
+406 361
+407 362
+409 363
+412 364
+422 365
+431 366
+433 384
+441 386
+442 385
+443 387
+451 367
+462 368
+463 369
+464 370
+465 371
+473 388
+474 389
+475 390
+481 391
+483 372
+491 373
+501 374
+502 375
+305 377
+306 376
+323 392
+315 393
+374 394
+375 395
+376 378
+381 379
+394 380
+395 381
+
+# To read the messages of the keys please refer to a .lang file.
+# To see the server message please refer to RFC 1459.

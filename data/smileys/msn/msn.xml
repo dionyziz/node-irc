@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!-- MSN is a trademark of Microsoft Corp. 
+	 The smileys included in this file are
+	 copyrighted work of their respective owners.
+	 Smiley packs are unrelated with the project
+	 as they are external resources loaded by
+	 the program. -->
+<smileypack version="0.34">
+	<smiley for=":)" file="regular_smile.gif" />
+	<smiley for=":-)" file="regular_smile.gif" />
+	<smiley for=":&gt;" file="regular_smile.gif" />
+	<smiley for=":-&gt;" file="regular_smile.gif" />
+	<smiley for=":}" file="regular_smile.gif" />
+	<smiley for=":-}" file="regular_smile.gif" />
+	<smiley for=":]" file="regular_smile.gif" />
+	<smiley for=":-]" file="regular_smile.gif" />
+	<smiley for=":(" file="sad_smile.gif" />
+	<smiley for=":-(" file="sad_smile.gif" />
+	<smiley for=":-{" file="sad_smile.gif" />
+	<smiley for=":-&lt;" file="sad_smile.gif" />
+	<smiley for=":&lt;" file="sad_smile.gif" />
+	<smiley for=":-[" file="sad_smile.gif" />
+	<smiley for=":|" file="what_smile.gif" />
+	<smiley for=":-|" file="what_smile.gif" />
+	<smiley for="???" file="newToIM.png" />
+	<smiley for=":S" file="confused_smile.gif" />
+	<smiley for=":-S" file="confused_smile.gif" />
+	<smiley for=":D" file="teeth_smile.gif" />
+	<smiley for=":-D" file="teeth_smile.gif" />
+	<smiley for=";)" file="wink_smile.gif" />
+	<smiley for=";-)" file="wink_smile.gif" />
+	<smiley for=";]" file="wink_smile.gif" />
+	<smiley for=";P" file="tongue_smile.gif" />
+	<smiley for=";-P" file="wink_smile.gif" />
+	<smiley for=":P" file="tongue_smile.gif" />
+	<smiley for=":-P" file="tongue_smile.gif" />
+	<smiley for=":p" file="tongue_smile.gif" />
+	<smiley for=":-p" file="tongue_smile.gif" />
+	<smiley for="(i)" file="lightbulb.gif" />
+	<smiley for="(0)" file="clock.gif" />
+	<smiley for="(6)" file="devil_smile.gif" />
+	<smiley for=":o" file="omg_smile.gif" />
+	<smiley for=":-o" file="omg_smile.gif" />
+	<smiley for=":O" file="omg_smile.gif" />
+	<smiley for=":-O" file="omg_smile.gif" />
+	<smiley for=":-0" file="omg_smile.gif" />
+	<smiley for=":'(" file="cry_smile.gif" />
+	<smiley for="(y)" file="thumbs_up.gif" />
+	<smiley for="(Y)" file="thumbs_up.gif" />
+	<smiley for="(n)" file="thumbs_down.gif" />
+	<smiley for="(N)" file="thumbs_down.gif" />
+	<smiley for="(@)" file="cat.gif" />
+	<smiley for="(&amp;)" file="dog.gif" />
+	<smiley for="(S)" file="moon.gif" />
+	<smiley for="(s)" file="moon.gif" />
+	<smiley for="(e)" file="envelope.gif" />
+	<smiley for="(E)" file="envelope.gif" />
+	<smiley for="(x)" file="girl.gif" />
+	<smiley for="(X)" file="girl.gif" />
+	<smiley for="(z)" file="guy.gif" />
+	<smiley for="(Z)" file="guy.gif" />
+	<smiley specialsmiley="arrow" file="arrow.gif" />
+</smileypack>

@@ -1,0 +1,73 @@
+<!--
+Node Past Channels Panel
+by dionyziz on 17 Feb 2004, 4:13 PM, GMT.
+-->
+<html>
+<head>
+<title>Join a Channel</title>
+<meta http-equiv="MSThemeCompatible" content="Yes">
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+</head>
+<!--
+<tr><td class="panel_header" onSelectStart="return false;">
+Favorite Channels
+</td></tr>
+<tr><td onSelectStart="return false;"> 
+<div id="node_content_fav_chan">
+Updating...
+</div>
+</td></tr>
+<tr><td class="notation" onSelectStart="return false;">
+<a href="NodeScript:/favs-add">Add a Channel</a>
+</td></tr>
+<tr><td>&nbsp;</td></tr>
+-->
+<body onContextMenu="return false;"><center>
+<table>
+<tr><td class="panel_header" onSelectStart="return false;">
+<div id="xnode_lang_past_chans">
+Past Channels
+</div>
+</td></tr>
+<tr><td onSelectStart="return false;"> 
+<div id="xnode_xpanel_past_chan">
+Updating...
+</div>
+</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td class="panel_header" onSelectStart="return false;">
+<div id="xnode_lang_other_chan">
+Other Channel
+</div>
+</td></tr>
+<tr><td> 
+<input type="text" value="node" id="chan_to_join">
+</td></tr>
+<tr><td class="notation" onSelectStart="return false;" valign="middle">
+<a href="JavaScript:jointyped();" id="xnode_lang_join">Join</a>
+</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td class="panel_header" onSelectStart="return false;">
+<div id="xnode_lang_all_chans">
+All Channels
+</div>
+</td></tr>
+<tr><td class="notation" onSelectStart="return false;"> 
+<a href="JavaScript:listchannels();" id="xnode_lang_list_chans">List Channels</a>
+</td></tr>
+</table>
+<script language="javascript">
+function jointyped() {
+	var str_join_chan = '';
+	str_join_chan = chan_to_join.value;
+	if ( str_join_chan.substr(0, 1) != '#' ) {
+		str_join_chan = '#' + str_join_chan;
+	}
+	window.location.href = 'NodeScript:/join ' + str_join_chan;
+}
+function listchannels() {
+	window.location.href = 'NodeScript:/list';
+}
+</script>
+</center></body>
+</html>

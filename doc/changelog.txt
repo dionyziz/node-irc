@@ -1,0 +1,441 @@
+Change Log for Node IRC (http://sourceforge.net/projects/node)
+
+Version 0.36
+If a skin has an error, the default skin is loaded. (dionyziz)
+NDC Request is no longer enabled by default. (dionyziz)
+Switching channels focuses the outgoing textbox field, so that you can type immediately. (dionyziz)
+Optimized several subroutines used forward slashes for division where the remainder wasn't necessary. Such forward slashes have been appropriately replaced by the back slash which is at LEAST twice as fast. (steven)
+Added enable smileys option. (dionyziz)
+Added confirmation for existing settings file overwritting when exporting settings. (dionyziz)
+/notice <nickname> is now the same as /quote <nickname>. (dionyziz)
+BugFix:
+   - Fixed IRCX incompatibility issues. (dionyziz)
+   - If, while listing channels, the user switched to another server, the program would crash. Fixed. (dionyziz)
+   - Fixed a mistake in the script editor: the rtftext was too wide, and the scroll bar wasn't entirely visible. (steven)
+   - Fixed an error caused by the skin descriptor file (*.skin) existing, but the skin not existing. (steven)
+   - Connect-to-server-on-startup wasn't saving/loading when the select server was the first in the list. Fixed. (dionyziz)
+   - "Clear", "View Logs" of the nicklist popup menu and "Parse MemoServ" option are now translatable. (dionyziz)
+   - Importing settings from an older/later version would ask the user to confirm the action without providing a Yes/No option (was always OK). Fixed. (dionyziz)
+   - When clicking "Disconnected" from the Status pop-up menu, or from the File menu the program wouldn't use the quit messages list feature. Fixed. (dionyziz)
+Security Issue:
+   - Somebody could use <ol>, <ul> to indent certain text, <input> to create input fields, and <object> or <embed> to load external objects. Fixed. (dionyziz)
+
+Version 0.35
+Node internal browser opens new web pages in new tabs instead of new windows. (dionyziz)
+Optimal sorting for Channel List by implementating qsort() in VB. (dionyziz)
+Added topic at the top of channels. (dionyziz)
+Added browsing options: Browse using internal Node browser/user's default browser and parse links option. (dionyziz)
+If the user presses tab to autocomplete but there are no suggestions, the word typed is no longer cleared. (dionyziz)
+Added CTCP Ping support. (ch-world)
+Added /ctcp command. (ch-world)
+Added expand/collapse nicklist button. (dionyziz)
+Added /lag command for displaying the current lag. (ch-world)
+Added RAW 307 handling. (/whois alternative identified user message) (dionyziz)
+Started implementing Unicode Support for .lang files: Fixing CharSet incompatibilities (panel/pane labels, import files). (dionyziz)
+Optimized String.* calls by adding $ at the end of the functions, so that they return strings instead of variants. (steven)
+Optimized a slow string comparison in mdlScripting by changing it from 'string1 = string2' to 'strcomp(string1, string2) = 0'. (steven)
+Optimized the 'String = ""' comparison routines by changing them to 'LenB(String) = 0', which is much faster. Note to self: Never do this kind of crazy thing again! (steven)
+Optimized strings by replacing 'String = ""' with 'String = vbNullString' which consumes less memory. (steven)
+Added new Node icon. (_daemon_)
+BugFix:
+   - Fixed Error Block 4 bug! (ch-world)
+   - Buddy signon/signoff window used not to display the correct nickname sometimes. Fixed. (dionyziz)
+   - Topics containing \ were not displayed correctly in the Channel Properties dialog. Fixed. (dionyziz)
+   - DCC Receive caused errors sometimes (if some ActiveServers() members were Nothing). Fixed. (dionyziz)
+   - DCC Chat Invitation sent from the local user caused errors sometimes (if some ActiveServers() members were Nothing). Fixed. (dionyziz)
+   - Double clicking inside the NickList causes a JavaScript error. Fixed. (dionyziz)
+   - Clicking on the Node of the startup WebSite on the Connections Panel caused an error. Fixed. (dionyziz)
+   - Some modes where not displayed correctly when reading them on join, or on modes changing. (+l 2004 problem). Fixed. (dionyziz)
+   - Fixed an AutoComplete bug, which would insert a word in the wrong position inside the text. (dionyziz)
+   - Closing a DCC Chat window caused errors sometimes. Fixed. (dionyziz)
+   - Fixed connect-on-startup bug, which would cause an error if the server list was cleared. (dionyziz)
+   - Fixed LangID problem, on Channel Register input boxes. (dionyziz)
+   - Fixed /browse problem, which would cause an Invalid Procedure Call error, due to an invalid attempt to focus the invisible commands textbox. (dionyziz)
+   - Specifying a long or invalid nick *before* connecting to a server would cause myNick to be set to it, even if the server did not accept it. Fixed. (ch-world + dionyziz)
+
+Version 0.34
+Added Smiley Packs. (dionyziz)
+Added DDE Support to the NSIS Installer. (ch-world)
+Security Issue Fix:
+   - An attacker could use Node HTML Support to create a div with name "mainText", causing Node to crash. Fixed. (dionyziz)
+BugFix:
+   - Opening a web tab and waiting for it to load while Loading Screen option enabled wouldn't work, unless the user clicked on the appropriate tab. Fixed. (dionyziz)
+   - "Sound Scheme" label is now translatable. (dionyziz)
+   - DCC Frame under DCC/NDC options had a problem with the upper label (text overlaping). Fixed. (dionyziz)
+   - The icon on the tray wouldn't disappear if the user restarted Node (after changing the language or the skin). Now it does. (dionyziz)
+   - Using Node HTML Support to create an anchor with name "scrool_doc" inside an HTML Windows would cause incorrect scrolling. Fixed. (dionyziz)
+   - Fixed logging problem with channel modes. (dionyziz)
+
+Version Llama 0.33
+Added channel modes viewing and changing option. (dionyziz)
+Added /aame, /aamsg and /pame, /pamsg for /ame and /amsg to all privates and channels and only to privates respectively. (dionyziz)
+Added `UserHost' on popup menu of Nicknames. (dionyziz)
+Added Local IP resolving for DCC and NDC behind firewalls, routers or bouncers. (dionyziz)
+Added HalfOp Support. (ch-world)
+Added DDE Link Handling Support. (ch-world + dionyziz)
+Added SoundSchemes feature. (dionyziz)
+Added rejoin on kick Feature. (dionyziz)
+Added auto-join on invite Feature. (dionyziz)
+Added NetMeeting Program Session over NDC Support. (dionyziz)
+Added IRC->Channel Access->Add and Delete and View. (jnfoot)
+Added IRC->Ghost to the nodemenus for the ghost command. (jnfoot)
+Added DCC Port Range selection. (jnfoot)
+Added Multiple Servers Support. (dionyziz)
+Added Server-dependant Perform feature. (dionyziz)
+Added Import/Export settings feature. (dionyziz)
+Added Connect-on-Startup feature. (dionyziz)
+Added Copy-on-Select feature. (dionyziz)
+Added Multiple Lines messages support. (dionyziz)
+Added Narration Accessibility Option. (dionyziz)
+Added Insert Hyperlink Feature. (dionyziz)
+Added Encryption display on toolbar for web sites. (dionyziz)
+Added Connection Retry feature. (dionyziz)
+Added feedback after 24 hours of usage msgbox. (dionyziz)
+Added "Clear", "View Logs" and "Channel Properties" right-click menu in Status, Channels and Private Windows. (dionyziz)
+Added NickLink feature. (dionyziz)
+WhoIs displayes all details correctly. (dionyziz)
+NodeMenu is now skinable. (dionyziz)
+Changed Add Buddy popup menu item when clicking on a nick to Remove This Buddy, if that person has already been added to your buddy list. (jnfoot)
+Added Ignore/Unignore to the popup menu on a nick. (dionyziz)
+Added Downloads, Logs, Dialogs and PlugIns folders under the Browse menu. (dionyziz)
+Added Support for Delete All Memos. (dionyziz)
+Channel notices are displayed inside channels. (dionyziz)
+Invitations sent by us are displayed inside channels. (dionyziz)
+BugFix:
+   - Fixed DCC bug. If a user tried to receive a file with parenthesis inside the filename, (like this), an error occured, not allowing the file to be received. Fixed. (dionyziz)
+   - File wasn't getting closed after DCCSend. Fixed (jnfoot)
+   - When trying to read a memo, if the user typed an invalid memo index the program would try to read the memo anyway. Fixed. (dionyziz)
+   - Alternative nicknames code caused errors (myNick was not set). Fixed. (dionyziz)
+   - The quit message would not be sent when closing the program directly or from the tray. Now it does. (dionyziz)
+   - When you save a new website by entering it through the favorites panel, the 2 textboxes that you enter your website name and URL are now cleared after the website is added to your favorites (jnfoot)
+   - Lang #710 was not displayed correctly. Fixed. (dionyziz) 
+   - TimeStamps are now displayed on the Status window, if the appropriate option is enabled. (dionyziz)
+   - Actions are now logged correctly, without HTML formatting characters. (dionyziz)
+   - File download when `Error screens in skins colors' option is enabled from web site tabs now works. (dionyziz)
+   - Channels and Privates with Nicknames containing characters not allowed inside filenames( / \ * etc) were not logged. Now they are. (dionyziz)
+   - Channels containing the : character would cause problems. Fixed. (dionyziz)
+   - CSS references to external files (for example pngs) were invalid when the skin styling CSS was refered as style.css in the folder /temp. Fixed. (dionyziz)
+   - Kick dialog was not translatable. Now it is. (dionyziz)
+   - "Add to Favorites" on right-click menu on web site tabs was not translatable. Now it is. (dionyziz)
+   - Typing bold, italic or underline at the beginning of a message while the messages wasn't empty would cause an error. Fixed. (dionyziz)
+   - Fixed nicklist sorting problem with nicks containing +@ (+@ were displayed all before simple @s).
+   - The nickname given/taken op/voice was not accessible through Nick2 inside Scripts. Now it is. (dionyziz)
+   - Lang Key # problem with hot keys ("sleeping." instead of "join") fixed. (dionyziz)
+   - Channel mode +r was handled incorrectly as a chan/nick mode. Fixed. (dionyziz)
+
+Version Alpha 0.32
+Created NSIS Installer. (Christian and dionyziz)
+The Channel List can now be sorted. (dionyziz)
+Added PlugIns Support. (Christian, Jnfoot, dionyziz)
+Created Text Toolbar. (Jnfoot)
+The nicklist is resizable. (dionyziz)
+Added Hot Keys feature. (dionyziz)
+Added TimeStamp Feature. (dionyziz)
+Added support for multiple languages loaded at one time. (Jnfoot)
+Added /ame support. (dionyziz)
+Created Helper-Bot plugin. (Jnfoot and dionyziz)
+Created Winamp PlugIn. (Christian)
+Created Alias Plugin. (Jnfoot)
+If the user tries to give op to him/herself, Node will now use ChanServ to get operator status. (dionyziz)
+Added `Scripting_Lang' scripting property in order to be used by Node Scripts. (dionyziz)
+Added CTCP Options. (dionyziz)
+Added CTCP Flood Protection. (dionyziz)
+Added Start Page Options. (dionyziz)
+Panel Titles are now translatable. (dionyziz)
+Added Favorite WebSite panel. (Jnfoot)
+Added 'Add to Favorites' right-click option for websites to add them to your favorites panel. (Jnfoot)
+Added Web Sites progress icon. (dionyziz)
+Added Web Sites URL textbox. (dionyziz)
+Added Register to Nickname menu. (Jnfoot)
+Added DLL registering code for custom Node components nodeMenu and nodeTabs. (dionyziz)
+Improved the Skin Loader. (dionyziz)
+Some IRC clients use zero-prefixed colors, which were not supported by Node. Now they are. (Christian and dionyziz)
+Added support for Italic text and MIRC_ITALIC (Jnfoot)
+Added a new menu option: Help -> Contact Node Dev Team (Jnfoot)
+The About screen is now translatable (dionyziz)
+The auto-complete feature now shows a list instead of a tooltip (dionyziz)
+Nicklist sorting is now case insensitive. Channel operators appear first, then voiced users and then normal users. (dionyziz)
+Each panel remembers its width. (dionyziz)
+The channel list window is now resizable. (dionyziz)
+The options dialog now uses TreeView to display all the option categories and subcategories. (dionyziz)
+Multiple Instances support. (dionyziz)
+Added "Rejoin" to right-click menu on channel tabs. (dionyziz)
+Redesigned Panel Title. (dionyziz)
+BugFix:
+   - Fixed overflow bug with DCC Send. (Jnfoot)
+   - Fixed /hop to rejoin you into the previous channel. (Jnfoot)
+   - Buddy List now uses /whois to check buddies channels. (Jnfoot)
+   - When you /nick, your Nickname in the options dialog is also changed. (Jnfoot)
+   - Buddy Signed On/Off dialogs are now working again. (Jnfoot)
+   - When received NDC message "n", if you have that user's avatar, the avatar filename will change to the new nickname. (Jnfoot)
+   - Closing a DCC Chat tab and then trying to send simple private messages(even to different people) would cause an error. Fixed. (dionyziz)
+   - Resizing the Script Editor to a very small size caused an error. Fixed. (dionyziz)
+   - When you changed your IRC status Node would set it to the next one (and also display it wrong in the status window -- off-by-one error). Fixed. (dionyziz)
+   - When switching between private tabs, the avatar panel wouldn't update. Fixed. (dionyziz)
+   - Sessions bug wouldn't let Node terminate correctly(normal.xml already exists). Fixed. (dionyziz)
+   - The first time Node started it wrongly recognized a language or skin change. Fixed. (dionyziz)
+   - If a channel, private window, or the status window exceeded a maximum of 32 KBi, the new text wouldn't appear. Fixed: Converted the txtStatus buffer from textbox object to string variable. (dionyziz)
+   - Link + Color/Bold/Italic/Underline caused the text after to be a link. Fixed. (dionyziz)
+   - Fixed daylight issues for NDC connections. (dionyziz)
+   - Fixed a bug in the nicklist, which would not display the last nicknames of a very long list. (dionyziz)
+   - Closing the Start Web site without having switched to the Status tab before caused Node not to display anything in the tab until a new status message should be shown. Fixed. (dionyziz)
+   - Invitations showed your own nick as the user sending the invitation. Fixed. (dionyziz)
+   - Invitation links to join a channel you had been invited to were not closed causing the following text to be a link. Fixed. (dionyziz)
+   - Node can now set topics which include double quotation marks("example"), which used to cause an error in previous version. (dionyziz)
+   - Clicking on links inside the Channel List caused their targets to be opened inside the dialog. Fixed; now they are opened in new browser windows. (dionyziz)
+
+Version 0.31(pre-Alpha)
+Added DCC file resume.
+Added full DCC multiple files support.
+Added DCC Chat Support.
+Added Interface Feature: Panels. Added Join and Avatars panels.
+Added Avatars Feature.
+Added Speed and Estimated Time Left for sending and recieving DCC files.
+Added Options for DCC auto-accept/deny
+You can now send files via DCC by dropping them on a private tab.
+Added AntiVirus support for incoming DCC files.
+Added IdentD Support.
+Added Sessions Support.
+Added NDC support.
+Added IRC menu.
+Added Status Feature.
+Option Icons are now colored.
+Redesigned NodeMenus.
+NodeMenus can now be checked or unchecked. NodeMenus can now contain seperators. NodeMenus can now contain icons(normal or checked).
+Added InfoTips. Added tray icon.
+Added Full Screen Support, F10.
+Node now flashes when a new message appears in the active channel, or in a private window.
+Extended Skins Support. Added nicklist first item CSS. DCC pages and progress bars now appear in the colors of skins. Added options category icons.
+Added Edit to Options->Buddy List, for editing buddy list.
+Added Tip of the Day feature/dialog.
+Added special IRC message display.
+Logs can now be groupped by network.
+Redesinged the About Dialog.
+Added CTCP Version and Time requests.
+Added winamp control dialog, F6.
+Completed winamp script.
+Temporary files are now deleted when the program closes.
+Added new IRC-Events "Sending", "ChanMsg" and "PrivMsg".
+Welcome messages can now be actions.
+Added "View Logs" link under the category Logs of the Options Dialog.
+If an invalid skin file is loaded Node will restore the skin setting to the default skin instead of keeping crashing.
+xNode tags are now allowed in html files loaded inside dialogs.
+Scripts can now be edited by double-clicking on their names in the options dialog.
+http links now open as node tabs.
+ApplySkin code is now shorter and simplier.
+"Ignore List" caption is displayed above the ignore list.
+Right-click on tabs menu has now more items: Connect/Disconnect for status tab(Close no longer displayed on status tabs) and Back/Forward/Stop/Refresh for web sites
+Options category icons can no longer be moved.
+Fixed Security Issue:
+   - Fixed HTML Events security issue.
+BugFix:
+   - DCC Send failed to send the last byte of each file, which would cause .zip files to appear as corrupted. Fixed.
+   - DCC could not recieve files with spaces in their names. Fixed.
+   - When creating a new tab to send a file over DCC the tabs bar did not resize. Fixed.
+   - Fixed a NickList bug, which would remove a nickname on priviledge change or nickname change under certain circumstances.
+   - Could not recognise fragmented WinSock data. Fixed.
+   - Smileys containing < or > could not be displayed. Fixed.
+   - Fixed a channel list XML bug.
+   - If the Options Dialog was closed using `X' it would not keep the skins colors. Fixed.
+   - Scrolling of IRC windows wasn't done properly. Fixed.
+   - If someone to whom the user is talking privately changed his/her nickname the caption of the tab changes instead of opening a new tab.
+   - When you did /clear in a channel, it used to make the nicklist take up the whole width of the channel screen. Fixed.
+   - Buddy list Welcome Text can now have commas.
+   - Node would cause an error when browsing web sites with double quotation marks in their titles. Fixed.
+   - Node would cut the last character of notices sent by servers using single <CR> or <LF> instead of <CR><LF>.
+   - Fixed a bug which would try to send empty lines when sending multiline messages.
+   - When the user tried to close a web site tab that was still loading an error occured. Fixed.
+   - /names used to join the user in all the channels of a network. Fixed.
+   - Nicknames are no longer confused with smileys, as they used to be(for example nicknames starting with D)
+   - CodeBehind of Skins used to be confused with NodeScripts. Fixed; now they are completely seperated.
+   - The first time the program runned, the skin file used to be nothing instead of default(because of the inverted slashes). Fixed.
+   - The first script could not be edited from the options dialog, as if it weren't selected. Fixed.
+   - When "Nickname is already in use." was received, Node wasn't trying the alternate ones. Fixed.
+   - <a href="http://someaddress"> links inside channels or privates did not open a new tab and caused errors. Fixed.
+   - Fixed a NodeMenu bug, which would try to access unloaded submenus in certain occations while terminating the UserControl.
+   - Fixed a NodeMenu bug, which would not select the menu under the mouse when pointing on the left of menus(at the places of menu icons).
+   - Resolved a bug, which would not let the user delete the first server.
+   - Using /browse without argument caused an error. Now it will open your Start Page.
+
+Version 0.30(pre-Alpha)
+Added DCC Recieve feature.
+Added DCC Send feature.
+Made the HTML generator dynamic, so HTML documents are generated on-the-fly by accessing the document DOM object.
+Added ability to change the topic.
+Added ability to view and remove the bans in a channel.
+Added nicklist menu "Buddy List -> Add buddy", "DCC -> Send File", "Information > Nickname Info" and "Information > DNS". Moved "WhoIs" item to "Information > WhoIs"
+Added `you are not a channel operator' message to display in the correct channel.
+Added new options category `Smileys' and made smileys editable.
+Added support for background colors in channels(until now Node only supported forecolors)
+Added support for complex channel modes.
+Added logging feature.
+Added full skins support.
+Added scripting ability using Public and Static variables.
+Added new scripting objects: App, frmOptions and FS.
+Created default skin and blue skin.
+Nicklists are now sorted.
+Redesigned the Options Dialog, added the categories `Skin' and `Misc', added Enable/Disable perform feature.
+Reworked entering buddies into the buddy list.
+Improved the topic change message, now including who is setting the topic.
+Made Node able to display messages including < and > and now the user can now type these characters without them being counted as html characters.
+Fully commented frmOptions and mdlTime.
+Create mdlScripting and seperated it from mdlNode.
+Reworked the code in dataArrival sub.
+Created constants for important and special html colors.
+Invites messages now show the person who invites you to a channel.
+Changed .dialog interprenter code so it doesn't require </dialog> to be at the END of the file.
+Organised the files in \data\html.
+Created GetParameterQuick function.
+Added ability to close channel tabs that the user has been kicked from.
+Converted the TabStrip so as it supports XP common controls.
+Create winamp communication script.
+Added `Delete Script' button in the Options Dialog.
+Added `Enable Smileys' option in the Options Dialog.
+Added Tab/Indent feature at the Script Editor.
+Fixed Security Issues:
+   - Security Issue <Script> which would allow an attacker to gain complete control over the program.
+   - Security Issue <iFrame> which could cause the program to crash.
+BugFix:
+   - Fixed a bug which would cause errors or would display wrong text under wrong tabs after parting channels.
+   - Fixed a bug that would display private messages twice
+   - Fixed a bug that would not let you join a channel after parting some.
+   - Fixed a bug which would not let you talk privately after closing one or more tabs.
+   - Fixed a bug which would not show leading zeros in minutes and seconds of time.
+   - Fixed a alternative-nicks-bug which would not let you use IRC correctly when using an alternative nickname.
+   - Fixed a alternative-nicks-bug which would count some nicknames as `in use' even if the user had disconnected from the server.
+   - Fixed a bug that would allow you to add the same buddy twice.
+   - Fixed a formatting bug regarding Topic Change(it used to display the messages after it in different color).
+   - Fixed a bug which would not let you use the menu when browsing a web site.
+   - Fixed a bug which would make a dialog file modal even if the Special property was set to 0.
+   - Fixed a bug which would not replace links correctly as it would add <BR> at the end of the link href if the link was at the end of a line.
+   - Fixed a LoadDialog bug which would not be able to load a dialog while the program was reading from a file.
+   - Fixed a bug which would cause the program to restart when applying options even if the language setting wasn't changed.
+   - Fixed a bug which would not let you remove multiple buddys.
+   - Fixed a bug which would add a server even if the user clicked `Cancel' in the description, hostname or TCP input box.
+   - Fixed a bug which would not act correctly if a server already existed.
+   - Fixed a bug which would keep the old channel list and append the new one.
+   - Fixed a bug which would cause an error when closing WebSite tabs.
+
+Version 0.29(pre-Alpha)
+Added Channels listing pop-up
+Added Ignore list so its fully functional
+Added "Tooltip" Word completion popup
+Added Invites show up as a link to the invited channel
+Added commands: /msg, /privmsg, /me to work 100% now
+Added Node Info pop-up
+Added better "Action" message display
+Added topic of channel to display in the correct channel and when it changes
+Added alternate nickname usage if main one is already used
+Added a visual buddy list with automatic notification on entry of channel
+Added new command "/buddy" to output buddies currently in your channels
+Added Help feature.
+Added Messages History.
+Added color-view support for mIRC colors.
+Added ability to close channel tabs. Made channel tabs close when the user parts.
+Added images in website and private tabs.
+Converted from lstNickList nicklist object to custom type object NickList, consisded of a Collection. This made the code clearier and faster.
+Completely Rewritten the Script Editor.
+BugFix:
+   - Fixed changes-log view menu bug.
+   - Fixed options-dialog bug which used to cause an error when the user tryied to edit a script or dialog.
+   - Fixed a build-status bug which tryied to find a nicklist in private message tabs.
+   - Fixed a bug that removed your priviledges when changing a nickname
+
+Version 0.28(pre-Alpha)
+Created latest.dialog file, latest.html file and latest.js file. Created ability to determine if the user if currently using the latest version. If not, we can navigate him/her to the URL to download it.
+Commented frmMain code.
+Created German Language File.
+TabInfo for WebSite tabs does no longer start with !; it just contains the webbrowser index.
+Added CTCP Ping reply. Added date at TIME CTCP reply.
+Changed the intro/ending HTML contents for temporary files from constants to extrernal files.
+Created /amsg client command.
+Moved the data folder from \misc\data to \data, and the html, graphics and sounds folders to \data.
+Created the Browse submenu in the Scripts menu, fixed a wrong-menu-index bug.
+BugFix:
+   - Fixed nick-change bug which wouldn't let you change your nickname(it pointed at the file info.txt insted of the file \conf\info.dat)
+   - Fixed nick-change bug which wouldn't replace the nickname in info.dat, but insert it(that caused the previous nick to be the username, the username to be the email, etc)
+   - Fixed nick-listing bug for servers which use the = notation(insted of the standart 353 notation)
+   - Fixed quit-bug which used to remove a nickname only from the first channel the user who quit was in.
+   - Fixed loading web-site bug, which wouldn't display the actual page if the user switched tabs before the web site was loaded.
+   - Fixed CreateMainText bug which wasn't able to replace one-after-the-other message format symbols.
+   - Fixed BuildStatus bug; the sub used to create status only for the selcted tab, ignoring its parameter.
+   - Fixed quick-end bug, which wouldn't let you end the program before the fade in transaction ends; we also made the ending-code quicker by removing the timer.
+   - Fixed channel/private detect bug, which would "confuse" channels with the same title as privates(nickname) and as websites and visa versa.
+   - Fixed Pong routine bug in main script, which used to try to play a sound file without loading it.
+   - Fixed early-mode bug which would add an entry captioned '@' or '+' (without a nickname) when the server sent the mode message before the join message.
+   - Fixed chan-oper modes-change bug which used to handle nickname containing + or @ as users with a voice or oper status(for example the nick You+Me or someone@sourceforge)
+   - Fixed chan-oper modes-change bug which would run deop routine of main script either when a user was oped or deoped.
+   - Fixed chan-oper modes-change bug which would double-op users which already had both op and voice status and they were re-given an oper status.
+   - Fixed chan-voice modes-change bug which would run DeVoice routine only if a user had a voice status(but it should run it either if the user had it or not)
+
+Version 0.27(pre-Alpha)
+Created Nick and Text Completer.
+Created Dictionary File misc\data\complete.dat
+Added Multilingual Support.
+Created English Language File.
+Created Greek Language File.
+Create Node Icon.
+Redesigned the Options Dialog.
+Improved the Options Dialog; now it saves and loads everything correctly.
+Commmented the Options Dialog module, the Alpha Class, and the xBasic module.
+Fixed ReadServers reload bug, which would display each server more than once.
+
+Version 0.26(pre-Alpha)
+Changed ChannelIDs <-> TabIDs assosiation storage from Tab.Tag to TabInfo collection to make the code faster and easier readable.
+Added Nicklist size `remember' code.
+Added Tab Highlighting.
+Added Tab Images.
+Added Nick Popup menu.
+Added deop/op/voice/devoice/nick script events.
+Created Sample `auto-rejoin' script.
+Created Sample Dialog `kick.dialog' and `kick.html'.
+Added Tabs' Popup Menu.
+Added ability to browse web sites via several tabs(/browse) and close them(/close).
+Added focus-tab statement(/focus).
+Added item in Script menu to view/edit this file.
+Improved NodeMenus.
+Converted Resource Styles to .CSS global files styles.
+Deleted all Resources(String Tables).
+BugFix:
+   - Fixed PrivMsg bug which would display channel messages as privates.
+   - Fixed line break bug.
+   - Fixed Modes code which would cause an error when changing user modes.
+   - Fixed bug regarding web sites with titles which began with ! ? or # by converting tab type identification method from tab.caption to TabType collection.
+   - Fixed query-close bug, which wouldn't unload the related textbox.
+   - Fixed channel-update bug, which wouldn't update the channel nicklist when rejoining a channel without changing tabs.
+
+Version 0.25(pre-Alpha)
+Added ability to recognize nickname changes.
+Added Channel Modes Handling at dataArrival.
+Added +o-o+v-v Modes Recognition/Analysis code.
+Created `Node Menus' ActiveX.
+Changed simple menus to `Node Menus'.
+Added Perform Control.
+Improved dataArrival Code.
+Improved Script Editor.
+Improved Options Dialog.
+Converted frmMain fade method from Timer to Loop.
+BugFix:
+   - Fixed Querys-Doublicate Bug.
+   - Fixed Multi-WebBrowser Resize Bug.
+   - Fixed Tabs-Disappear bug.
+   - Fixed Script Editor loader bug(which wouldn't replace $app).
+   - Fixed bug regarding invalid nicknames.
+   - Fixed Bold-in-Smileys bug.
+   - Fixed GetStatement bug, not being able to handle statements with spaces.
+   - Fixed GetParameter bug, which used to ignore argument `LastParameter'.
+
+Version 0.24(pre-Alpha)
+Added Script Editor.
+Added Options dialog.
+Added kick reasons.
+Added quit reasons.
+Added auto-quit message including SourceForge URL.
+Fixed smileys-on-status bug.
+Corrected some spelling mistakes.
+
+Version 0.23(pre-Alpha)
+This is our first release. A very early version that has many bugs and may not work properly. 
+Main IRC features such as connect and disconnecting from servers, joining and parting channels, 
+viewing users and very simple scripting are implemented in it. 
+

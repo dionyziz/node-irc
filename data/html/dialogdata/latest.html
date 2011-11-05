@@ -1,0 +1,39 @@
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">-->
+<!-- Latest Version Dialog, Internal HTML
+     writen by dionyziz at 09 Dec 2003, 8:03 PM, GMT. 
+     Last Mod: 5 Jul 2004
+-->
+<html>
+<head>
+<title>Checking for Latest Version...</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+<script Language="JavaScript">
+var newerverprompt = 'A newer version of Node is currently available. Would you like to go to the Download Page now';
+var errorconnecting = 'Unable to Connect.';
+var connected = false;
+
+function checkversion() {
+	var NodeScriptToExecute;
+	if ( !connected ) {
+		information.innerText = errorconnecting;
+		return;
+	}
+	information.innerText = 'Checking for Latest Version...';
+}
+</script>
+<script Language="JavaScript" src="http://node.sourceforge.net/node/version.php?maj=0&min=33">
+</script>
+</head>
+<body onerror="return true;" background="bgblack.jpg" onLoad="checkversion();">
+<table width="90%"><tr><td align="center">
+<span class="pagetitle">
+Check for Latest Version
+</span><br><br>
+<div id="information">
+Connecting...
+</div>
+</tr></td></table>
+</body>
+</html>

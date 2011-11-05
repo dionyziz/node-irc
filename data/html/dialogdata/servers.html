@@ -1,0 +1,167 @@
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">-->
+<!-- Organize Servers Dialog, Internal HTML
+     writen by dionyziz -->
+<html>
+<head>
+<title>Organize Server List</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- The dialog supports XP Themes -->
+<META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes">
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+	var remember_selection = new Array();
+	
+	function closedialog() {
+		window.location.href = "NodeScript:!closedialog";
+	}
+	function startup() {
+		selection_change();
+	}
+	function selection_change() {
+		var multiple = false;
+		var one_selection = false;
+		var i = 0;
+		
+		btn_up.disabled = false;
+		btn_down.disabled = false;
+		
+		for ( i = 0; i < server_list.length; i++ ) {
+			if ( server_list.options[ i ].selected ) {
+				if ( i == 0 ) {
+					btn_up.disabled = true;
+				}
+				if ( i == server_list.length - 1 ) {
+					btn_down.disabled = true
+				}
+				if ( one_selection ) {
+					multiple = true;
+					//break;
+				}
+				one_selection = true;
+			}
+		}
+		
+		
+		xnode_lang_edit.disabled = ( multiple || !( one_selection ) );
+		xnode_lang_delete.disabled = !( one_selection );
+		
+		btn_up.disabled = btn_up.disabled || !( one_selection );
+		btn_down.disabled = btn_down.disabled || !( one_selection );
+	}
+	function editserver() {
+		var i = 0;
+		
+		for ( i = server_list.length - 1; i >= 0; i-- ) {
+			if ( server_list.options[ i ].selected ) {
+				window.location.href = "NodeScript:/alter-servers-edit " + (i + 1);
+			}
+		}
+	}
+	function deleteservers() {
+		var i = 0;
+
+		for ( i = server_list.length - 1; i >= 0; i-- ) {
+			if ( server_list.options[ i ].selected ) {
+				window.location.href = "NodeScript:/alter-servers-delete " + (i + 1);
+			}
+		}
+		refreshview();
+	}
+	function sortservers() {
+		window.location.href = "NodeScript:/alter-servers-sort";
+		refreshview();
+	}
+	function moveservers(direction) {
+		var init_i = 0;
+		var term_i = 0;
+		var step_i = 0;
+		var i = 0;
+		var offset = 0;
+		
+		if ( direction == 1 ) {
+			//moving up
+			init_i = 0;
+			term_i = server_list.length;
+			step_i = 1; //ascending
+			offset = 1;
+		}
+		else {
+			//moving down
+			init_i = server_list.length - 1;
+			term_i = -1;
+			step_i = -1; //descending
+			offset = -1;
+		}
+		for ( i = init_i; i != term_i; i += step_i ) {
+			if ( server_list.options[ i ].selected ) {
+				window.location.href = "NodeScript:/alter-servers-move " + (i + 1) + " " + direction;
+			}
+		}
+		past_selection_capture();
+		refreshview();
+		setTimeout( "past_selection_restore( " + offset + " );" , 200 );
+	}
+	function refreshview() {
+		window.location.href = "NodeScript:!webrefresh 1";
+		setTimeout( "selection_change();", 200 );
+	}
+	function past_selection_capture() {
+		var i = 0;
+				
+		//reset array
+		remember_selection = new Array();
+		//store current selection
+		for ( i = 0; i < server_list.length; i++ ) {
+			remember_selection[ i ] = server_list.options[ i ].selected
+		}
+	}
+	function past_selection_restore(offset) {
+		var i = 0;
+		
+		//store current selection
+		for ( i = 0; i < server_list.length; i++ ) {
+			if ( ( i + offset >= 0 ) && ( i + offset < server_list.length ) ) {
+				server_list.options[ i ].selected = remember_selection[ i + offset ];
+			}
+		}	
+		
+		selection_change();
+	}
+</script>
+</head>
+<body onLoad="startup();">
+<table width="100%">
+<tr>
+<td align="center" class="subtitle">
+<div id="xnode_lang_my_servers">
+	My Servers
+</div>
+</td>
+<td valign="top" rowspan="2" align="center">
+<input type="button" value="Edit" id="xnode_lang_edit" onClick="editserver()"><input type="button" value="Delete" id="xnode_lang_delete" onClick="deleteservers()"><br>
+<input type="button" value="5" style="font-family: Webdings" onClick="moveservers(1)" id="btn_up"><input type="button" value="6" style="font-family: Webdings" onClick="moveservers(0)" id="btn_down"><br>
+<input type="button" value="Sort" id="xnode_lang_sort" onClick="sortservers()">
+</td>
+</tr>
+<tr>
+<td align="center">
+	<div id="xnode_server_list">
+		<!-- <select multiple size="10" id="server_list" onChange="selection_change();">
+			<option>Sample Server 1</option>
+			<option>Sample Server 2</option>
+		</select> -->
+		Loading...
+	</div>
+</td>
+</tr>
+</table>
+<br>
+<hr size="1px" noshade>
+<center>
+<a href="JavaScript:closedialog();" id="xnode_lang_close">
+Close
+</a>
+</center>
+</body>
+</html>

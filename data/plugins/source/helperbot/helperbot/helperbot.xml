@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<helperbot>
+	<text value="Hello %b%nick%b. Type %bhello%b if you have a question about Node or IRC generally." /> 
+	<section enter="hello">
+		<text value="Hello %b%nick%b! Welcome to #node-irc." />
+    	<text value="This message is not spam. If you don't want to see it, please add me to your ignore list." />
+    	<text value="To find out how to do this, please type %bignore%b now." />
+        <section enter="ignore">
+			<text value="You can ignore any user that is annoying you by using the Ignore List." />
+			<text value="Do add a person to your ignore list, follow the steps bellow:" />
+			<text value="1) Click on %bFile%b" />
+			<text value="2) Click on %bOptions%b" />
+			<text value="3) Double click on %bSecurity%b" />
+			<text value="4) Click on %bIgnore%b" />
+			<text value="5) Click on the %bAdd%b button on the right." />
+			<text value="6) Type %b%mynick%b in the textbox of the dialog that appears." />
+			<text value="7) Click %bOK%b." />
+    	</section>
+		<text value="If you want to stop talking to me at any time, please type %b/close%b" />
+    	<text value="I am not an alive person talking to you. This is a computer program." />
+    	<text value="To find out more about this program, please type %babout%b now." />
+    	<section enter="about">
+			<text value="HelperBot PlugIn for Node 0.34." />
+			<text value="Copyright (C) 2004" />
+			<text value="This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version." />
+			<text value="This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details." />
+			<text value="You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA" />
+			<hr />
+			<text value="The conversations you make with this program may be logged for debugging reasons." />
+			<text value="If you want to report a bug, make a suggestion, or if you have any comments or questions, please contact us." />
+			<text value="To find out how, please type %bcontact%b now." />
+			<section enter="contact">
+				<text value="You can contact us:" />
+				<text value="1) By posting to the %[a href=&quot;http://sourceforge.net/forum/forum.php?forum_id=327488&quot;%]Open Discussion Forums%[/a%]." />
+				<text value="2) By speaking publicly on the channel #node-irc on irc.freenode.org. Even if there are no developers there, the channel conversations are being logged by this program, and will be read by at least one member of the Developement Team." />
+				<text value="3) By contacting us via mail to:" />
+				<text value="a) dionyziz, dionyziz@users.sourceforge.net:" />
+				<text value="General questions or comments; Technical Support; project administration; the Web Site; Greek Translation; this bot; NodeMenus; general questions about the source; NDC." />
+				<text value="b) Josh, jnfoot@users.sourceforge.net:" />
+				<text value="DCC; Favorites Panel; this bot; Alias PlugIn; anything else if you can't find dionyziz." />
+				<text value="c) Christian, ch-world@users.sourceforge.net:" />
+				<text value="PlugIns; NSIS Installer; German Translation; WinAmp PlugIn." />
+				<text value="d) Voltron, genuis_coder@users.sourceforge.net:" />
+				<text value="NodeTabs; the Script Editor." />
+				<text value="e) Witold, wkrakowski@users.sourceforge.net:" />
+				<text value="Beta Testing Team; Bug Reports; Polish Translation; Italian Translation." />
+				<text value="4) By writing to:" />
+				<text value="Dionysis Zindros," />
+				<text value="1, Grabalas str." />
+				<text value="Post Code 45221" />
+				<text value="Ioannina," />
+				<text value="GREECE" />		
+			</section>
+		</section>
+		<text value="To view a list with help topics, please type %bhelp%b now." />
+		<section enter="help">
+			<text value="Welcome to the Main Help Menu." />
+			<text value="Please, type any of these words to learn information about the following topics:" />
+			<text value="%birc%b - What is IRC?" />
+			<section enter="irc">
+                    <text value="IRC, which stands for `Internet Relay Chat', is a way to communicate with other users over the Internet. With IRC, users can communicate with a group of people the same time, or with other single users." />
+                    <text value="There are IRC Networks over the Internet which are usually consisted of several IRC Servers. What IRC Servers do is transfer the communication data from one user to another. In order for somebody to be able to connect to an IRC Server and communicate with other people a special program is needed, called an IRC Client. What these programs do is connect to IRC Servers and basically send and recieve the messages the users type." />		
+			</section>
+			<text value="%bnode%b - What is Node?" />
+			<section enter="node">
+                    <text value="Node, is an IRC Client that can be used to connect to an IRC Server and communicate with other people." />
+                    <text value="Node is Open Source, meaning that you can download it from the Internet for free and that our purpose is to create a good product for our users. We do not sell this program; it's free for anyone to download. This also means that, if you are interested, you will be able to view and change the Source Code of the program." />
+			</section>
+			<text value="%binstall%b - How to Install Node?" />
+			<section enter="install">
+                    <text value="Sorry, but the Installation Guide is currently under developement. It will be available soon through the web site of Node." />		
+			</section>
+			<text value="%bbasics%b - The basics of IRC and Node" />
+			<section enter="basics">
+                    <text value="Sorry, but the User Guide is currently under developement. It will be available soon through the web site of Node." />
+			</section>
+			<hr />
+			<text value="%babout%b - What is this program" />
+			<section enter="about">
+				<text value="HelperBot PlugIn for Node Alpha 0.32." />
+				<text value="Copyright (C) 2004" />
+				<text value="This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version." />
+				<text value="This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details." />
+				<text value="You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA" />
+				<hr />
+				<text value="The conversations you make with this program may be logged for debugging reasons." />
+				<text value="If you want to report a bug, make a suggestion, or if you have any comments or questions, please contact us." />
+				<text value="To find out how, please type %bcontact%b now." />
+				<section enter="contact">
+					<text value="You can contact us:" />
+					<text value="1) By posting to the %[a href=&quot;http://sourceforge.net/forum/forum.php?forum_id=327488&quot;%]Open Discussion Forums%[/a%]." />
+					<text value="2) By speaking publicly on the channel #node-irc on irc.freenode.org. Even if there are no developers there, the channel conversations are being logged by this program, and will be read by at least one member of the Developement Team." />
+					<text value="3) By contacting us via mail to:" />
+					<text value="a) dionyziz, dionyziz@users.sourceforge.net:" />
+					<text value="General questions or comments; Technical Support; project administration; the Web Site; Greek Translation; this bot; NodeMenus; general questions about the source; NDC." />
+					<text value="b) Josh, jnfoot@users.sourceforge.net:" />
+					<text value="DCC; Favorites Panel; this bot; Alias PlugIn; anything else if you can't find dionyziz." />
+					<text value="c) Christian, ch-world@users.sourceforge.net:" />
+					<text value="PlugIns; NSIS Installer; German Translation; WinAmp PlugIn." />
+					<text value="d) Voltron, genuis_coder@users.sourceforge.net:" />
+					<text value="NodeTabs; the Script Editor." />
+					<text value="e) Witold, wkrakowski@users.sourceforge.net:" />
+					<text value="Beta Testing Team; Bug Reports; Polish Translation; Italian Translation." />
+					<text value="4) By writing to:" />
+					<text value="Dionysis Zindros," />
+					<text value="1, Grabalas str." />
+					<text value="Post Code 45221" />
+					<text value="Ioannina," />
+					<text value="GREECE" />		
+				</section>
+			</section>
+			<text value="%bcontact%b - Contact us" />
+			<section enter="contact">
+				<section enter="contact">
+						<text value="You can contact us:" />
+						<text value="1) By posting to the %[a href=&quot;http://sourceforge.net/forum/forum.php?forum_id=327488&quot;%]Open Discussion Forums%[/a%]." />
+						<text value="2) By speaking publicly on the channel #node-irc on irc.freenode.org. Even if there are no developers there, the channel conversations are being logged by this program, and will be read by at least one member of the Developement Team." />
+						<text value="3) By contacting us via mail to:" />
+						<text value="a) dionyziz, dionyziz@users.sourceforge.net:" />
+						<text value="General questions or comments; Technical Support; project administration; the Web Site; Greek Translation; this bot; NodeMenus; general questions about the source; NDC." />
+						<text value="b) Josh, jnfoot@users.sourceforge.net:" />
+						<text value="DCC; Favorites Panel; this bot; Alias PlugIn; anything else if you can't find dionyziz." />
+						<text value="c) Christian, ch-world@users.sourceforge.net:" />
+						<text value="PlugIns; NSIS Installer; German Translation; WinAmp PlugIn." />
+						<text value="d) Voltron, genuis_coder@users.sourceforge.net:" />
+						<text value="NodeTabs; the Script Editor." />
+						<text value="e) Witold, wkrakowski@users.sourceforge.net:" />
+						<text value="Beta Testing Team; Bug Reports; Polish Translation; Italian Translation." />
+						<text value="4) By writing to:" />
+						<text value="Dionysis Zindros," />
+						<text value="1, Grabalas str." />
+						<text value="Post Code 45221" />
+						<text value="Ioannina," />
+						<text value="GREECE" />		
+				</section>
+			</section>
+		</section>
+	</section>
+	<default>
+		<text value="Please type %bhello%b first." />
+	</default>
+</helperbot>

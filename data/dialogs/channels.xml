@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<window
+	BorderStyle="2"
+	BackColor="0"
+	Height="6300"
+	Width="7740"
+	Special="0"
+	Caption="Channels List -- Node Dialog"
+>
+
+<Web 
+	Left="0"
+	Top="0"
+	height="5920"
+	Width="7650"
+	Navigate="$app\data\html\imports\chanlist.html"
+/>
+
+</window>

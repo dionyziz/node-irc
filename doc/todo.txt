@@ -1,0 +1,64 @@
+
+TO-DO Points for Node IRC, http://node.sourceforge.net
+
+------------
+
+* Updated 26 July 2004
+
+------------
+
+* Please add any TO-DO points that exist as Feature Requests or Tracker Tasks
+* Mark any TO-DO points you finish as `DONE'.
+* Add your name beside any TO-DO point you want to implement yourself, so that
+  other developers don't do double work.
+
+- Split.
+- Remember Channel List Sorting Key
+- IP Ignoring.
+- Check boxes should be seperated into checkboxes and labels.
+- Upgrade SortCollection() method for better speed (more than 1000 channels are impossible to sort!)
+- Back, Forward, Refresh, Stop graphical buttons for web sites.
+- Nick Coloring.
+- Add option to change downloads/skins/languages/plugins dir.
+- Custom Status (/away) Messages.
+- Avatars should be direct transfers via NDC and not DCCs.
+- ^ and v button for toolbar skinable.
+- IdentD flooding protection.
+- Translatable WinSock Connection Failure messages (connection is forcefully rejected, etc.)
+- Change IRC command character from / to whatever. Add ability for multiple command characters. Let a character be *only* IRC command character i.e. RAW (and not Node/IRC command character)
+- "Remember" speed for completed DCCs. (And do NOT recalculate them)
+- Check Ping/Pong code, timeout on FreeNode behind Routers/Firewalls.
+- Unread Memos: Popup Dialog. Read memos dialog. Send a memo dialog.
+- No bans if there are no bans. (don't just leave the table empty)
+- Devel-Together.
+- Windows XP Hibernation: Resume Session Option.
+- Windows XP Fast User Switching: Add Auto-Set-Status feature.
+- NDC Audio Conversations.
+- NDC Video Conversations.
+- Developer's Panel.
+- SSL Support.
+- View nickname modes changes.
+- Unicode Inteface and Unicode .lang support.
+- Send Unicode IRC Messages, read Unicode IRC Messages.
+- Handle 301 messages (away reason on privmsg)
+- Nicklinks in IRC events (join, quit, part, etc) depending on options.
+-> CH-WORLD > Translation Util.
+- Option for opening links inside Node or in seperate browser.
+- Hot Keys: Set Status to...
+- Hot Keys: Send text...
+- Hot Keys: Execute command...
+- Convert ComCtl to NodeTabs.
+- Restore "Connect" Pane Width.
+- Smileys (or custom smileys) inside URLs bug. Need to fix that.
+- Colors, bolds, italics inside kick reasons: stop them before the final )
+- Option: /away after inactivity period.
+- Connecting twice to the *same* server causes problems when joining/leaving chans.
+- New browser tab
+(DONE)-> DIONYZIZ > Keyboard navigation on the auto-complete list.
+- SmileyPacks/SoundSchemes server-specific.
+- Color Themes.
+-> CH-WORLD > "Run Node" @ final screen of NSIS.
+- JS support for Scripting.
+(DONE)-> CH-WORLD > "Send Ping" in Interface (nick menu).
+(DONE)-> CH-WORLD > Handle ping replies from users, display LAG time.
+- TimeBans

@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Insert Smiley</title>
+<!-- display the buttons, etc. in XP style -->
+<META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes">
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+function addsmiley(smileytext) {
+	var command;
+	var i;
+	command = 'NodeScript://tempSmileysData = Node.txtSend.selStart:' +
+						    'Node.txtSend.Text = Left(Node.txtSend.Text, Node.txtSend.SelStart) & "' + smileytext + '" & Right(Node.txtSend.Text, Len(Node.txtSend.Text) - Node.txtSend.SelStart) :' + 
+							'Node.txtSend.selStart = tempSmileysData + Len("' + smileytext + '") \'';
+
+	for ( i = 0; i < command.length; i++ ) {
+		if ( command.substr( i, 1 ) == '?' ) {
+			command = command.substr(0, i) + '" & Chr(63) & "' + command.substr(i + 1, command.length - i - 1);
+		}
+	}
+	
+	window.location.href = command;
+	window.location.href = "NodeScript:!closedialog";
+}
+function closedialog() {
+	window.location.href = "NodeScript:!closedialog";
+}
+</script>
+</head>
+<body topmargin="0">
+<div id="xnode_lang_insert_smiley">Insert a Smiley</div><br>
+<div id="xnode_smileys_area">
+</div><br><br>
+<a href="JavaScript:closedialog();">
+<div id="xnode_lang_cancel">Cancel</div>
+</a>
+</body>
+</html>

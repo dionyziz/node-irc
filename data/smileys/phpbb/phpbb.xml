@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<smileypack version="0.34">
+	<smiley for=":)" file="icon_smile.gif" />
+	<smiley for=":-)" file="icon_smile.gif" />
+	<smiley for=":&gt;" file="icon_smile.gif" />
+	<smiley for=":-&gt;" file="icon_smile.gif" />
+	<smiley for=":}" file="icon_smile.gif" />
+	<smiley for=":-}" file="icon_smile.gif" />
+	<smiley for=":]" file="icon_smile.gif" />
+	<smiley for=":-]" file="icon_smile.gif" />
+	<smiley for=":(" file="icon_sad.gif" />
+	<smiley for=":-(" file="icon_sad.gif" />
+	<smiley for=":-{" file="icon_sad.gif" />
+	<smiley for=":-&lt;" file="icon_sad.gif" />
+	<smiley for=":&lt;" file="icon_sad.gif" />
+	<smiley for=":-[" file="icon_sad.gif" />
+	<smiley for=":|" file="icon_eek.gif" />
+	<smiley for=":-|" file="icon_eek.gif" />
+	<smiley for="!!!" file="icon_exclaim.gif" />
+	<smiley for="???" file="icon_question.gif" />
+	<smiley for="?!?!" file="icon_question.gif" />
+	<smiley for=":S" file="icon_confused.gif" />
+	<smiley for=":-S" file="icon_confused.gif" />
+	<smiley for=":D" file="icon_biggrin.gif" />
+	<smiley for=":-D" file="icon_biggrin.gif" />
+	<smiley for=";)" file="icon_wink.gif" />
+	<smiley for=";-)" file="icon_wink.gif" />
+	<smiley for=";]" file="icon_wink.gif" />
+	<smiley for=";P" file="icon_wink.gif" />
+	<smiley for=";-P" file="icon_wink.gif" />
+	<smiley for=":P" file="icon_razz.gif" />
+	<smiley for=":-P" file="icon_razz.gif" />
+	<smiley for=":p" file="icon_razz.gif" />
+	<smiley for=":-p" file="icon_razz.gif" />
+	<smiley specialsmiley="arrow" file="icon_arrow.gif" />
+</smileypack>

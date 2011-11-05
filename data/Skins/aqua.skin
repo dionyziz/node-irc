@@ -1,0 +1,95 @@
+Aqua
+
+# Logos and slogans may be trademarks of their respective owners
+# Apple, Mac and Aqua User Experience are legal trademarks of Apple Inc.
+
+# Aqua Skin for Node 0.34
+# written by dionyziz,
+# Last Edited
+# 24th of June
+
+CodeBehind "aqua\aqua.codebehind.vbs"
+
+CheckBox3D 0
+TextBox3D 0
+
+# Almost White Background
+BackGround 16119285
+
+# Gray Forecolor
+ForeGround 6250335
+
+# RBG = 163 178 204
+MenuBackgroundNormal 13415075
+# RBG = 230 238 252
+MenuBackgroundHOver 16576230
+# RBG = 30 64 122
+MenuForegroundNormal 8011806
+# RBG = 55 83 132
+MenuForegroundHOver 8672055
+# RGB = 190 201 220
+MenuBackgroundExpanded 14469566
+# RGB = 202 213 231
+MenuSeperatorColor 15193546
+MenuShadow "aqua\shadow.jpg"
+
+BackgroundColor #F4F4F4
+SkinPic "aqua\apple.jpg"
+
+TemplateFile "aqua\aqua.css"
+TemplateFilePrivate "aqua\aqua.css"
+TemplateFileChannel "aqua\aqua.css"
+TemplateFileNicks "aqua\aqua.css"
+
+# BackgroundFile "nodexp\nodexp_back.html"
+OptionsBackground "nodexp\bgnodexp.jpg"
+SplashDialog "aqua\aqua.splash.xml"
+
+FontName Verdana
+FontBold 0
+FontItalic 0
+FontSize 14
+
+Font2Name Verdana
+Font2Bold 1
+Font2Italic 0
+Font2Size 10
+
+Font3Name Verdana
+Font3Bold 0
+Font3Italic 0
+Font3Size 12
+
+Resize_BottomOffset 1200
+Resize_RightOffset 200
+Resize_LeftOffset 0
+Resize_TabFocusOffset -30
+Resize_TabNonFocusOffset -10
+Resize_TextLeftOffset 370
+Resize_TextRightOffset 650
+Resize_TextBottomOffset -300
+Resize_BottomHiddenOffset -200
+Resize_TopOffset 1000
+
+Icon_Help "aqua/help.jpg"
+Icon_Options "aqua/options.jpg"
+Icon_Join "aqua/join.jpg"
+Icon_Add "aqua/add.jpg"
+Icon_Close "aqua/close.gif"
+Icon_Channel "aqua/channel.jpg"
+Icon_Web "aqua/website.jpg"
+Icon_Server "aqua/server.JPG"
+Icon_Delete "aqua/delete.jpg"
+
+Panel_TitleBackground_Start "aqua/panel_begin.jpg"
+Panel_TitleBackground_Mid "aqua/panel.jpg"
+Panel_TitleBackground_End "aqua/panel_end.jpg"
+
+BuddyInImage "nodexp\buddysign.gif"
+BuddyOutImage "nodexp\buddysign.gif"
+
+TreeExpanedImage "aqua/treeexpanded.gif"
+TreeCollapsedImage "aqua/treecollapsed.gif"
+TreeSubNodeImage "aqua/treesubnode.gif"
+TreeSeperator "aqua/treeseperator.gif"
+TreeSubNodeImage2 "aqua/treesubnode2.gif"

@@ -1,0 +1,31 @@
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">-->
+<!-- Servers Dialog, Internal HTML
+     writen by dionyziz -->
+<html>
+<head>
+<title>Server List</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- The dialog supports XP Themes -->
+<META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes">
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css">
+<script Language="JavaScript">
+function serv_loaded() {
+	loading_list.style.display = "none";
+	the_list.style.top = "5px";
+}
+</script>
+</head>
+<body onLoad="serv_loaded()">
+<div id="loading_list" style="text-align:center">
+Retrieving List...
+</div>
+<br>
+<div id="the_list"  style="position:absolute;left:-5">
+<iframe id="the_list_frame" 
+ src="http://node.sourceforge.net/?view=xservers&head=more/users&nomenu=1&nobanner=1&noboddom=1"
+ height="265px" width="340px">
+</iframe>
+</div>
+</body>
+</html>

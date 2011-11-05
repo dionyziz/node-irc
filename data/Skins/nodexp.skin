@@ -1,0 +1,76 @@
+Node XP
+
+# Windows XP is a legal trademarks of Microsoft Corporation
+
+# NodeXP Skin for Node 0.31
+# written by dionyziz,
+# Last Edited
+# 21st of April
+
+CodeBehind "nodexp\nodexp_codebehind.vbs"
+
+CheckBox3D 0
+TextBox3D 0
+
+# White Background
+BackGround 16777215
+
+# Blue Forecolor
+ForeGround 8735284
+
+BackgroundColor #C7D4F6
+SkinPic "nodexp\upperdegrade.jpg"
+
+TemplateFile "nodexp\css\nodexp.css"
+TemplateFilePrivate "nodexp\css\nodexp-priv.css"
+TemplateFileChannel "nodexp\css\nodexp-priv.css"
+TemplateFileNicks "nodexp\css\nodexp-nicks.css"
+
+# BackgroundFile "nodexp\nodexp_back.html"
+OptionsBackground "nodexp\bgnodexp.jpg"
+SplashDialog "nodexp\nodexp_splash.xml"
+
+SkinPic "nodexp\nologo.jpg"
+
+FontName "Comic Sans MS"
+FontBold 0
+FontItalic 0
+FontSize 14
+
+Font2Name Arial
+Font2Bold 1
+Font2Italic 0
+Font2Size 10
+
+Font3Name Verdana
+Font3Bold 0
+Font3Italic 0
+Font3Size 12
+
+Resize_BottomOffset 1400
+Resize_RightOffset 200
+Resize_LeftOffset 0
+Resize_TabFocusOffset -30
+Resize_TabNonFocusOffset -10
+Resize_TextLeftOffset 50
+Resize_TextRightOffset 300
+Resize_TextBottomOffset -480
+Resize_BottomHiddenOffset 0
+Resize_TopOffset 1200
+
+Icon_Help "nodexp/help.jpg"
+Icon_Options "nodexp/options.jpg"
+Icon_Join "nodexp/join.jpg"
+Icon_Add "nodexp/pagetitle.jpg"
+Icon_Close "nodexp/close.gif"
+Icon_Channel "nodexp/channel.jpg"
+Icon_Web "nodexp/website.jpg"
+Icon_Server "nodexp/servers.JPG"
+Icon_Delete "nodexp/delete.jpg"
+
+Panel_TitleBackground_Start "nodexp/panel.jpg"
+Panel_TitleBackground_Mid "nodexp/panel.jpg"
+Panel_TitleBackground_End "nodexp/panel.jpg"
+
+BuddyInImage "nodexp\buddysign.gif"
+BuddyOutImage "nodexp\buddysign.gif"

@@ -1,0 +1,1018 @@
+Deutsch
+german.jpg
+
+# GERMAN LANGUAGE FILE
+# german.lang
+# Written by ch-world
+# Last modified at 2004-JULY-20 10:00AM
+#
+# -------------------------------------------
+# Language Keys for German Node Version 0.34
+# -------------------------------------------
+#
+# Main Window Caption, should be `Node'
+0 Node
+# The Main Menu
+1 Datei
+2 Verbinden
+3 Trennen
+4 Einstellungen
+5 Beenden
+6 Skripte
+7 Haupt
+8 Dialoge
+9 "Anfangs Fenster"
+10 "Getrennt Dialog"
+11 "Skripte Verzeichnis"
+12 "Anwendungs Verzeichnis"
+13 "Sounds Verzeichnis"
+14 "Zeige Changes Log"
+# Standart Main HTML Keys.
+15 "Willkommen bei Node IRC"
+16 "Dies ist Node Version"
+17 "hosted by"
+# Splash Screen Keys
+18 "Lade Oberfläche..."
+19 Starte...
+20 "Lade Script Engine..."
+21 "Starte Windows Media Player..."
+22 "Lade Skript Routinen..."
+23 "Lade Klassen..."
+24 "Lade Menüs..."
+25 "Lade Hintergrund..."
+26 "Lade HTML Parser..."
+27 "Preloading der Node Web Seite..."
+28 Aktualisiere...
+29 "Bitte warten..."
+30 "Zeige Haupt Fenster..."
+31 "Lade XP Support..."
+32 "Ich benutze Node IRC Client Version"
+33 auf
+34 "Du bist in keinem Channel"
+# Please do not change the word `preExecute'
+# as it refers to a certain procedure
+35 "Error while trying to preExecute command"
+36 "Zu diesem Server verbinden"
+37 "Verbinde nach"
+38 "WebSite Tab"
+39 "Du kannst dieses Tab nicht schließen!"
+40 "Du wähltest"
+41 "Du verlässt"
+42 Fehler
+43 "Du wurdest raus geschmissen aus"
+# meaning "kicked by"
+44 von
+45 "Du heißt jetzt"
+46 "wählte"
+47 "verließ"
+# some languages require an article before every name
+# use key 48 for this.(English doesn't need this)
+# please include a space after the article inside quotes
+48 ""
+49 "hat beendet"
+50 "wurde raus geschmissen aus"
+51 "änderte"
+52 "modes zu"
+53 "Meine Lokalzeit ist"
+54 "heißt jetzt"
+55 "Node Main HTML"
+56 "Automatisch erstellt durch Node IRC Client"
+57 "Node Nicks HTML"
+58 "Verbindung mit"
+59 aufgebaut
+60 "Bitte gib deine Benutzer Daten ein (mindestens Nickname und Email) und versuche nochmals zu diesen Server zuverbinden!"
+61 "Gib deine Benutzer Informationen ein"
+62 "Sede Benutzer Info"
+63 "Fehler während dem Senden der Benutzer Daten. Wenn du Problem mit der aktueelen Verbindung hast, versuche bitte neuzuverbinden"
+64 Fehler
+65 "Ein Fehler ist in der Prozedur"
+66 "ließ den folgenden Fehler auftreten"
+67 "Wenn du kein Entwickler bist, aber trotzdem dieser Fehler auftrat, bitte"
+68 "melde ihn"
+69 "Fehler beim Verbinden:"
+70 Status
+# Options Dialog
+71 "Einstellungen"
+72 Benutzer
+73 Server
+74 Skripte
+75 Logs
+76 Performenz
+77 Ignorieren
+78 Sprache
+79 Nickname
+80 Alternative
+81 "Alternative 2"
+82 "Bitte wähle deinen Server"
+83 Entfernen
+84 Hinzufügen...
+85 "Bitte wähle einen Server"
+86 Verbinden
+87 Skripte
+88 "Verfügbare Skripte:"
+89 Edieren
+90 Log
+91 "Log Private"
+92 "Log Channels"
+93 Löschen
+94 Sprache
+95 "Bitte wähle deine Sprache"
+96 "Server Name"
+97 "Server Hostname"
+98 "TCP Port:"
+99 "(Bitte klicke auf Verbinden, um zu diesem Server zu Verbinden)"
+100 "Bitte gib den Nicknamen von der Person ein, die du ignorieren möchtest"
+101 "Eine Person zu Ignorier List hinzufügen"
+102 "Du must die Felder 'Nickname' und 'Email' ausfüllen um zu einen Server verbinden zu können!"
+103 "Benutzer Informationen fehlen"
+104 "Bist du sicher, dass du alle aus der Ingnorieren LIste löschen möchtest?"
+105 "Liste löschen?"
+106 "Bitte wähle vor dem löschen einen Eintrag aus"
+107 "Kein Eintrag ausgewählt"
+108 "Bitte gib für diesen Server einen Namen ein:"
+109 "Einen Server hinzufügen"
+110 "Der Server Name existiert bereits. Möchtest du ihn trotzdem benutzen?"
+111 "Bitte gib den Server Hostnamen ein:"
+112 "Server Hostnamen dürfen keine Leerzeichen enthalten!"
+113 "Bitte gib den TCP Port für diesen Server ein"
+114 "Server TCP Ports dürfen nur Zahlen zwischen 0 und 65535 sein!"
+115 "Bitte wähle den Server aus, den du entfernen möchtest."
+116 "Kein Server ausgewählt"
+117 "Konnte die Serverliste nicht füllen, da es zu folgenden Fehler kam:"
+118 "Bist du sicher, dass du den ausgewählten Eintrag entfernen möchtest?"
+119 Entfernen?
+120 OK
+121 Abbrechen
+122 Übernehmen
+123 "Email Adresse"
+# Version 0.28
+124 Getrennt
+125 "Du bist nicht verbunden"
+126 Durchsuchen
+127 "Sprach Verzeichnis"
+128 "Wirklicher Name"
+129 "Du must die Felder `Nickname', `Email' und `Wirklicher Name' ausfüllen um zu einen Server verbinden zu können!"
+# Version 0.29
+130 "Buddy List"
+131 "Überprüfe Freunde auf der Liste..."
+132 "ist in "
+133 "Es sind keine Freunde in einem deiner Channels."
+134 " betrat "
+135 " verließ "
+136 Hilfe
+137 "Hilfe Inhalt"
+138 Über
+139 "Alle deine Nicknamen werden benutzt. Bitte wähle einen neuen in den Einstellungen."
+140 "Der Topic ist: "
+141 "Der Topic wurde geändert zu: "
+142 "Buddy's Nick:"
+143 "Willkommens Text"
+144 "Nick Liste"
+145 Entfernen
+146 "Du wurdest eingeladen nach "
+147 "Channel Liste"
+148 "Gib einen neuen Nicknamen ein:"
+149 "Du benötigst einen neuen Nicknamen..."
+150 "Gesetzt von: "
+151 "am: "
+152 "Keine solche Channels sind verfügbar."
+# Version 0.30
+153 "Du bist kein Channel Operator."
+154 "änderte den Topic zu"
+155 " versucht dir eine Datei zu schicken."
+156 Smileys
+157 "Du hast diesen Namen bereits hinzugefügt."
+158 Empfangen
+159 erfolgreich!
+160 "Du hast die Oberflächensprache geändert. Um die Änderungen zu aktivieren muss das Programm neu gestartet werden. Möchtest du es jetzt neustarten?"
+161 Verschiedenes
+162 "Letzte Version beim start"
+163 "Lade Einstellungen..."
+164 "Fenster ein- und ausblenden"
+165 "Beenden Nachricht"
+166 Skin
+167 "Aktiviere Performenz"
+168 "Benutze XP-Style Fenster"
+169 "Die hast geändert wie die Steuerelemente erscheinen."
+170 "Um die Änderungen zu aktivieren muss das Programm neu gestartet werden. Möchtest du es jetzt neustarten?"
+171 "Unbehandelte Ausnahme"
+172 "während em ausführen des folgenden Node Skriptes"
+173 "Der Fehler trat in folgender Prozedur auf"
+174 "Die Fehler Beschreibeung ist"
+175 "Node Scripting"
+176 "Verkehrte Version oder defekte Datei!"
+# do not change the word `<dialog>' please...
+177 "Erwartet <dialog> am Anfang der Datei"
+178 "Invalid Conclution"
+# don't change the word `</dialog>' please...
+179 "Erwarted </dialog> am Ende der Datei"
+180 "Der folgende Fehler trat auf"
+181 "während dem ausführen der folgender Zeile"
+182 "während dem laden des Dialoges"
+183 "die Zeile index ist"
+184 "Node Dialog Scriping"
+185 "Verkehrter Objekttyp"
+186 "für die Anweisung"
+# Normally you won't need to change this in a translation
+187 Funktion
+188 "Verkehrter Parameter"
+# Nor this.
+189 Sub
+190 "Kann Dialog nicht laden"
+191 "Programmierer Info"
+192 "Wenn ein Buddy reinkommt"
+193 "Wenn ein Buddy geht"
+194 "Zeige Text"
+195 "Pop-up Dialog"
+196 "Smiley wurde bearbeitet:"
+197 Löschen
+198 "Betrete Channel"
+199 "Verlasse Channel"
+200 "Wähle dein Skin"
+201 "Nachricht beim Beenden"
+202 "läd dich ein zu joinen nach"
+203 "versucht dir zu senden"
+204 "Möchtest du diese Datei-Übertragung annehmen?"
+205 "Reinkommmende Datei-Übertragung"
+206 "Du hast die Reingekommenne Datei-Übertragung abgelehnt"
+207 "Du hast die Reingekommenne Datei-Übertragung angenommen"
+208 Empfange
+209 Sende
+210 "Formattierung einfügen"
+211 "Gib den Text ein der Fett erscheinen soll"
+212 "Gib den Text ein der Unterstrichen erscheinen soll"
+213 "Gib die URL des Bildes ein, welches du hinzufügen möchtest"
+214 "Neuladen"
+215 "Das Skin welches das Programm benutzt wurde geändert."
+216 "Die Skin Datei welche du benutzt hat einen illegalen Aufruf. Der Skin Loader unterstüzt nicht das Attribut."
+217 "Lade Skin..."
+218 "Ein Fehler trat währrend dem Anzeigen der Seite auf."
+219 "Bitte überprüfe ob du online bist."
+220 "Lade..."
+221 "Mehr Skins herunterladen"
+222 "Die Skin CodeBehind Datei"
+223 "verursachte einen illegalen VBScript aufruf."
+224 "Skins CodeBehind"
+225 "Bitte wähle ein Skript aus bevor du versuchst es zu bearbeiten oder zu löschen."
+226 "Bitte wähle den Buddy aus welchen du entfernen möchtest."
+227 "Du bist nicht registriert."
+228 "Die code behind Datei"
+229 "für das Skin"
+230 "wurde nicht gefunden."
+231 "Smileys Aktivieren"
+232 "Fehler Anzeigen in Skin Farben"
+233 "'Lade Anzeige' wenn eine Webseite geladen wird"
+234 "Smiley hinzufügen"
+235 "Smiley entfernen"
+236 "Winamp Verzeichnis"
+237 "weitere Server"
+
+# ------------
+# Version 0.31
+# ------------
+238 "Erlaube CodeBehind für Skins"
+239 "Aktiviere Node Scripting"
+240 "möchte mit dir per DCC chatten. Möchtest du dies erlauben?"
+241 "Du lehntest die Chat Einladung ab."
+242 "Du hast die Chat Einladung angenommen."
+243 "Aktiviere Autovervollständigung"
+244 "Die Splash Screen oder das Skin file konnte nicht geladen werden. Bitte behebe den Fehler im Skin File und versuch es nocheinmal. Node wird beendet und das Standart Skin wird geladen."
+245 "Soll die Verbindung getrennt werden mit"
+246 "Wieder aufnehmen der Datei Übertragung von"
+247 "Das gewählte Skin file wurde nciht gefunden; wähle Standart"
+248 "Zeige Tip des Tages"
+249 "Zeige Logs"
+250 "Die Datei existiert bereits. Möchtesr du die Übertragung fortsetzen?"
+251 Sekunden
+252 Sekunde
+253 Minuten
+254 Minute
+255 Stunden
+256 Stunde
+257 Tage
+258 Tag
+259 "geschätzte verbleibende Zeit"
+260 Geschwindigkeit
+261 Unbekannt
+262 "Letzte Sitzung fortsetzen..."
+# %1 = Filename
+263 "Die Datei %1 wurde nicht gefunden"
+264 "Die Datei welche du senden möchtest ist eine Verknüpfung. Möchtest du die Datei wirklich senden?"
+265 "DCC Senden"
+# e.g. 46% Completed
+266 Abgeschlossen
+# e.g. File tranfer Completed, should be similar or same with the above
+267 Abgeschlossen
+268 Nichts
+269 "Sender hat abgebrochen"
+270 Sitzungen
+271 "Nach einem Crash"
+272 "Normaler Start"
+273 "vorherige Sitzung fortsetzen"
+274 "Lösche Sitzungs Informationen und mache normal weiter"
+275 "Frage mich was zu tun ist"
+276 Zurück
+277 "Node Crashte als es das letzte mal lief. Du kannst die vorherige Sitzung von Node fortsetzen."
+278 "Du kannst die vorherige Sitzung von Node fortsetzen und zu dem Server verbinden zu welchem du als letztes verbunden warst."
+279 "Möchtest du die Sitzung fortsetzen?"
+280 Ja
+281 Nein
+282 "Kann die vorherige Sitzung nicht fortsetzen: Du warst zu keinem Server verbunden!"
+283 "Log von Netzwerk"
+284 "Willkommen bei Node Version 0.31! <br>In dieser Version sind viele Fehler behoben und viele neu Features! <br>Um mehr darüber zu erfahren klicke auf diesen Ballon!"
+# %1 will be replaced with the version, e.g. 0.31, Alpha, etc.
+285 "Willkommen bei Node %1!"
+286 "Zeige Ballon Tips"
+287 "Du bist jetzt verbunden"
+288 "Du bist jetzt zu einem IRC Netzerk verbunden.<br>Um einen Channel zubetreten tippe /j #channel.<br>Um mehr über die Grundbefehle des IRCs zu lernen klicke auf diesen Ballon!"
+289 "Du hast jetzt einen Channel betreten"
+290 "In einem Channel kannst du mit andere Personen dich unterhalten (ihre Namen stehen rechts) indem du Text in das Textfeld unten eintippst. Die Nachrichten werden links angezeigt, in dem Hauptfenster. Du kannst zwischen den Channel wechseln indem du die Tabs oben benutzt."
+291 "Neues Privatfenster"
+292 "Jemand spricht Privat mit dir.<br>Du kannst seine Nachrichten anzeigen und mit ihm oder ihr Privat reden indem du das Tab mit seinem/ihrem Namen wählst."
+293 "Reinkommende DCC Übertragung"
+294 "Jemand versucht dir eine Datei per DCC zu senden. Du kannst die Datei Übertragung annehmen oder ablehnen. Wenn du akzeptierst, wird ein neues Tab erstellt, wo du den Vorgang sehen kannst."
+295 "Kicked!"
+296 "Jemand hat dich aus einem Channel gekicked. Das heißt, dass der User dich nicht in dem Channel haben möchte. Du kannst den Channel wieder betreten durch tippen von /j #channel oder durch klicken auf diesen Ballon."
+297 "Node Crashte"
+298 "Node crashte als es das letzte mal lief. Du hast die Option die letzte Sitzung fortzusetzen nach einem Crash deaktiviert. Du kannst sie aktivieren unter Einstellungen > Sitzungen."
+299 "Channel Einladung"
+300 "Du wurdest eingeladen einen Channel zu joinen. Du kannst die Einladung im Status Tab sehen. Klick auf den Channelnamen im Einladungstext oder auf diesen Ballon um den Channel zubetreten!"
+301 "Nick wird bereits benutzt"
+302 "Dein Haupt Nickname wird zur Zeit von einer anderen Person benutzt. Wir versuchen einen von deinen Alternativ Nicknamen zubenutzen. Wenn du deine Nicknamen sehen oder bearbeiten möchtest klicke auf diesen Ballon."
+303 "Geänderte Sprache"
+304 "Du wirst jetzt eine andere Sprache des Programmes benutzen. Um die alte Sprache wiederherzustellen gehe nach Einstellungen > Sprache. Du kannst immer helfen Node zuüberseten. Klicke auf diesen Baloon um herauszufinden wie."
+305 "Geändertes Skin"
+306 "Ein Skin ändert das Aussehen und die Farben von Node. Du kannst immer dein altes Skin wiederherstellen durch gehen nach Einstellungen > Skins. Du kannst auch versuchen einige Skins online zu fiden durch klicken auf diesen Ballon."
+307 "Node Crashte"
+308 "Node crashte als es das letzte mal lief. Du hast die möglichkeit die letzte Sitzung des Programmes nach einem Crash fortzusetzen (verbinden zum vorherigen Server und die selben Channels betreten). Du möchtest mehr Einstellung zu Sitzung fortsetzen sehen: Gehe nacht Einstellungen > Sitzungen oder klcke hier."
+# TO DO
+309 "DCC und NDC"
+310 Buddies
+311 "Ignorierte Nicks"
+312 Jeder
+313 Akzeptieren
+314 Frage
+315 "Tray Icon"
+316 "Node läuft immer noch! Du kannst es komplett beenden durch rechts-klicken auf das Tray Icon und auswählen von 'Beenden'."
+317 "Behalte laufendes Node im Tray"
+# Use %1 in the place of a nickname...
+318 "%1 tippt eine Nachricht"
+# Should stay as is
+319 IRC
+320 Channels
+321 Nickname
+322 Memos
+323 Join
+324 "Verlasse aktiven"
+325 "Gib den Namen vom Channel ein der gejoint werden soll"
+326 "Betrete einen Channel"
+327 "Dieses Tab ist kein Channel. Bitte wähle ein Channel Tab um den Channel zu verlassen!"
+328 "Verlasse einen Channel"
+329 Identifizieren
+330 "Bitte gib dein Identifizierungskennwort ein"
+331 Mode
+332 "Gib Op"
+333 "Nimm Op"
+334 "Gib Voice"
+335 "Nimm Voice"
+336 Kicke
+337 Informationen
+338 "Nicknamen Info"
+339 WhoIs
+# can stay the same
+340 DNS
+# this too
+341 CTCP
+342 Version
+343 Zeit
+# the same for this
+344 DCC
+345 "Datei senden"
+346 Chat
+# this should not be changed either
+347 NDC
+348 Flüstern
+349 "Schließe Tab"
+350 Zeige
+351 "Zeige Memos"
+352 "Lese Memo"
+353 "Lösche Memo"
+354 "Bitte gib den Memo index ein"
+355 "Du must den numerischen Integer Index des Memos welches du lesen oder löschen möchtest eingeben. Um den Index des Memos heraus zu Finden benutze Memos anzeigen."
+356 "Da ist kein entsprechender Nickname"
+357 "Da ist kein entsprechender Server"
+358 "Da ist kein entsprechender Channel"
+359 "Kann nicht zu einem Channel senden"
+360 "Du hast zu viele Channel gejoint"
+361 "Da war kein entsprechender Nickname"
+362 "Doppelter Empfang. Keine Nachricht wurde versendet"
+363 "Keine Herkunft angegeben!"
+364 "Kein zusendender Text!"
+365 "Wir konnten die Nachricht des Tages von diesem Server nicht empfangen..."
+366 "Kein nickname gegeben"
+367 "Der hat wohl deine Benutzer Informationen nicht Empfangen. Bitte versuche neuzuverbinden."
+368 "Du darfst deine Benutzer Informationen nicht zweimal senden"
+369 "Dein Hostname oder IP Addresse hat nicht die benötigten Rechte um zu diesen Server zuverbinden!"
+370 "Das Passwort welches du eingabst ist falsch. Bitte versuch es nochmal."
+371 "Du bist von diesem Server gebannt."
+372 "Du kannst keinen Server killen!"
+373 "Du hast nicht die benötigten Rechte auf diesen Server um OPER Befehle zubenutzen. (Es sind keine O-Einträge für deinen Host vorhanden)"
+374 "Du must dich bei einem Mode Flag vertippt haben, da der Server es nicht kennt."
+375 "Du kannst nur die Modes deines eigenen Nicknamens ändern!"
+# %s for status. TO DO
+376 "Du hast deinen IRC Status von Online zu %s geändert"
+377 "Du hast deinen IRC status wieder auf Online gesetzt"
+378 "-- Ende der Nachricht des Tages --"
+379 "Du bist jetzt ein IRC Operator."
+380 "-- Ende der Benutzer --"
+381 "Niemand eingelogt"
+# %1 in the place of the line index
+382 "Es ist ein Fehler in der ircmsg.dat Datei, in Zeile %1"
+383 "Lese Sitzungs Informationen..."
+384 "Der Nickname wird bereits benutzt."
+385 "Du bist nicht in dem Channel!"
+386 "Die Person ist nicht in dem Channel!"
+387 "Du kannst keinen Benutzer einladen der bereits im Channel ist."
+388 "Du kannst den Channel nicht joinen. Du must eingeladen sein um ihn zujoinen."
+389 "Du kannst den Channel nicht joinen. Du bist aus ihm gebannt."
+390 "Du kannst den Channel nicht joinen. Du must den Channel Key kennen um ihn zu joinen."
+391 "Du bist kein IRC Operator. Du must einer sein um diese Operation ausführen zukönnen!"
+392 "-- Ende der Liste --"
+393 "-- Ende der WHO Information --"
+394 "-- Ende der Informationen Liste --"
+395 "Nachricht des Tages folgt:"
+# %1 is the hostname or IP of the remote IdentD client(which is usually the IRC Server we are connecting to)
+396 "IdentD erfragt von %1"
+# "Statuses"
+397 Online
+398 Abwesend
+399 "Komme gleich wieder"
+400 Schlafe
+401 Beschäftigt
+402 "Zum essen weg"
+403 "Am Telefon"
+404 "On Vacation"
+405 "Nicht zu Hause"
+406 "Nicht im Büro"
+407 "Nicht am Platz"
+408 "Mein Status"
+# %1 is the status text(from bellow)
+409 "Ich kann leider gerade nicht mit dir reden da ich %1 bin"
+410 Abwesend
+411 "Abwesend... Ich komme gleich wieder!"
+412 schlafen
+413 beschäftigt
+414 "zum Essen"
+415 "beim Telefonieren"
+416 "on Vacation"
+417 "nicht zu Hause"
+418 "nicht im Büro"
+419 "nicht am Platz"
+420 "Zeige Channels"
+# Using %1 for nickname and %2 for Status
+421 "%1 wird nicht antworten, da sein oder ihr Status %2 ist"
+422 "Ein Memo senden"
+423 "Bitte gib den Nicknamen des Empfängers ein"
+424 "Bitte gib deine Nachricht ein"
+425 "Starte Audio Unterhaltung"
+426 "Keine NDC Verbindung vorhanden. Benutze NDC Verbinden um eine herzustellen."
+# %1 = nickname; %2 = accept; %3 = decline
+427 "%1 möchte mit dir eine Audio Unterhaltung starten. Möchtest du sie %2 oder %3?"
+428 "Ablehnen"
+429 "%1 hat deine Anfrage eine Audio Unterhaltung zu starten <b>akzeptiert</b>"
+430 "%1 hat deine Anfrage eine Audio Unterhaltung zu starten <b>abgelehnt</b>"
+431 "%1 möchte mit dir eine Audio Unterhaltung starten. Möchtest du das akzeptieren?"
+432 "Audio Unterhaltung"
+433 "Benutze Viren-Scanner"
+434 "Wähle Viren-Scanner Programm"
+435 "VScanner Programme"
+436 "Norton Antivirus"
+# %1 for status
+437 "Achtung: Dein Status ist immer zu %1 gesetzt"
+438 "Stelle meinen Status wiederher"
+439 "Hot Keys"
+440 "DCC Empfangen"
+441 "Status wiederherstellen"
+442 "Erfrage automatisch NDC"
+# %1 = nickname
+443 "NDC Verbindung mit %1 wurde hergestellt"
+444 "Ignorieren Liste"
+445 "Zeige Downloads"
+446 Aktualisieren
+447 Stop
+448 Zurück
+449 Vorwärts
+450 "Vorherige Channels"
+451 "Keine Channels"
+452 "Tippe den Name des Channels"
+453 Join
+454 "Anderer Channel"
+455 "Join einen Channel Panel wenn Verbunden"
+456 Avatars
+457 "Wähle dein Avatar"
+# %1 for the nickname
+458 "%1's Avatar"
+459 "Mein Avatar"
+460 "Ändere mein Avatar"
+461 "Entferne mein Avatar"
+462 "Erstellen ein Avatar"
+463 "Dieser Benutzer hat kein Avatar"
+464 "Du hast kein Avatar gewählt"
+465 "Bitte wähle ein Privat Fenster um das Avatar des Benutzers anzuzeigen"
+466 "Alle Channels"
+467 "Zeige Channels"
+468 "Du must eine NDC Verbindung herstellen um das Avatar eines Benutzers anzuzeigen."
+469 "Vorherige Server"
+470 "Neuer Server"
+471 "Anzeige Name"
+472 Hostname
+473 Port
+474 "Server Liste"
+475 "Zeige Server Liste"
+476 "Die NDC Verbindung wird beendet da fehlerhafte Daten empfangen wurden."
+477 "Mehr Sprachen Downloaden"
+
+# --------------------
+# Version 0.32 (Alpha)
+# --------------------
+
+# Key 478
+# The two letters specifying your language.
+# Usually it is the first two letters of the
+# language name. The same letters are often 
+# used as extensions to the country's web sites
+# Examples:
+# English = en
+# German(Deutch) = de
+# Greece(Hellas) = gr
+# Italy = it
+478 de
+479 "Empfang Liste der Channels..."
+480 "Liste der channels erfolgreich empfangen."
+481 "Favoriten WebSeiten"
+482 "WebSeiten Name:"
+483 URL
+484 "Keine Favoriten"
+485 "Du must einen Namen und eine URL for deine Favoriten Webseite eingeben."
+486 "Neue Favoriten WebSeite"
+487 "Schließe Panel"
+488 "Favoriten"
+489 "Hot Keys"
+490 Taste
+491 Aktion
+492 "Buddy Liste"
+493 "**Für Buddy Listen Optionen, klick auf "
+494 "Du hast keine buddies in deiner Liste."
+495 "Favorisierte Channels"
+496 "(Oder klicke auf Datei->Einstellungen->Buddy Liste)"
+497 Registrieren
+498 "Zeige Buddy Profile"
+499 "%1's Profile"
+500 "Über User"
+501 "Letztes Sehen"
+502 "weitere Infos"
+503 "Zeige Optionen"
+504 "Node läuft bereits. Möchtest du eine weitere Instanz starten?"
+505 "Node läuft bereits"
+506 "Skin Logo"
+507 Plugins
+508 "Installierte Plugins"
+509 "Mehr Plugins herunterladen"
+510 "Mache Text fett"
+511 "Mache Text kursiv"
+512 "Mache Text unterstrichen"
+513 "Einen Smiley hinzufügen"
+514 "Smiley einfügen"
+515 Schließen
+516 "Ein Buddy ging offline."
+517 "Ein Buddy ging online."
+518 "Zeitzone"
+519 Niemals
+520 "Kontaktiere Node Dev Team"
+521 "Hier klicken um die Web-Seite anzuzeigen"
+522 "Du hast in der Vergangenheit keine Server besucht"
+523 "Zu %1 verbinden"
+524 "Willkommen bei Node Alpha 0.32! <br>In dieser Version sind viele Fehler behoben und neue Feature hinzugekommen! <br>Es ist die 1. Alpha Version. Sie ist stabiler als vorherige Releases! Klick hier um mehr zu erfahren."
+525 "Willkommen bei Node IRC<br>Das ist Node %1 hosted von %2"
+526 "Plugin Name"
+527 "Geladen"
+528 "Das zu ladene Plugin ist ungültig. Der folgende Fehler trat währrend dem Laden auf: %1"
+529 "Plugin Fehler"
+530 "Konnte das Hauptfenster nicht laden. Bitte stelle sicher das du die neueste Version vom Microsoft Internet Explorer und Windows Media Player installiert hast und Versuche es noch einmal."
+531 "Fehler beim Laden des Hauptfensters"
+532 "Kritischer Fehler in der Prozedur %1. Fehler-Block %2."
+533 "Möchtest du das Problem dem Node Developement Team durch absenden einer Support Anfrage melden?"
+534 "Support Anfrage"
+535 "Fehler Anzeige Seite"
+536 "Dieses Programm ist lizensiert unter der GNU GPL und ist Open Source. Bitte schaue dir die <a href='%1'>Open Source Definition</a> und die <a href='%2'>GNU General Public Licence</a> f&uuml;r weitere Informationen an."
+537 Internet
+538 "Das Team"
+539 "Node Home Page"
+540 "Support Anfrage"
+541 "Einen Bug melden"
+542 Foren
+543 "Spenden"
+544 "Hot Key einfügen"
+545 "Toolbar anzeigen"
+546 "Zum nächsten Tab wechseln"
+547 "Zum nächsten hervor gehobenen Tab wechseln"
+548 "Bekomme den Status des Buddies"
+549 "scheint Offline zu sein."
+550 "hat den IRC beendet."
+551 "ist Online."
+552 "None of those users are online."
+553 "Select a Private Window"
+554 "Hier klicken um den Channel zu betreten."
+555 "Laden"
+556 "Entladen"
+557 "beim Start laden"
+558 "Favorisierte Server"
+559 "Klick hier um deine Buddyliste anzuzeigen."
+560 "Ein Buddy ging online"
+561 "Ein Buddy ging offline"
+562 "Bild einfügen"
+563 "Text farblich machen"
+564 "Es scheint das du das Programm magst, da du diese Version schon 10 Stunden benutzt. Vielleicht möchtest du uns durch ein Feedback helfen Node zu erweitern. Klicke hier um mehr zuerfahren!"
+565 "Buddy hinzufügen"
+566 Offline
+567 "farblichen Text einfügen"
+568 Vordergrund
+569 Hintergrund
+570 Sample
+571 "Neue Seite speichern"
+572 "Du must das Plugin laden bevor du die Optionen anzeigen kannst"
+573 "Proxy"
+574 "Aktiviere Proxy"
+575 "Verbinde zu Proxy..."
+576 "Verbindung mit Proxy hergestellt"
+577 "Der Proxy scheiterte beim verbinden zum IRC Server"
+578 "Allgemeiner SOCKS server fehler"
+579 "Die Verbindung ist durch die Proxy Regeln nicht erlaubt"
+580 "Das Netzwerk ist unereichbar"
+581 "Der entfernte Host ist unereichbar"
+582 "Die Verbindung wurde abgelehnt"
+# TTL Expired
+583 "The connection has timed out"
+584 "Der Befehl wird nicht unterstüzt"
+585 "Der Adresstyp wird nicht unterstüzt"
+# to X'FF' unassigned
+586 "Unbekannter Fehler"
+# SOCKS5 actually
+587 "SOCKS Verbindung hergestellt"
+588 "Proxy Addresse"
+589 "Proxy Port"
+590 "Der SOCKS Server verwendet eine nicht kompatible Version des SOCKS Protokolls."
+591 "Der SOCKS Server verwendet eine nicht kompatible Methode."
+592 "Die Verbindung mit %1 wurde hergestellt"
+593 "Die Verbindung mit %1 wurde über den SOCKS Server %2 hergestellt"
+594 "Organisiere meine Server"
+595 "Meine Server"
+596 Sortieren
+597 "Benutzer Information"
+598 Personalisierung
+599 Verändern
+600 Verbindung
+601 "Andere Optionen"
+602 "Server Hostnamen dürfen keine Leerzeichen enthalten"
+603 "Bitte gib den Server Hostnamen ein"
+604 "Bitte gib den Server Port ein"
+605 "Willkommen im Einstellungs Fenster."
+606 "Doppelklicke auf eine Kategorie um sie aufzuklappen."
+607 "Klicke auf ein Element um seine Einstellung anzuzeigen."
+608 "IRC Einstellungen"
+609 "In dieser Sektion findest du Einstellung die mit dem IRC zu tun haben, wie Loggen und Perform."
+610 "Personalisierung"
+611 "In diese Sektion kannst du Node anpassen wie du es magst."
+612 "Verbindung"
+613 "In this section you can set connection related options."
+614 "Andere Einstellungen"
+615 "In dieser Sektion kannst du verschiedene Einstellungen vornehmen."
+616 "Die Taste welche du gewählt hast existiert bereits. Möchtest du die existierende Aktion mit der neuen ersetzen?"
+617 "Hot Key existiert bereits"
+618 "Zeige/Verstecke Toolbar"
+619 Verlassen
+620 Rejoinen
+621 "Es tut uns leid, aber Node hat eine unbehandelte Anweisung ausgeführt und muss geschlossen werden. Wir hoffen das du diesen Bug dem Node Developement Team jetzt meldest. Danke für deine Hilfe!"
+622 Sicherheit
+623 "Ignorierte Nicknamen"
+624 "Ignorierte Hostnamen"
+625 "Bitte gib die IP-Adresse der Person ein die ignoriert werden soll"
+626 "Möchtest du diese Ignorier-Liste wirklich leeren?"
+627 "Plugin %1 wurde geladen"
+628 "Lade Plugin %1"
+629 "Antworte auf Ping Anfrage"
+630 "Ignoriere Ping Anfragen vonignorierten Nicknamen"
+631 "Nach %1 wiederholten Ping Anfragen in %2 Sekunden, ignoriere die Anfragen von diesem Benutzer für %3 Minuten"
+632 "%1 sendete eine CTCP Ping Anfrage welche ignoriert wurde"
+633 "Datei existiert bereits"
+634 "%1 sendete eine CTCP Ping Anfrage welche ignoriert wurde, da der Benutzer auf deiner Ignorier-Liste ist"
+635 "%1 sendete eine CTCP Version Anfrage welche ignoriert wurde"
+636 "%1 sendete eine CTCP Version Anfrage welche ignoriert wurde, da der Benutzer auf deiner Ignorier-Liste ist"
+637 "%1 sendete eine CTCP Time Anfrage welche ignoriert wurde"
+638 "%1 sendete eine CTCP Time Anfrage welche ignoriert wurde, da der Benutzer auf deiner Ignorier-Liste ist"
+639 "Antworte auf Version Anfragen"
+640 "Ignoriere Version Anfragen ignorierten Nicknamen"
+641 "Antowrte auf Zeit Anfragen"
+642 "Ignoriere Zeit Anfragen von ignorierten Nicknamen"
+643 "%1 hat wiederholend mehere CTCP Anfragen gesendet."
+644 "CTCP Flood Protection ist für den Benutzer jetzt aktiviert."
+645 "CTCP Flood Protection ist ausgelaufen für %1, da er oder sie nicht weiter machte dich mie CTCP Anfragen zu flooden."
+646 "CTCP Flood Protection"
+647 "Sende Anfragen zurück zum Flooder"
+648 "%1 sendete eine CTCP Ping Anfrage welche ignoriert wurde, da es scheint, dass der Benutzer dich floodet"
+649 "%1 sendete eine CTCP Version Anfrage welche ignoriert wurde, da es scheint, dass der Benutzer dich floodet"
+650 "%1 sendete eine CTCP Time Anfrage welche ignoriert wurde, da es scheint, dass der Benutzer dich floodet"
+651 "Sende CTCP Anfrage zurück zu %1"
+652 "Zeige Zeitpunkt"
+653 Nachrichten
+654 Allgemein
+655 Private
+656 "Willkommen bei Node IRC :)"
+657 "Das ist Node %1 gehostet von %2"
+658 "Startseite"
+659 "Logge Zeitpunkt"
+670 "Focus Channels beim betreten"
+671 "Das ist der Aumotische Hilfs Bot für Node."
+672 "Für eine kurze Hilfe kannst du folgende Sachen tippen:"
+673 "help (du empfängst es gerade)"
+674 "hello helper-bot (das ist nur um mir Hallo zu sagen)"
+675 "contact dev (das wird dir die Schritten zum kontacktieren des Node Developerment Teams erläutern)"
+676 "--Diese Nachricht wurde durch den Hilfs Bot für Node IRC gesendet--"
+677 "Hallo"
+678 "Ich hoffe es gefällt dir hier in unserem Channel."
+679 "Du kannst einen Entwickler von Node über mehrere Wege kontacktieren..."
+680 "1.) Per IRC, in diesem Channel, frage einfach nach einem Dev."
+681 "2.) Per Forum auf unserer Seite auf node.sourceforge.net."
+682 "3.) Per Email auf jnfoot@users.sourceforge.net oder dionyziz@users.sourceforge.net."
+683 "Solltest du einen Bug oder ein feature haben über das du uns benachrichtigen möchtest, benutze bitte den Link auf unserer Seite!"
+684 "hello helper-bot"
+685 "contact dev"
+686 "Exchanged IdentD Information"
+687 "NDC Connection mit %1 aktiv"
+688 "%1 läd dich ein %2 zubetreten"
+689 "Du betratest %1"
+690 "Du verließt %1"
+691 "Verbindungs Fehler"
+692 "Du wurdest aus %1 geschmissen"
+693 "Du heißt jetzt %1"
+694 "%1 checkte deine Version"
+695 "%1 checkte deine Uhrzeit"
+696 "%1 pingt dich"
+697 "%1 fragte nach eine NDC Verbindung"
+698 "NDC Verbindung mit %1 hergestellt"
+699 "%1 versucht dir die Datei %2 zu senden"
+700 "%1 versucht dir eine Datei zu senden"
+701 "%1 versucht per DCC mit dir zu chatten. Möchtest du diese Anfrage akzeptieren?"
+702 "Klicke hier um %1 zubetreten"
+703 Channel
+704 Personen
+705 Topic
+706 "Logge empfangenen RAW Daten"
+707 "Wenn du farbigen Text einfügen möchtest, musst du als erstes die Vordergrundfarbe deines Textes auswählen. Bitte wähle die Vordergrundfarbe des zusendenen Textes."
+708 öffnen
+709 "öffne Verzeichnis"
+710 "Die Datei raw.dat welche du senden möchtest wird von Node benutzt und kann nich direkt gesendet werden. Du solltest eine Kopie von der Datei machen und diese dann senden. Wenn du fortfährst diese Datei zusenden, kann Node abstürzen oder nicht mehr auf deine Aktionen antworten. Möchtest du immer noch diese Datei senden?"
+711 "Der Servername darf keine doppelten Anführungszeichen enthalten. Bitte benutze einfache Anführungszeichen."
+712 Danke
+713 "Andere Antwort"
+714 "DCC Empfang"
+
+# --------------------
+# Version 0.33 (Llama)
+# --------------------
+715 "DCC Verbindung mit %1 wurde hergestellt"
+716 "Die Datei %1 wurde erfolgreich zu %2 gesendet"
+717 "Fahre Dateiübertragung von %1 fort"
+718 "%1 hat den DCC chat betreten"
+719 "Lade WinSock..."
+720 Zugänglichkeit
+721 Erzählung
+722 Oberfläche
+723 "%1 sagte"
+724 "Neues Privat Fenster durch %1"
+725 "40-bit Verschlüsselung"
+726 "56-bit Verschlüsselung"
+727 "128-bit Verschlüsselung"
+728 "Fortezza Verschlüsselung"
+729 "mehrere Verschlüsselungen"
+730 "Unbekannte Verschlüsselung"
+731 "Um die IRC Vorlese Option zuaktiveren, musst du die `Microsoft Speech Engine' installieren. Möchtest du diese Bibliothek jetzt downloaden?"
+732 "Hyperlink einfügen"
+733 Text
+734 "Link zu"
+735 "Mehrzeilige Nachricht einfügen"
+736 "Markierten Text kopieren"
+737 "Makierung nach kopieren rückgängig machen"
+738 "Channel Eigenschaften..."
+739 "Zeige Nicknamen als Links"
+740 "Zeige meinen Nicknamen als Link"
+741 "In Channels"
+742 "In Privaten"
+743 Zeitstempel
+744 "Import und Export"
+745 "Du kannst deine Einstellungen in eine Datei exportieren und diese später wieder auf einem anderen Computer mit Node importieren, oder falls du Node deinstallieren musst, nach dem neuinstallieren. Alle Einstellungen die du in diesem Einstellungsdialog setzen kannst werden mit diesem Feature exportiert."
+746 "Exportiere Einstellungen"
+747 "Importiere Einstellungen"
+748 "Exportiere Einstellungen nach"
+749 "Importiere Einstellungen von"
+750 "XML Dateien"
+751 "Dein Avatar wird nicht exportiert. Deshalb solltest du eine seperate Kopie des Bildes anfertigen."
+752 "Die XML Datei welche du versuchst zuladen ist ungültig. Entweder ist es keine XML datei oder sie ist beschädigt."
+753 "Diese Einstellungs-Datei enthält Einstellungen aus einer anderen Versionvon Node. Es ist nicht zu empfehlen, dass du die Einstellungen aus dieser Datei lädst. Wenn du fortfährst kann Node anhalten zuantworten und du musst es neustarten, oder deine Einstellung gehen verloren. Möchtest du immer noch fortfahren?"
+754 "Benutze das selbe Perform auf allen Servern"
+755 "Benutze für jeden Server ein anderes Perform"
+756 Starten
+757 "Verbinde zu Server"
+758 "Es scheint das du Node seit einer längeren Zeit benutzts. Es wäre schön wenn du eine oder zwei Minuten Zeit hättest um uns ein Feedback zugeben; du kannst uns deine Meinung über das Programm sagen, einen Bug-Report tätigen oder einen Feature-Request. Möchtest du jetzt auf die Feedback-Seite gehen?"
+759 Feedback
+760 "Gib Half-Op"
+761 "Nimm Half-Op"
+762 "Willkommens Wizard"
+763 "Welcome to Node! This wizard will help you set up Node for the first time. Please click Next to continue."
+764 "If you have used Node before, you might have exported your settings to an XML file. You can now use this file to import your settings. If you have such a file and want to import your settings now, please check the box below and click Next. Otherwise, simply click Next to set up your configuration now."
+765 "Please, locate the XML file to which you have exported your settings to. Then, click Next to import your settings from it."
+766 "On IRC you are identified by your personal nickname, which is usually either related to your real name, or something totally imaginative. Try not to use a very common nickname, as it might be used by somebody else. For this case, enter two alternative nicknames. Also fill in the fields `Real Name' and `Email Address' (not essentially with real information)"
+767 "Congratulations! You are now ready to enter an IRC server and start talking. To begin, use the Connect Panel on the right to connect to a server."
+768 "Ja, ich möchte meine Einstellungen aus einer Datei importieren"
+769 Ende
+770 Beendet
+771 Weiter
+772 "nicht verbunden"
+773 Server
+# 774 "Neue Verbindung"
+775 Zeige
+776 "erneut versuchen"
+777 "Aktiviere neuversuchen für das Verbinden"
+778 "Abstand zwischen den Versuchen"
+779 "Versuche Verbinden erneut in %1 sekunden (%2)"
+780 "Versuche Verbinden erneut"
+781 "Verbinden erneutverscuhen abgebrochen"
+782 "Starte Programm"
+783 NetMeeting
+784 "Start Video Unterhaltung"
+785 "Du musst eine NDC Verbindung herstellen um ein Programm mit einen Benutzer zustarten."
+786 "%1 sendete eine NDC Programm Start Anfrage, welche nicht erkannt wurde. Es ist möglich das die Person eine neuere Version des Protokolls verwendet."
+787 "%1 fragt nach einer %2 Sitzung mit dir. Möchtest du seine Anfrage annehmen?"
+788 "NDC Programm Sitzung"
+789 "Erfrage %2 Programm Sitzung von %1."
+790 "%1 lehnte deine Anfrage eine %2 Sitzung zustarten ab."
+791 "%1 akzeptierte deine Anfrage eine %2 Sitzung zustarten."
+792 "Starte %2..."
+793 Verbindungen
+794 "Port Bereich"
+795 "Du musst einen Wert für den niedrigsten und höchsten Port eingeben."
+796 "Diesen Buddy entfernen"
+797 Ghost
+798 "Bitte gib den Nicknamen ein"
+799 "Channel Zugriff"
+800 "Bitte gib das Access Level für den Benutzer ein."
+801 "Bitte gib den Benutzer ein, welcher von der Access Liste entfernt werden soll."
+802 "Webseiten"
+803 "DCC Chat"
+804 "Rejoin Channels wenn gekickt"
+805 "Join Channels nach Einladung"
+806 "Überprüfe nach neuster Version"
+807 "Kick Typ"
+808 "Kick Grund"
+809 Respecktlosigkeit
+810 Flood
+811 Andere
+812 Ban
+813 "Kick und Ban"
+814 "Services sind zur Zeit aus. Bitte verscuh es in ein paar Minuten nochmal."
+815 "Weiterleiten zu einem anderen Channel!"
+816 "Konnte Benutzer Adresse nicht herausfinden"
+817 "gespeichert als Lokale Adresse"
+818 "%1's Hostname ist %2"
+819 UserHost
+820 "Erfahre channel Modes beim betreten"
+821 "Modes für Channel %1 sind %2"
+822 "Operatoren setzen Topic"
+823 "Keine externen Nachrichten"
+824 "Nur eingeladene"
+825 Geheim
+826 Privat
+827 Moderiert
+828 "keine farbigen Nachrichten"
+829 Versteckt
+830 Knock
+831 "%1 hat sich für ihren / seinen Nicknamen identifiziert"
+832 "%1 ist idle seit %2 sekunden"
+833 "%1 ist in den Channels %2"
+834 "%1 ist im Channel %2"
+835 "%1 ist online seit %2"
+836 "%1 ist %2 (%3)"
+837 "%1 ist verbunden von %2 (%3)"
+838 "Release"
+839 "Drop"
+840 "Möchtest du deinen registrierten Nicknamen wirklich löschen??"
+841 Unignore
+842 "Bitte gib den Namen des Channels ein dessen Access Liste du anzeigen möchstest."
+843 "Bitte gib den Namen des Channels ein von dessen Access Liste du einen Eintrag löschen möchtest."
+844 "Zeige Access List"
+845 "Entferne Access List Eintrag"
+846 "Hinzufügen eines Access List Eintrags"
+844 "Bitte gib den Namen des Channels ein zu dessen Access Liste du einen Eintrag hinzufügen möchtest."
+845 "Du must eine Integer Zahl als Access List Level angeben."
+846 "Gib den Index des Memos ein, welches du löschen möchstest oder gib 'all' ein um alle zulöschen."
+847 "Downloads Verzeichnis"
+848 "Logs Verzeichnis"
+849 "Dialogs Verzeichnis"
+850 "PlugIns Verzeichnis"
+851 "Die Einstellungsdatei welche du ausgewähltest existiert nicht. Stelle sicher das du eine gültige Einstellungs Datei auswählst."
+852 "Bitte wähle eine Datei aus der deine Einstellungen importiert werden sollen."
+853 "Bitte gib einen Nicknamen ein."
+854 "Bitte gib einen echten Namen ein."
+855 "Bitte gib eine E-Mail Adresse ein."
+856 "Du hast das Alternativ Nicknamefeld nich ausgefüllt. Dieses Feld ist optional, wiederum ist es empfehlenswert das du einen Nicknamen einträgst falls jemand deinen Primären Nickname verwendet. Bist du sicher dass du es leer lassen möchtest?"
+857 "Du kannst den Assistenten jeder Zeit wieder aus dem Einstellungs Dialog heraus starten. Wähle einfach IRC > Benutzer und klicke auf 'Willkommens Assistent'."
+858 "Alle Personen die uns geholfen haben"
+# Note: These four entries describe the GPL license. In case you have any queries about it, don't hesitate to contact us before translating them.
+859 "Copyright (c)"
+860 "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+861 "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details."
+862 "You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA"
+863 Lizenz
+864 "Die vollständige GPL Lizenz"
+865 "Das XML Sound Schema welches du laden möchtest ist ungultig."
+866 "Sound Schema"
+867 "Möchtest du deinen registrierten Channel wirklich droppen?"
+868 "Behalte Channel Fenster offen"
+869 "Bitte gib ein Passwort für den Channel ein."
+870 "Bitte gib eine kleine Beschreibung für den Channel ein."
+871 "Registriere Channel"
+872 "Identifiziere Channel"
+873 "Drop Channel"
+874 "Bitte gib das Passwort für den Channel ein."
+875 "Das Sound Schema welches du laden möchtest ist ungultig oder wurde für eine neuere Version von Node erstellt."
+876 "Channel Modes für %1"
+877 "Channel Modes"
+878 "mehr Sound Schemen downloaden"
+879 "Lade Haupt HTML Dateien..."
+880 "Lade Neben HTML Dateien..."
+881 "%1 läd %2 ein %3 zujoinen"
+882 "Neue Server Verbindung"
+883 "Lösche Server Verbindung"
+884 "Willkommen bei Node Llama 0.33! <br>In diese Versionen haben wir Node sehr erweitert! <br>Du Hauptänderung welche du bemerken wirst ist, dass Node mehrere Server Verbindungen unterstüzt! Klicke hier um mehr zuerfahren."
+885 "Zu Favoriten hinzufügen"
+886 "Smiley Packs"
+887 "Smiley Pack"
+888 "mehr Smiley Packs downloaden"
+
+# --------------------
+#    Version 0.34 
+# --------------------
+889 "Falsches Protokol oder verkehrter Verbindungszustand für die erfragte Übertragung oder Anfrage."
+890 "Der Verbindungsversuch wurde vom Server abgelehnt."
+891 "Die Verbindung mit dem Server wurde verloren."
+892 "Ein Fehler trat auf währrend dem Versuch die DCC Verbindung herzustellen"
+893 "Der angegebene Server konnte nicht gefunden werden. Bitte überprüfe deine Schreibung."
+894 "Der Lokale Port ist bereits in Benutzung."
+895 "Unbekannter WinSock Fehler (%1)"
+896 "Das von die gewählte Smiley-Packet konnte nich geladen werden. Die XML-Datei des Smiley-Packetes welches du laden möchtest ist ungültig."
+897 "Das von die gewählte Smiley-Packet konnte nich geladen werden, da es scheint, dass es für eine andere Version von Node erstellt wurde."
+898 "in dieser Sktion kannst du Sicherheits Einstellungen für Node vornehmen"
+
+# --------------------
+#    Version 0.35 
+# --------------------
+899 "Willkommen zu Node %1!<br>zum beginnen, benutzen den rechten Panel!"
+900 "Away System"
+901 "Benutze Away System"
+902 "Nach wie vielen Minuten"
+903 "Ändere meinen Nicknamen"
+904 "Ändere meinen Status"
+905 "Führe diese IRC Befehle aus"
+906 "Zeige Ping - Pong"
+907 "Dieser Server erlaubt es dir nicht noch mehr Channels zujoinen."
+908 Browsing
+909 "Browse Using"
+910 "Mein standart Browser"
+911 "Node interner Browser"
+912 "Parse Links"
+913 "Du hast dich nicht identifiziert"
+914 "Du hast dich nicht zu deinem Nick identifziert. Um deine Memos
+anzuzeigen, musst du dich erst identifizieren."
+915 "Möchtest du dich jetzt identifzieren?"
+916 "Memo %1 wurde erfolgreich gelöscht"
+917 "Memo gelöscht"
+918 "Du hast keine Menos in deiner Liste"
+919 "Keine Memos"
+920 "Deine Memo wurde erfolgreich zu %1 gesendet"
+921 "Memo gesendet"
+# %1=nickname %2=seconds + 251/252
+922 "Ping Antwort von %1 %2"
+923 "Anzeige"
+924 "Du must %nick für den Nicknamen in der Zeilenanzeigefunktion verwenden"
+925 "Löse %1 auf"
+926 "Konnte %1 nicht auflösen"
+927 "Fehler beim Verbinden zum proxy:"
+928 "Beim zurückkommen von away"
+929 "Away Aktionen"
+930 "Zurück Aktionen"
+931 "Beim Away gehen"
+932 "Schrift Größe"
+933 "Nicknamen Anezige Prototyp"
+934 "Benutze immer diesse Quit Nachricht"
+935 "Wähle eine zufällige Quit Nachricht aus dieser Datei"
+936 "Wähle eine Quit Liste"

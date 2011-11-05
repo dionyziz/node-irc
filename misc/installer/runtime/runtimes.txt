@@ -1,0 +1,25 @@
+Run Time Files
+---------------
+
+Please copy these run-time files to the folder \misc\installer\runtime
+before you compile the NSIS installer:
+
+1) ASYCFILT.DLL
+2) COMCAT.DLL
+3) comctl32.ocx
+4) COMDLG32.OCX
+5) Flash.ocx
+6) MSCOMCTL.OCX
+7) MSFLXGRD.oCX
+8) mshtml.tlb
+9) msscript.ocx
+10) MSVBVM60.DLL
+11) MSWINSCK.OCX
+12) OLEAUT32.DLL
+13) OLEPRO32.DLL
+14) RICHTX32.OCX
+15) STDOLE2.TLB
+16) TABCTL32.OCX
+17) TLBINF32.DLL
+
+asycfilt.dll;comcat.dll;comctl32.ocx;comdlg32.ocx;flash.ocx;mscomctl.ocx;msflxgrd.ocx;mshtml.tlb;msscript.ocx;msvbvm60.dll;mswinsck.ocx;oleaut32.dll;olepro32.dll;richtx32.ocx;stdole2.tlb;tabctl32.ocx;tlbinf32.dll

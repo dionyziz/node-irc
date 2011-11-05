@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Node IRC Client
+     Full Screen Dialog
+-->
+<Window
+	BorderStyle="0"
+	Caption=""
+	BackColor="0"
+	Height="3000"
+	Width="4500"
+	Special="0" 
+	WindowState="2"
+>
+
+<web
+	Left="-40"
+	Top="-60"
+	Width="5000"
+	Height="2000"
+	tag="//Node.buildStatus"
+	Navigate="about:blank"
+/>
+
+</Window>

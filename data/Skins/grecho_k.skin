@@ -1,0 +1,50 @@
+Green Echo
+# Green Echo for Node 0.35
+# written by Ktron,
+# 19 June 2004, 9:18 AM, GMT.
+# Last Update 3 Mar 2005
+# --
+#
+# Modified and Based off of
+# Deafult Skin for Node 0.30
+# written by dionyziz, 
+# 26 December 2003, 9:06 PM, GMT.
+# Last Update
+# 30 Mar 2004, 7:36 AM, GMT.
+
+CheckBox3D 0
+TextBox3D 0
+BackGround 0
+ForeGround 65280
+HotColor 65280
+
+TemplateFile "grecho_k\node2.css"
+SplashDialog "grecho_k\splash.xml"
+OptionsBackground "grecho_k\bgblack.jpg"
+Resize_BottomOffset 1300
+Resize_TextBottomOffset -450
+Resize_RightOffset 340
+Resize_TabFocusOffset 60
+Resize_TabNonFocusOffset 82
+Resize_TopOffset 1200
+Resize_TextRightOffset 300
+
+BackgroundColor #000000
+SkinPic "grecho_k\node_alpha.gif"
+
+Icon_Help "grecho_k\help.gif"
+Icon_Options "grecho_k\conf.gif"
+Icon_Join "grecho_k\join.gif"
+Icon_Add "grecho_k\plus.gif"
+Icon_Close "grecho_k\x.gif"
+Icon_Server "grecho_k\serv.gif"
+Icon_Delete "grecho_k\delete.gif"
+Icon_Web "grecho_k\web.gif"
+Icon_Channel "grecho_k\sharp.gif"
+
+Panel_TitleBackground_Start "grecho_k\panel_begin.gif"
+Panel_TitleBackground_Mid "grecho_k\panel.gif"
+Panel_TitleBackground_End "grecho_k\panel_end.gif"
+
+BuddyInImage "grecho_k\buddysignon.jpg"
+BuddyOutImage "grecho\buddysignoff.jpg"

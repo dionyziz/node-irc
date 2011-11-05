@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<soundscheme version="0.33">
+	<sound for="join" file="join.mp3" />
+	<sound for="part" file="part.mp3" />
+	<sound for="quit" file="quit.mp3" />
+	<sound for="connect" file="connected.mp3" />
+	<sound for="disconnect" file="disconnected.mp3" />
+	<sound for="halfop" file="givehalfop.mp3" />
+	<sound for="dehalfop" file="takehalfop.mp3" />
+	<sound for="op" file="giveop.mp3" />
+	<sound for="deop" file="takeop.mp3" />
+	<sound for="voice" file="givevoice.mp3" />
+	<sound for="devoice" file="takevoice.mp3" />
+	<sound for="topicchange" file="chtopic.mp3" />
+	<sound for="modechange" file="cdmode.mp3" />
+	<sound for="error" file="error.mp3" />
+	<sound for="whisper" file="whisper.mp3" />
+	<sound for="invitation" file="invite.mp3" />
+	<sound for="start" file="start.mp3" />
+	<sound for="end" file="end.mp3" />
+	<sound for="kick" file="kick.mp3" />
+</soundscheme>

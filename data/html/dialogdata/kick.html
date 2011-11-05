@@ -1,0 +1,77 @@
+<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">-->
+<!-- Kick Dialog, Internal HTML
+     writen by dionyziz 
+	 Last Modified: 29 Jun 2004
+-->
+<html>
+<head>
+<title>Kick Dialog Internal HTML</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- The dialog supports XP Themes -->
+<META HTTP-EQUIV="MSThemeCompatible" CONTENT="Yes" />
+<link href="../../../temp/currentskin/style.css" rel="stylesheet" type="text/css" />
+<script Language="JavaScript">
+var kicktype=0;
+var kickreason=0;
+function dokick() {
+	var strkickreason='';
+	if ( kickreason == 0 ) {
+	    strkickreason = xnode_lang_profanity.innerText;
+	}
+	if ( kickreason == 1 ) {
+	    strkickreason = xnode_lang_flood.innerText;
+    }
+    if ( kickreason == 2 ) {
+        strkickreason = kcreason.value;
+    }
+	if ( ( kicktype == 0 ) || ( kicktype == 2 ) ) {
+	    window.location.href='NodeScript://Node.CAS.preExecute "/kick " & ThisChan & " " & CurrentNick & " :' + strkickreason + '" \'';
+	}
+	if ( ( kicktype == 1 ) || ( kicktype == 2 ) ) {
+	    window.location.href='NodeScript://Node.CAS.preExecute "/mode " & ThisChan & " +b " & CurrentNick & "*!*@*" \'';
+    }
+	docancel();
+}
+function docancel() {
+	window.location.href='NodeScript:!CloseDialog';
+}
+</script>
+</head>
+<body onerror="return true;">
+<table width="100%"><tr><td align="center">
+
+<table><tr><td colspan="2">
+<div id="xnode_lang_kicktype">
+Kick Type
+</div></td></tr><tr>
+<td align="center"><input type="radio" name="ktype" value="0" checked onClick="kicktype=0"></td><td><div id="xnode_lang_kick2">Kick</div></td>
+</tr><tr>
+<td align="center"><input type="radio" name="ktype" value="1" onClick="kicktype=1"></td><td><div id="xnode_lang_ban">Ban</div></td>
+</tr><tr>
+<td align="center"><input type="radio" name="ktype" value="2" onClick="kicktype=2"></td><td><div id="xnode_lang_kban">Kick and Ban</div></td>
+</tr><tr><td colspan="2"><div id="xnode_lang_kickreason">
+Kick Reason
+</div></td></tr><tr>
+<td align="center"><input type="radio" name="kreason" value="0" checked onClick="kcreason.disabled=true;kickreason=0;"></td><td><div id="xnode_lang_profanity">Profanity</div></td>
+</tr><tr>
+<td align="center"><input type="radio" name="kreason" value="1" onClick="kcreason.disabled=true;kickreason=1;"></td><td><div id="xnode_lang_flood">Flood</div></td>
+</tr><tr>
+<td align="center"><input type="radio" name="kreason" value="2" onClick="kcreason.disabled=false;kickreason=2;"></td><td><div id="xnode_lang_other">Other</div></td>
+</tr><tr></table>
+<table>
+<td><div id="xnode_lang_other2">Other</div></td><td><input type="text" name="kcreason" disabled="1" onClick="kreason.selectedIndex=2;">
+</td></tr></table>
+<br>
+<table>
+<tr width="100%">
+<td width="50%" align="center">
+<input type="button" name="xnode_lang_kick" value="Kick" onClick="dokick()">
+</td>
+<td align="center">
+<input type="button" name="xnode_lang_cancel" value="Cancel" onClick="docancel()">
+</td>
+</table>
+</tr></td></table>
+</body>
+</html>

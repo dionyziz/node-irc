@@ -1,0 +1,28 @@
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	margin-left: 5px;
+	font-size: 10px;
+	cursor:default;
+}
+td {
+	font-size: 10px;
+}
+td.panel_header {
+	color: black;
+	border-bottom: 1px solid dimgray;
+	font-weight: bold;
+}
+td.notation {
+	text-align: right;
+	font-size: 10px;
+	color: #666666;
+	text-decoration:underline;
+}
+a:link,a:active,a:visited {
+	color: #3366FF;
+	text-decoration:none;
+}
+a:hover {
+	color: #3366FF;
+	text-decoration:underline;
+}

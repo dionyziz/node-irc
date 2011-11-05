@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Node IRC Client
+	 Tip of the Day Dialog
+     Written by Dionyziz,
+     Last Updated
+     22 Jan 2004, 7:11 PM, GMT.
+-->
+
+<Window
+	Caption="Tip of the Day -- Node Dialog"
+	BackColor="0"
+	Height="5000"
+	Width="8500"
+	Special="1" >
+
+<web
+	Left="-10"
+	Top="-10"
+	Width="8700"
+	Height="5000"
+	Navigate="http://node.sourceforge.net/node/tod.php"
+/>
+
+</Window>

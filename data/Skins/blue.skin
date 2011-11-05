@@ -1,0 +1,71 @@
+Blue Skin
+# Blue Skin for Node 0.32
+# written by dionyziz,
+# Last Edited
+# 29 Jan 2005
+# Some icons are copyright of phpBB, http://phpbb.sourceforge.net
+
+CodeBehind "blue\codebehind.vbs"
+
+CheckBox3D 0
+TextBox3D 0
+
+# Blue Background
+BackGround 8735284
+
+# Gray Forecolor
+ForeGround 14737632
+
+BackgroundColor #373496
+
+TemplateFile "blue\css\blue.css"
+TemplateFilePrivate "blue\css\blue-priv.css"
+TemplateFileChannel "blue\css\blue-priv.css"
+TemplateFileNicks "blue\css\blue-nicks.css"
+
+Icon_Help "blue\help_icon.gif"
+Icon_Options "blue\options_icon.gif"
+Icon_Join "blue\join_icon.gif"
+Icon_Add "blue\add.gif"
+Icon_Close "blue\close.gif"
+Icon_Server "blue\serv.gif"
+Icon_Delete "blue\delete.gif"
+Icon_Web "blue\web.gif"
+Icon_Channel "blue\sharp.gif"
+
+SkinPic "blue\blue_logo.jpg"
+
+OptionsBackground "blue\bgblue.jpg"
+SplashDialog "blue\splash.xml"
+
+BuddyInImage "blue\buddysign.gif"
+BuddyOutImage "blue\buddysign.gif"
+
+FontName Verdana
+FontBold 1
+FontItalic 0
+FontSize 14
+
+Font2Name Verdana
+Font2Bold 0
+Font2Italic 0
+Font2Size 12
+
+Font3Name Verdana
+Font3Bold 0
+Font3Italic 0
+Font3Size 12
+
+Panel_TitleBackground_Start "blue/panel.jpg"
+Panel_TitleBackground_Mid "blue/panel.jpg"
+Panel_TitleBackground_End "blue/panel.jpg"
+
+Resize_BottomOffset 1100
+Resize_RightOffset 200
+Resize_LeftOffset 0
+Resize_TabFocusOffset -30
+Resize_TabNonFocusOffset -10
+Resize_TextLeftOffset 50
+Resize_TextRightOffset 300
+Resize_TopOffset 1000
+Resize_TextBottomOffset -250

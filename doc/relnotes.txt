@@ -1,0 +1,15 @@
+Release Notes for Node 0.35
+---------------------------------
+
+Node is a customizable IRC Client for Windows 
+supporting Multiple Servers, Smileys, Scripting, 
+and more... The new and updated release of Node, 
+0.35, is out! Lots of bug fixes, new features,
+and much more in this version of Node, which 
+is considered to be the first "stable" release! 
+Before you get it, make sure you take a look at 
+some screenshots on our website. 
+Download it and try it out today :-)
+ 
+Please, visit our web site at
+http://node.sourceforge.net

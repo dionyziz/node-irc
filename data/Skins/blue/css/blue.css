@@ -1,0 +1,101 @@
+/* Global CSS Items */
+body {
+	margin: 0;
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	color:#D6E9FF;
+	background-color:#000020;
+	font-size: 12px;
+}
+a:link,a:visited,a:active {
+	font-size:12px;
+	color:#CCCCCC;
+	text-decoration:none;
+}
+a:hover {
+	font-size:12px;
+	color:#CC6600;
+	text-decoration:underline;
+}
+a.nick:link,a.nick:visited,a.nick:active {
+	font-size:12px;
+	color:#CCFFFF;
+	text-decoration:none;
+}
+a:hover {
+	font-size:12px;
+	color:#CC3300;
+	text-decoration:underline;
+}
+
+td.progress {
+	background-color:#FF6600;
+}
+td.progressbg {
+	background-color:#6699FF;
+}
+
+/* Notation Styles */
+span.node_reason {
+	color: #9999FF;
+}
+span.node_event {
+	font-weight: bold;
+	color: #666699;
+}
+span.node_important {
+	font-weight: bold;
+	color:#0040AF;
+}
+span.node_special {
+	font-weight: bold;
+	color: #00FF99;
+}
+
+/* Pages CSS Items */
+span.pagetitle {
+	color: #CCCCCC;
+	font-size: 14px;
+}
+span.sometext {
+	color: #999999;
+	font-size: 12px;
+}
+span.subtitle {
+	color: #CCCCCC;
+	font-size: 12px;
+	text-decoration: underline;
+}
+td {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+	color:#D6E9FF;
+	font-size: 12px;
+}
+td.nicks {
+	background-color:#000020;
+	background-image:url(../html_back2.jpg);
+	background-position:top left;
+	background-repeat:repeat-y;
+	background-attachment:fixed;
+	vertical-align:top;
+	border-left: 2px dashed #9999FF;
+	padding-left:5px;
+}
+td.chanbody {
+	background-color:#000020;
+	/*background-image:url(../html_back.jpg);*/
+	background-position: right;
+	background-repeat:repeat-y;
+	background-attachment: fixed;
+	vertical-align: top;
+}
+td.blist {
+	font-size: 13px;
+	border-top: 1px dashed #9999FF;
+	border-right: 1px dashed #222266;
+}
+td.bhead {
+    color:#D6E9FF;
+	font-size: 14px;
+	font-weight:bold;
+	border-right: 1px dashed #9999FF;
+}

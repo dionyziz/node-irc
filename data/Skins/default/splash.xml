@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<Window 
+	BorderStyle="0"
+	Caption="Node 0.35 - Loading"
+	BackColor="0"
+	Width="9015"
+	Height="3900"
+	Special="0"
+>
+
+<Static 
+	Left="200"
+	Top="3600"
+	Width="9015"
+	Height="375"
+	ForeColor="8664102"
+	BackStyle="0"
+	Alignment="0"
+	FontName="Verdana"
+	FontSize="11"
+	FontBold="0"
+	Caption="Loading..."
+	ZOrder="0"
+/>
+
+<Image 
+	Top="10"
+	Left="15"
+	Source="$app\data\skins\default\splash.jpg"
+/>
+
+</Window>

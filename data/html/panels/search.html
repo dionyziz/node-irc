@@ -1,0 +1,43 @@
+<!--
+Node Search for a Channel Panel
+by dionyziz on 22 Feb 2004, 10:02 AM, GMT.
+-->
+<html>
+<head>
+<title>Search</title>
+<meta http-equiv="MSThemeCompatible" content="Yes">
+<link href="panel.css" rel="stylesheet" type="text/css">
+</head>
+<body onContextMenu="return false;"><center>
+<table>
+<tr><td class="panel_header" onSelectStart="return false;">
+<div id="xnode_lang_search_chan">
+Search for a Channel
+</div>
+</td></tr>
+<tr><td onSelectStart="return false;"> 
+<input type="text" id="chan_to_search">
+</td></tr>
+<tr><td class="notation" onSelectStart="return false;" valign="middle">
+<a href="JavaScript:searchtyped();" id="xnode_lang_search">Search</a>
+</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td class="panel_header" onSelectStart="return false;">
+<div id="xnode_lang_results">
+Results
+</div>
+</td></tr>
+<tr><td> 
+<div id="xnode_xpanel_chan_search_results">
+</div>
+</td></tr>
+</table>
+<script language="javascript">
+function searchtyped() {
+	var str_search_chan = '';
+	str_search_chan = chan_to_search.value;
+	window.location.href = 'NodeScript:/list ' + str_search_chan;
+}
+</script>
+</center></body>
+</html>

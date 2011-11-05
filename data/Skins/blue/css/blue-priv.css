@@ -1,0 +1,8 @@
+/* Private & Status CSS File - Blue Skin */
+body {
+	background-color:#000020;
+	background-image:url(../html_back.jpg);
+	background-position:top right;
+	background-repeat:repeat-y;
+	background-attachment:fixed;
+}

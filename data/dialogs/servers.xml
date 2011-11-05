@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Node IRC Client
+ 	 Organize Servers Dialog
+	 10 Apr 2004 by dionyziz
+-->
+
+<Window
+	BorderStyle="2"
+	Caption="Organize Servers -- Node Dialog"
+	BackColor="0"
+	Height="5000"
+	Width="5000"
+	Special="0"
+>
+
+<web
+	left="0"
+	top="0"
+	navigate="$app/data/html/dialogdata/servers.html"
+	width="5000"
+	height="5100"
+/>
+
+</Window>
