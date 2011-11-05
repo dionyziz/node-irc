@@ -1,6 +1,6 @@
 Node is an Open Source IRC Client for Windows. It is licensed under GPL and developed mainly using VB6, XML, HTML, CSS, and Javascript.
 
-Node was developed mainly in 2004 and 2005. The three ajor contributors are:
+Node was developed mainly in 2004 and 2005. The three major contributors are:
 
  * Dionysis Zindros <dionyziz@gmail.com>
  * Christian Herrmann <happydoener@gmail.com>
